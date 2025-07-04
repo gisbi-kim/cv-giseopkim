@@ -38,7 +38,6 @@
 \renewcommand\@biblabel[1]{\textbullet}
 \makeatother
 
-
 %----------FONT OPTIONS----------
 % sans-serif
 % \usepackage[sfdefault]{FiraSans}
@@ -49,7 +48,6 @@
 % serif
 % \usepackage{CormorantGaramond}
 \usepackage{charter}
-
 
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
@@ -73,209 +71,30 @@
 \input{src/cmd}
 
 %-------------------------------------------
-%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%
 \begin{document}
 
-%----------HEADING----------
-\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\href{http://sourabhbajaj.com/}{ }} & Email : \href{mailto:gisbi.kim@gmail.com}{gsk@dgist.ac.kr} \\
-  {} & \href{https://sites.google.com/view/aprl-dgist/home}{\underline{Lab Website}} \\
-  {} & \href{https://scholar.google.com/citations?user=9mKOLX8AAAAJ&hl=en}{\underline{Google Scholar}} \\
-\end{tabular*}
+\input{src/heading}
 
-\vspace{-7mm}
-\begin{center}
-    \textbf{\Huge \scshape Giseop KIM} 
-\end{center}
-\vspace{-1mm}
-
-
-%-----------POSITIONS-----------
-\section{Positions}
-  \resumeSubHeadingListStart
-    \resumeSubheadingFourLines
-      {PI of Autonomy and Perceptual Robotics Lab (APRL), DGIST}{Dec. 2024 -- Present}
-      {Assistant Professor}{Department of Robotics and Mechatronics Engineering, DGIST}
-      { \ \ Joint Appointment}{Department of Artificial Intelligence, DGIST}
-      { \ \ Joint Appointment}{Mechanical Engineering Track, Undergraduate School, DGIST}
-
-    \vspace{1mm}
-    \resumeSubheadingTwoLines
-      {Research Scientist, NAVER LABS}{Dec. 2021 -- Dec. 2024}
-      {Autonomous Driving Group (2021 -- 2023) and Vision Group (2024), NAVER LABS}{Seongnam, South Korea}
-
-    \vspace{1mm}
-    \resumeSubheadingThreeLines
-      {Graduate Student Researcher, KAIST}{Mar. 2017 -- Aug. 2021}
-      {\href{https://rpm.snu.ac.kr}{Intelligent Robotic Autonomy and Perception (IRAP) Lab}}{}
-      {Civil and Environmental Engineering Department, Korea Advanced Institute of Science Technology (KAIST)}{Daejeon, South Korea}
-
-    \resumeSubHeadingListEnd
-
-%-----------Field of Interest-----------
-\section{Research Interests}
-Simultaneous localization and mapping (SLAM), 3D reconstruction, Digital twin, Mobile robot navigation, Visual-language navigation, Neural map representation, Sensor-fusion, Inertial-aided navigation, Autonomous vehicles, 3D perception, Spatial AI, Physical AI, etc.
-
-%-----------EDUCATION-----------
-\section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheadingFourLines
-      {Korea Advanced Institute of Science and Technology (KAIST)}{Feb. 2022}
-      {Ph.D. in Civil and Environmental Engineering (CEE)}{ } 
-      {\ \ Dissertation: ``LiDAR-based Lifelong Robotic Mapping in Changing Environments"}{}
-      {\ \ Advised by Dr. Youngchul Kim and Dr. Ayoung Kim}{}
-    \vspace{1mm}
-    \resumeSubheadingFourLines
-      {Korea Advanced Institute of Science and Technology (KAIST)}{Feb. 2019}
-      {M.S. in Civil and Environmental Engineering (CEE)}{ } 
-      {\ \ Dissertation: ``Isovist-induced Robust LiDAR Localization"}{}
-      {\ \ Advised by Dr. Ayoung Kim}{}
-    \vspace{1mm}
-    \resumeSubheading
-      {Korea Advanced Institute of Science and Technology (KAIST)}{Feb. 2017}
-      {B.S. in Civil and Environmental Engineering (CEE)}{ }
-  \resumeSubHeadingListEnd
-
-
-%-----------Academic community contributions-----------
-\section{Academic Services}
-\begin{itemize}[label=$\cdot$]
-\item Reviewer
-\vspace{-2mm}
-    \begin{itemize}[label=$\cdot$]
-    \item Journals:  T-RO (2021--2024), RA-L (2021--2024), IJRR (2020, 2023), IJCV (2023), T-ASE (2024), T-II (2023)
-    \vspace{-2mm}
-    \item Conferences: ICRA (2020--2024), IROS (2019-2024), RSS (2023--2024), CVPR (2025), ICCV (2025), ECCV (2024), UR (2020--2021, 2023)
-    \end{itemize}
-\vspace{-1mm}
-\item Organizing committee of the domestic conference ICROS 2026 (Daegu, South Korea)
-\vspace{-1mm}
-\item Conference Associate Editor: International Conference on Ubiquitous Robots (UR) (2022--2024) 
-\vspace{-1mm}
-\item Open-sources: \href{https://github.com/gisbi-kim}{github.com/gisbi-kim}
-\vspace{-1mm}
-\end{itemize}
-
-
-%-----------Research Supervision-----------
-\section{Research Supervision}
-\begin{itemize}[label=$\cdot$]
-  \item Integrated M.S.–Ph.D. Students: Bokeon Suh (2025 Fall--)
-  \item Ph.D. Students: Doyeon Kim (2026 Spring--)
-  \item M.S. Students: Jiseon Kim (2025 Fall--), Yumin Lee (2025 Fall--), Hyo-seok Joo (2025 Fall--), Hoyoon Kim (2026 Spring--), Beomsoo Kim (2026 Spring--)
-\end{itemize}
-
-
-%-----------Publications-----------
+\input{src/positions}
+\input{src/research_interests}
+\input{src/education}
+\input{src/academic_services}
+\input{src/research_supervision}
 \input{src/publications}
-
-%-----------Projects-----------
-\input{src/projects}
-
-%-----------Patents-----------
-\section{Patents}
-\begin{itemize}[label=$\cdot$]
-\item Title: Method and Apparatus for Automation of Urban Visibility Analysis Using 3D Sensor Data (Registered in South Korea, 2019, 10-1973903-0000)
-\vspace{-1mm}
-\item Title: Encoder Frame Device And Vehicle Odometry Measurement System Using The Same (Registered in South Korea, 2019, 10-1994339-0000)
-\end{itemize} 
-
-
-%-----------Teaching Experiences-----------
-\section{Teachingl}
-
-\begin{itemize}[label=$\cdot$]
-    \item Lectures at DGIST
-        \begin{itemize}[label=$\cdot$]
-        \item MECH307, Introduction to Artificial Intelligence (Fall 2025)
-        \item BE203, Creative mechanical design (Spring 2025)
-        \end{itemize}
-    \item Robotics hands-on tutorials on blog: \href{https://gsk1m.github.io}{gsk1m.github.io}
-        \vspace{-1mm}
-    \item Teaching Assistant at KAIST
-        \vspace{-1mm}
-        \begin{itemize}[label=$\cdot$]
-        \item CE481 Sensor-based spatial intelligence (Spring 2020, CEE, KAIST)
-        \vspace{-1mm}
-        \item CE352 Signal and System for Construction IT (Spring 2016, CEE, KAIST)
-    \end{itemize}
-        \vspace{-1mm}
-    \item Lecturer of KAIST Global Institute of Talented Education (2014--2017)
-\end{itemize}
-
-%-----------Leadership Experiences-----------
-\section{Leadership}
-\begin{itemize}[label=$\cdot$]
-\item Mentor of Research Interns at NAVER LABS (2023) 
-        \vspace{-1mm}
-\item Department Student President of Civil and Environmental Engineering Dept., KAIST (2015) 
-\end{itemize}
-
-%-----------Awards-----------
-\section{Awards}
-\begin{itemize}[label=$\cdot$]
-\item Best paper award at ICRA 2018 workshop of Long-term autonomy and deployment of intelligent robots in the real-world
-\end{itemize}
-
-%-----------Invited talks-----------
-\section{Invited talks}
-\begin{itemize}[label=$\cdot$]
-    \item 2025.07.18: Joint Summer School by the Image Processing and Image Understanding Research Group, The Institute of Electronics and Information Engineers (IEIE)  
-    \hfill (Title: \textit{Generative AI for Mobile Robot Navigation})
-
-    \item 2025.06.19: 2025 1st DeepTech Open Network Forum, Daegu Innopolis  
-    \hfill (Title: \textit{Eyes and Brains of a Humanoid})
-    
-    \item 2025.06.13: Robotics Lab Seminar on SLAM \& Perception, Hyundai Motor Group  
-    \hfill (Title: \textit{From Research to Service: Industrial Insights from Technology Commercialization})
-    
-    \item 2025.06.05: Sonnet.AI Research Meetup  
-    \hfill (Title: \textit{APRL Lab Research Introduction})
-    
-    \item 2025.05.28: Daegu-Gyeongbuk Chapter, Korea Women Venture Association  
-    \hfill (Title: \textit{Eyes and Brains of a Humanoid})
-    
-    \item 2025.05.28: Mid-to-Long-Term Research Strategy Seminar, Daegu-Gyeongbuk Division, ETRI  
-    \hfill (Title: \textit{Spatial AI, from the 2000s to 2025})
-    
-    \item 2025.05.27: DeepTech Scale-up Valley Innovation Council \& Industry-Academia Forum  
-    \hfill (Title: \textit{Eyes and Brains of a Humanoid})
-    
-    \item 2025.05.21/28: Special Lecture for Engineering Track, Posan High School Science Program  
-    \hfill (Topics: \textit{Introduction to 3D Vision and Digital Twin})
-    
-    \item 2025.04.26: Science Career Talk Concert, National Daegu Science Museum (Science Day)  
-    \hfill (Title: \textit{By 2035, Will Robots Outnumber Humans?})
-    
-    \item 2025.04.03: Technology Innovation Workshop, Technology Venture Leader Program (TVA), DGIST  
-    \hfill (Title: \textit{Toward the Era of General-Purpose Robots in Everyday Life})
-
-    \item 2023.11.25: \href{https://drive.google.com/file/d/1h5sMgkyGGA8X2gxJUEzWCSwX9RlujNpe/view?usp=sharing}{SLAM KR 2023 Offline Event} (Why IMU Fusion for LiDAR SLAM?: Introduction to IMU+LiDAR Fusion) \href{https://bit.ly/20231125_slamkr_giseopkim}{[Slide]}
-    
-    \item 2023.10.26: Autonomous IoT Research Center, \href{https://www.keti.re.kr/eng/main/main.php}{KETI} (Robotic Mapping and Localization for Autonomous Driving in AI era) \href{https://bit.ly/408J7XJ}{[Slide]}
-    
-    \item 2022.11.09: \href{https://ib.unist.ac.kr/robust-slam-simultaneous-localization-and-mapping-for-large-scale-urban-mapping-and-autonomous-driving/}{AIGS, UNIST} (Robotic Mapping and Localization for Autonomous Driving) \href{https://docs.google.com/presentation/d/1RLrrxGzzGWEgUQMvdWH0wNfsyn6ML2Hjw88PmgdrvlQ/edit?usp=sharing}{[Slide]}
-    
-    \item 2022.08.25: \href{https://rpm.snu.ac.kr/}{RPM Robotics Lab}, SNU (Optimization Tutorial with Hands-on Experiences using SymForce) \href{https://docs.google.com/presentation/d/1Z1FjnphgP60jTIa6da8vwhaAEzULefLrPQsJ4yBHAJA/edit?usp=sharing}{[Slide]}
-    
-    \item 2022.07.14: \href{https://sites.google.com/view/sparo/홈}{SPARO Lab}, Inha Univ. (LiDAR-based Lifelong Robotic Mapping in Changing Environments) \href{https://docs.google.com/presentation/d/1Muld60rT7KY_FaN4hyRaPHR2FsPkLV8z7fz7rYQzIv4/edit?usp=sharing}{[Slide]}
-    
-    \item 2021.05.31: \href{https://sites.google.com/view/radar-robotics/home}{ICRA 21 Radar Workshop} (MulRan Dataset for Urban Place Recognition) \href{https://www.youtube.com/watch?v=jFvKW9Kj8Ts}{[Video]}, \href{https://www.dropbox.com/s/dknylah6b7rizr8/20210531\%20icra\%20ws\%20mulran\%20v3.pptx?dl=0}{[Slide]}
-    
-    \item 2020.10.22: \href{http://soslab.co/}{SOS LAB} (Robust LiDAR SLAM in Complex Urban Sites) \href{https://www.dropbox.com/s/p30dpjqjbjhq69x/20201022\%20SOSLAB\%20talk\%20Giseop\%20Kim\%20share.pdf?dl=0}{[Slide]}
-    
-    \item 2020.01.30: \href{https://www.naverlabs.com/}{NAVER LABS} (Structural Place Recognition in Complex and Changing Urban Sites) \href{https://www.google.com/url?q=https\%3A\%2F\%2Fwww.dropbox.com\%2Fs\%2Fcoul2elzlulbj1j\%2FStructural\%2520Place\%2520Recognition\%2520in\%2520Complex\%2520and\%2520Changing\%2520Urban\%2520Sites.pptx\%3Fdl\%3D0&sa=D&sntz=1&usg=AFQjCNF6McgylrY6kU5KmqvCLC6_n-TzIw}{[Slide]}
-\end{itemize}
-
+\input{src/awards}
+\input{src/funded_projects}
+\input{src/patents}
+\input{src/teaching}
+\input{src/leadership}
+\input{src/invited_talks}
 
 %-------------------------------------------
-
 \bibliographystyle{plain}
 \nobibliography{ref}
 
-% \vspace{0.1in}
+\noindent\rule{\textwidth}{0.4pt}
+\vspace{1mm}
 \hfill Revised \today
 
 \end{document}

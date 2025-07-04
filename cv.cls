@@ -109,15 +109,26 @@
   \vspace{0.5em} % Some space after the list of bullet points
 }
 
-\newenvironment{pubSubsectionNum}[1]{
- {\bf #1} % Bold company name and date on the right
+% \newenvironment{pubSubsectionNum}[1]{
+%  {\bf #1} % Bold company name and date on the right
+%   \smallskip
+%   \vspace{-2mm}
+%   \begin{enumerate}
+%    \itemsep -0.3em % Compress items in list together for aesthetics
+%   }{
+%   \end{enumerate}
+%   \vspace{0.5em} % Some space after the list of bullet points
+% }
+
+\newenvironment{pubSubsectionNum}[1]{%
+  {\bf #1} % 제목
   \smallskip
   \vspace{-2mm}
-  \begin{enumerate}
-   \itemsep -0.3em % Compress items in list together for aesthetics
-  }{
-  \end{enumerate}
-  \vspace{0.5em} % Some space after the list of bullet points
+  \begin{etaremune}
+    \itemsep -0.3em % 아이템 간격 줄이기
+}{%
+  \end{etaremune}
+  \vspace{0.5em} % 리스트 아래 공간
 }
 
 \newenvironment{pubSubsection}[1]{
