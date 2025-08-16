@@ -12,6 +12,9 @@
 % \usepackage{polyglossia}
 % \setmainlanguage{english}
 \usepackage{kotex} %kotex package를 사용해야 한국어를 입력할수 있습니다!
+% 한글 전체를 기본 고딕으로
+\renewcommand{\rmdefault}{cmss} % 기본 글꼴을 sans-serif 계열로
+\renewcommand{\sfdefault}{cmss}
 
 % Korean font setup - replace 'NanumMyeongjo' with any Korean font installed on your system
 % \newfontfamily\koreanfont{NanumMyeongjo}
@@ -23,6 +26,7 @@
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{verbatim}
 \usepackage{enumitem}
+\usepackage[normalem]{ulem}
 \usepackage[hidelinks]{hyperref}
 \usepackage{fancyhdr}
 \usepackage[english]{babel}

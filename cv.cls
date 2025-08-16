@@ -109,17 +109,6 @@
   \vspace{0.5em} % Some space after the list of bullet points
 }
 
-% \newenvironment{pubSubsectionNum}[1]{
-%  {\bf #1} % Bold company name and date on the right
-%   \smallskip
-%   \vspace{-2mm}
-%   \begin{enumerate}
-%    \itemsep -0.3em % Compress items in list together for aesthetics
-%   }{
-%   \end{enumerate}
-%   \vspace{0.5em} % Some space after the list of bullet points
-% }
-
 \newenvironment{pubSubsectionNum}[1]{%
   {\bf #1} % 제목
   \smallskip
@@ -131,15 +120,27 @@
   \vspace{0.5em} % 리스트 아래 공간
 }
 
-\newenvironment{pubSubsection}[1]{
- {\bf #1} % Bold company name and date on the right
+% \newenvironment{pubSubsection}[1]{
+%  {\bf #1} % Bold company name and date on the right
+%   \smallskip
+%   \begin{list}{$\bullet$}{\leftmargin=0em} % \cdot used for bullets, no indentation
+%    \itemsep -0.3em % Compress items in list together for aesthetics
+%   }{
+%   \end{list}
+%   \vspace{0.5em} % Some space after the list of bullet points
+% }
+
+\newenvironment{pubSubsection}[1]{%
+  {\bf #1} % 제목
   \smallskip
-  \begin{list}{$\bullet$}{\leftmargin=0em} % \cdot used for bullets, no indentation
-   \itemsep -0.3em % Compress items in list together for aesthetics
-  }{
-  \end{list}
-  \vspace{0.5em} % Some space after the list of bullet points
+  \vspace{-2mm}
+  \begin{itemize}[label=$\cdot$]
+    \itemsep -0.3em % 아이템 간격 줄이기
+}{%
+  \end{itemize}
+  \vspace{0.5em} % 리스트 아래 공간
 }
+
 
 % The below commands define the whitespace after certain things in the document - they can be \smallskip, \medskip or \bigskip
 \def\namesize{\huge} % Size of the name at the top of the document
