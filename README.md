@@ -13,13 +13,17 @@ Leader/Director, [Autonomy and Perceptual Robotics Lab (APRL)](https://aprl.dgis
 >
 > PDF and Markdown share one source and revision date. Publications include journal articles, regular conference papers, book chapters, and archival domestic papers. Preprints and non-archival papers are excluded; workshop awards and organizing roles remain in their respective sections.
 
-[Academic Appointments and Professional Experience](#academic-appointments-and-professional-experience) · [Education](#education) · [Research Directions](#research-directions) · [Funded Projects](#funded-projects) · [Honors and Awards](#honors-and-awards) · [Academic Leadership and Service](#academic-leadership-and-service) · [Publications](#publications) · [Invited Talks and Tutorials](#invited-talks-and-tutorials) · [Graduate Student Advising](#graduate-student-advising) · [Teaching at DGIST](#teaching-at-dgist) · [Research Group](#research-group)
+[Research Group](#research-group) · [Academic Appointments and Professional Experience](#academic-appointments-and-professional-experience) · [Education](#education) · [Research Directions](#research-directions) · [Academic Leadership and Service](#academic-leadership-and-service) · [Honors and Awards](#honors-and-awards) · [Publications](#publications) · [Graduate Student Advising](#graduate-student-advising) · [Invited Talks and Tutorials](#invited-talks-and-tutorials) · [Funded Projects](#funded-projects) · [Teaching at DGIST](#teaching-at-dgist)
 
 ---
+
+## Research Group
 
 **Research mission.** APRL advances spatial intelligence and robot world models to enable autonomous robots to navigate, reason, and learn from experience in the real world.
 
 **Research profile.** Robotics researcher working at the intersection of simultaneous localization and mapping (SLAM), spatial and physical AI, 3D perception, sensor fusion, long-term autonomy, and visual-language robot navigation. Current research investigates memory-augmented spatial intelligence, shared robot experience, embodied reasoning, and robot world models for robust real-world navigation.
+
+**Autonomy and Perceptual Robotics Lab (APRL), DGIST.** Founded December 2024. Current full-time group: one postdoctoral researcher, three doctoral researchers (including two integrated M.S./Ph.D. students), and four M.S. students, with undergraduate interns and external collaborators across robotics, perception, and AI.
 
 ## Academic Appointments and Professional Experience
 
@@ -44,39 +48,6 @@ Leader/Director, [Autonomy and Perceptual Robotics Lab (APRL)](https://aprl.dgis
 | **Spatial intelligence for navigation** | SLAM 2.0 for the Robot Web era; neural map representations; human-robot interactive visual-language navigation; long-term and multi-robot autonomy. |
 | **Embodied reasoning and world models** | Reasoning for robots; generative AI for mobile robot navigation; memory-augmented spatial intelligence; robot world models. |
 
-## Funded Projects
-
-PI: Principal Investigator; Co-PI: Co-Principal Investigator; Participant: Participating Researcher.
-
-### Ongoing Projects
-
-| Project / funding details | Role | Period |
-| --- | --- | --- |
-| **Robot Industry Technology Development Program**<br>**Sponsor:** Ministry of Trade, Industry and Energy<br>**Program:** 2026 Robot Industry Technology Development Program (Core Robot Industry Technology Development)<br>**Title:** Spatial-RFM: Development of a VLM-based Spatial Intelligence Robot Foundation Model for Humanoid and Quadruped Robot Navigation in Unstructured Environments | Co-PI | Jul. 2026–Dec. 2029 |
-| **AIMS: Memory-Augmented Spatial Intelligence**<br>**Sponsor:** Ministry of Science and ICT<br>**Program:** NRF Early-career Research Program (Type B), Basic Research Program 2026<br>**Title:** Memory-Augmented Spatial Intelligence for Heterogeneous Autonomous Mobility Systems Understanding and Interacting with Implicit Human Instructions | PI | Mar. 2026–Feb. 2030 |
-| **Industry Project 2026-1 (Confidential)**<br>**Sponsor:** Industry-funded<br>**Program:** Industry-academic technical service<br>**Title:** Mapping and Localization in Factory Environments | PI | Apr. 2026–Mar. 2027 |
-| **Basic Research Laboratory, Exploratory Type**<br>**Sponsor:** Ministry of Science and ICT<br>**Program:** Basic Research Program, Basic Research Laboratory (Exploratory Type) 2026<br>**Topic:** Fundamental Study on Morphogenetic Cooperative Mobility Intelligence based on Physical Agentic AI | Co-PI | Jul. 2026–Jun. 2029 |
-| **Glocal Lab**<br>**Sponsor:** Ministry of Education<br>**Program:** Glocal Lab Program, Academic Research Support Program for Science and Engineering 2025<br>**Center:** TransHuman Robotics Research Center, Robotics and Mechatronics Research Institute of DGIST | Participant | Sep. 2025–Aug. 2028 (+6 years) |
-| **InnoCORE**<br>**Sponsor:** Ministry of Science and ICT<br>**Title:** DGIST Team on Bio-Embodied Physical AI | Participant | Jul. 2025–Dec. 2027 (+3 years) |
-| **AI Star Fellowship**<br>**Sponsor:** Ministry of Science and ICT<br>**Title:** Human-centered Symbiotic Embodied AI Systems | Participant | 2025–2030 |
-| **DGIST Start-up Research**<br>**Sponsor:** DGIST<br>**Title:** Self-evolving Robot-Web Navigation Intelligence | PI | Jan. 2025–Dec. 2028 |
-
-### Completed Projects
-
-| Project / funding details | Role | Period |
-| --- | --- | --- |
-| **P2P Autonomous Driving Platform**<br>**Sponsor:** Ministry of Trade, Industry and Energy<br>**Program:** Autonomous Driving Technology Development Innovation Program, Korea Evaluation Institute of Industrial Technology<br>**Title:** Development of a Level-4 Passenger-Van Autonomous Driving Platform for Point-to-Point Mobility in Designated Areas | Participant | Sep. 2025–Mar. 2026 |
-| **N-HRHR**<br>**Sponsor:** DGIST<br>**Title:** Exploring Human-Robot Collaborative Coexistence in the Era of Large-Scale Robots | Participant | Jul.–Dec. 2025 |
-
-## Honors and Awards
-
-| Date / period | Details |
-| --- | --- |
-| Sep. 30, 2026 | **[Best Paper Award](https://team-aprl.github.io/gallery.html#iros2026-best-paper-award)**, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026), for “LT-Mem: Volatility-Aware Spatio-Temporal Memory for Lifelong Scene Understanding.” Recipients: Yumin Lee, Hyoseok Ju, and Giseop KIM. |
-| Jul. 2026 | **Outstanding Young Researcher Award**, 41st Annual Conference of the Institute of Control, Robotics and Systems (ICROS 2026). |
-| Feb. 2026 | **Early-career Researcher Award**, Korea Robotics Society Annual Conference (KRoC 2026). |
-| Oct. 2025 | **Best Poster Award**, Human-aware Embodied AI Workshop at the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2025) (student advisee: Jiseon Kim). |
-
 ## Academic Leadership and Service
 
 | Date / period | Details |
@@ -86,6 +57,15 @@ PI: Principal Investigator; Co-PI: Co-Principal Investigator; Participant: Parti
 | 2026 | **Workshop Organizer**, Long-Term Perception for Human-Centric Autonomy: Towards Undo for the Physical World, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026). |
 | 2026 | **Organizing Committee Member**, 41st Annual Conference of the Institute of Control, Robotics and Systems (ICROS 2026). |
 | 2026 | **Tutorial Organizer and Speaker**, Spatial AI Tutorial, Korea Robotics Society Annual Conference (KRoC 2026). |
+
+## Honors and Awards
+
+| Date / period | Details |
+| --- | --- |
+| Sep. 30, 2026 | **[Best Paper Award](https://team-aprl.github.io/gallery.html#iros2026-best-paper-award)**, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026), for “LT-Mem: Volatility-Aware Spatio-Temporal Memory for Lifelong Scene Understanding.” Recipients: Yumin Lee, Hyoseok Ju, and Giseop KIM. |
+| Jul. 2026 | **Outstanding Young Researcher Award**, 41st Annual Conference of the Institute of Control, Robotics and Systems (ICROS 2026). |
+| Feb. 2026 | **Early-career Researcher Award**, Korea Robotics Society Annual Conference (KRoC 2026). |
+| Oct. 2025 | **Best Poster Award**, Human-aware Embodied AI Workshop at the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2025) (student advisee: Jiseon Kim). |
 
 ## Publications
 
@@ -145,6 +125,18 @@ PI: Principal Investigator; Co-PI: Co-Principal Investigator; Participant: Parti
 - **DC2.** ▶ A. Lee<sup>*</sup>, H. Yoon<sup>*</sup>, S. Park<sup>*</sup>, M. Lee<sup>*</sup>, and **Giseop KIM**<sup>†</sup>, “Rendezvous Briefing: VLM-based Semantic-Aware Multi-Robot Collaborative Exploration,” Institute of Control, Robotics and Systems Annual Conference (ICROS), 2026.
 - **DC1.** ▶ **Giseop KIM**<sup>*</sup><sup>†</sup>, M. Park, and J. Son, “[Change-Robust LiDAR Localization in Urban Environments,](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12551179)” Institute of Electronics and Information Engineers Conference, 2025.
 
+## Graduate Student Advising
+
+| Name | Degree | Period |
+| --- | --- | --- |
+| **Bokeon Suh** | Integrated M.S./Ph.D. | Fall 2025–present |
+| **Jiseon Kim** | M.S. | Fall 2025–present |
+| **Yumin Lee** | M.S. | Fall 2025–present |
+| **Hyoseok Ju** | Integrated M.S./Ph.D. | Fall 2025–present |
+| **Doyeon Kim** | Ph.D. | Spring 2026–present |
+| **Beomsu Kim** | M.S. | Spring 2026–present |
+| **Hoyun Kim** | M.S. | Spring 2026–present |
+
 ## Invited Talks and Tutorials
 
 ### 🎤 Conference
@@ -195,17 +187,29 @@ PI: Principal Investigator; Co-PI: Co-Principal Investigator; Participant: Parti
 | --- | --- |
 | Feb. 2, 2026<br>🇰🇷 **Domestic** | “Daegu's Innovation, Moving Towards a Robot and Future Mobility City,” Dalseo-gu Office Monthly Meeting Special Lecture, Daegu. |
 
-## Graduate Student Advising
+## Funded Projects
 
-| Name | Degree | Period |
+PI: Principal Investigator; Co-PI: Co-Principal Investigator; Participant: Participating Researcher.
+
+### Ongoing Projects
+
+| Project / funding details | Role | Period |
 | --- | --- | --- |
-| **Bokeon Suh** | Integrated M.S./Ph.D. | Fall 2025–present |
-| **Jiseon Kim** | M.S. | Fall 2025–present |
-| **Yumin Lee** | M.S. | Fall 2025–present |
-| **Hyoseok Ju** | Integrated M.S./Ph.D. | Fall 2025–present |
-| **Doyeon Kim** | Ph.D. | Spring 2026–present |
-| **Beomsu Kim** | M.S. | Spring 2026–present |
-| **Hoyun Kim** | M.S. | Spring 2026–present |
+| **Robot Industry Technology Development Program**<br>**Sponsor:** Ministry of Trade, Industry and Energy<br>**Program:** 2026 Robot Industry Technology Development Program (Core Robot Industry Technology Development)<br>**Title:** Spatial-RFM: Development of a VLM-based Spatial Intelligence Robot Foundation Model for Humanoid and Quadruped Robot Navigation in Unstructured Environments | Co-PI | Jul. 2026–Dec. 2029 |
+| **AIMS: Memory-Augmented Spatial Intelligence**<br>**Sponsor:** Ministry of Science and ICT<br>**Program:** NRF Early-career Research Program (Type B), Basic Research Program 2026<br>**Title:** Memory-Augmented Spatial Intelligence for Heterogeneous Autonomous Mobility Systems Understanding and Interacting with Implicit Human Instructions | PI | Mar. 2026–Feb. 2030 |
+| **Industry Project 2026-1 (Confidential)**<br>**Sponsor:** Industry-funded<br>**Program:** Industry-academic technical service<br>**Title:** Mapping and Localization in Factory Environments | PI | Apr. 2026–Mar. 2027 |
+| **Basic Research Laboratory, Exploratory Type**<br>**Sponsor:** Ministry of Science and ICT<br>**Program:** Basic Research Program, Basic Research Laboratory (Exploratory Type) 2026<br>**Topic:** Fundamental Study on Morphogenetic Cooperative Mobility Intelligence based on Physical Agentic AI | Co-PI | Jul. 2026–Jun. 2029 |
+| **Glocal Lab**<br>**Sponsor:** Ministry of Education<br>**Program:** Glocal Lab Program, Academic Research Support Program for Science and Engineering 2025<br>**Center:** TransHuman Robotics Research Center, Robotics and Mechatronics Research Institute of DGIST | Participant | Sep. 2025–Aug. 2028 (+6 years) |
+| **InnoCORE**<br>**Sponsor:** Ministry of Science and ICT<br>**Title:** DGIST Team on Bio-Embodied Physical AI | Participant | Jul. 2025–Dec. 2027 (+3 years) |
+| **AI Star Fellowship**<br>**Sponsor:** Ministry of Science and ICT<br>**Title:** Human-centered Symbiotic Embodied AI Systems | Participant | 2025–2030 |
+| **DGIST Start-up Research**<br>**Sponsor:** DGIST<br>**Title:** Self-evolving Robot-Web Navigation Intelligence | PI | Jan. 2025–Dec. 2028 |
+
+### Completed Projects
+
+| Project / funding details | Role | Period |
+| --- | --- | --- |
+| **P2P Autonomous Driving Platform**<br>**Sponsor:** Ministry of Trade, Industry and Energy<br>**Program:** Autonomous Driving Technology Development Innovation Program, Korea Evaluation Institute of Industrial Technology<br>**Title:** Development of a Level-4 Passenger-Van Autonomous Driving Platform for Point-to-Point Mobility in Designated Areas | Participant | Sep. 2025–Mar. 2026 |
+| **N-HRHR**<br>**Sponsor:** DGIST<br>**Title:** Exploring Human-Robot Collaborative Coexistence in the Era of Large-Scale Robots | Participant | Jul.–Dec. 2025 |
 
 ## Teaching at DGIST
 
@@ -218,10 +222,6 @@ PI: Principal Investigator; Co-PI: Co-Principal Investigator; Participant: Parti
 | 2025 Fall | MECH307 | [Introduction to Artificial Intelligence](https://github.com/team-aprl/lecture-MECH307-public/tree/main) |
 | 2025 Fall | AT603 | Introduction to Mobility Engineering |
 | 2025 Spring | BE203 | Creative Mechanical Design |
-
-## Research Group
-
-**Autonomy and Perceptual Robotics Lab (APRL), DGIST.** Founded December 2024. Current full-time group: one postdoctoral researcher, three doctoral researchers (including two integrated M.S./Ph.D. students), and four M.S. students, with undergraduate interns and external collaborators across robotics, perception, and AI.
 
 ---
 

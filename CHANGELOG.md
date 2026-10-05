@@ -2,6 +2,7 @@
 
 ## 2026-10-06
 
+- Reordered the activity sections to Service, Awards, Publications, Advising, Talks, Funded Projects, and Teaching. Moved Research Group to the opening research mission/profile block, including its lab summary, and synchronized README navigation.
 - Removed the forced page break before Graduate Student Advising so the remaining sections flow into available space.
 - Removed the closing paragraph about public-webpage compilation, source review date, and publication omissions from PDF and README.
 - Expanded abbreviated publication venues to full conference names, added journal abbreviations (RA-L, T-RO, IJRR, Transactions of KSAE), and expanded the two abbreviated KRoC talk entries in PDF and README.

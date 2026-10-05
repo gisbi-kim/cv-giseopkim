@@ -207,7 +207,7 @@ def body_md(source):
             output.append(f'- **{identifier}.** {inline(value)}')
         elif line.startswith(r'\item'):
             output.append('    ' * max(depth-1, 0) + '- ' + inline(line[len(r'\item'):]))
-        elif line.startswith((r'\vfill', r'\newpage')):
+        elif line.startswith((r'\vfill', r'\newpage', r'\Needspace')):
             pass
         else:
             output.append(inline(line))
@@ -221,7 +221,6 @@ def make_readme(updated):
     text = re.sub(r'(?<!\\)%[^\n]*', '', (ROOT / 'main.tex').read_text(encoding='utf-8'))
     body = text.split(r'\begin{document}', 1)[1].split(r'\end{document}', 1)[0]
     start = body.index(r'\section{')
-    profile = body[body.index(r'\textbf{Research mission.}'):start]
     sections = re.findall(r'\\section\{([^}]+)\}', body)
     toc = ' · '.join(f'[{name}](#{name.lower().replace(" ", "-")})' for name in sections)
     header = f'''<!-- Generated from main.tex by scripts/build.py. Edit the TeX source. -->
@@ -244,7 +243,6 @@ Leader/Director, [Autonomy and Perceptual Robotics Lab (APRL)](https://aprl.dgis
 ---
 
 '''
-    header += inline(profile).replace(' **Research profile.**', '\n\n**Research profile.**') + '\n\n'
     header += body_md(body[start:])
     return header + '''
 ---
