@@ -223,8 +223,6 @@ PI: Principal Investigator; Co-PI: Co-Principal Investigator; Participant: Parti
 
 **Autonomy and Perceptual Robotics Lab (APRL), DGIST.** Founded December 2024. Current full-time group: one postdoctoral researcher, three doctoral researchers (including two integrated M.S./Ph.D. students), and four M.S. students, with undergraduate interns and external collaborators across robotics, perception, and AI.
 
-*This curriculum vitae was compiled from the public Giseop KIM and APRL webpages. Publication status and activities reflect the sources reviewed on 2026-10-06. Preprints and non-archival publications are omitted.*
-
 ---
 
 ## Build & synchronization
