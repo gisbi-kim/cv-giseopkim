@@ -2,6 +2,7 @@
 
 ## 2026-10-06
 
+- Replaced the Research Directions panels with two plain-text bullets, using bold titles, descriptions on the following line, and spacing between items in PDF and README.
 - Moved Research Directions and both panels into Research Group as a subsection; README heading levels and main navigation now reflect this hierarchy.
 - Separated the two Research Directions into individual shaded panels with full-width bold titles and spaced descriptions; README now presents them as separate subheadings. All research text is retained.
 - Reordered the final sections to Teaching, Funded Projects, and Invited Talks and Tutorials. Renamed Teaching at DGIST to Teaching and added a DGIST badge beneath each term in the left column, with matching README badges.

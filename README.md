@@ -27,13 +27,11 @@ Leader/Director, [Autonomy and Perceptual Robotics Lab (APRL)](https://aprl.dgis
 
 ### Research Directions
 
-#### Spatial intelligence for navigation
+- **Spatial intelligence for navigation**<br>
+  SLAM 2.0 for the Robot Web era; neural map representations; human-robot interactive visual-language navigation; long-term and multi-robot autonomy.
 
-SLAM 2.0 for the Robot Web era; neural map representations; human-robot interactive visual-language navigation; long-term and multi-robot autonomy.
-
-#### Embodied reasoning and world models
-
-Reasoning for robots; generative AI for mobile robot navigation; memory-augmented spatial intelligence; robot world models.
+- **Embodied reasoning and world models**<br>
+  Reasoning for robots; generative AI for mobile robot navigation; memory-augmented spatial intelligence; robot world models.
 
 ## Academic Appointments and Professional Experience
 

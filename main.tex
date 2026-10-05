@@ -119,14 +119,9 @@
   \begin{tabular}{@{}L{24mm}@{\hspace{4mm}}L{\dimexpr\linewidth-28mm\relax}@{}}
 }{\end{tabular}\end{tcolorbox}}
 \newcommand{\legendmark}[1]{{\normalsize\bfseries\textcolor{linkblue}{#1}}}
-\newcommand{\directioncard}[2]{%
-  \Needspace{6\baselineskip}%
-  \begin{tcolorbox}[colback=linkblue!2!white,colframe=linkblue!25!white,
-    boxrule=0.4pt,arc=1mm,left=3mm,right=3mm,top=2mm,bottom=2mm,
-    before skip=3pt,after skip=4pt,fontupper=\small]
-    {\sffamily\bfseries\normalsize #1}\par\vspace{3pt}
-    #2
-  \end{tcolorbox}%
+\newcommand{\directionitem}[2]{%
+  \Needspace{4\baselineskip}%
+  \item \textbf{#1}\par\vspace{2pt}#2
 }
 
 \begin{document}
@@ -158,8 +153,10 @@
 \textbf{Autonomy and Perceptual Robotics Lab (APRL), DGIST.} Founded December 2024. Current full-time group: one postdoctoral researcher, three doctoral researchers (including two integrated M.S./Ph.D. students), and four M.S. students, with undergraduate interns and external collaborators across robotics, perception, and AI.
 
 \subsection{Research Directions}
-\directioncard{Spatial intelligence for navigation}{SLAM 2.0 for the Robot Web era; neural map representations; human-robot interactive visual-language navigation; long-term and multi-robot autonomy.}
-\directioncard{Embodied reasoning and world models}{Reasoning for robots; generative AI for mobile robot navigation; memory-augmented spatial intelligence; robot world models.}
+\begin{itemize}[leftmargin=5mm,itemsep=6pt,topsep=3pt,parsep=0pt]
+\directionitem{Spatial intelligence for navigation}{SLAM 2.0 for the Robot Web era; neural map representations; human-robot interactive visual-language navigation; long-term and multi-robot autonomy.}
+\directionitem{Embodied reasoning and world models}{Reasoning for robots; generative AI for mobile robot navigation; memory-augmented spatial intelligence; robot world models.}
+\end{itemize}
 
 \section{Academic Appointments and Professional Experience}
 \begin{tabularx}{\textwidth}{@{}L{34mm}Y@{}}
