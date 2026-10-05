@@ -153,7 +153,16 @@ def body_md(source):
                 i += 1
                 if not row:
                     continue
-                if row.startswith((r'\daterow', r'\cvrow')):
+                if row.startswith(r'\talkrow'):
+                    pos = row.index('{')
+                    date_text, pos = group(row, pos)
+                    badge, pos = group(row, pos)
+                    detail, pos = group(row, pos)
+                    if badge not in ('International', 'Domestic'):
+                        raise ValueError(f'Unknown talk badge: {badge}')
+                    icon = '🌐' if badge == 'International' else '🇰🇷'
+                    rows.append([inline(date_text) + f'<br>{icon} **{badge}**', inline(detail)])
+                elif row.startswith((r'\daterow', r'\cvrow')):
                     pos = row.index('{')
                     left, pos = group(row, pos)
                     right, pos = group(row, pos)
