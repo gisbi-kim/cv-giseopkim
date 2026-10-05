@@ -32,7 +32,7 @@
 \setlength{\emergencystretch}{2em}
 \renewcommand{\arraystretch}{1.08}
 \setlist[itemize]{leftmargin=4.2mm,itemsep=1.2pt,topsep=2pt,parsep=0pt}
-\setlist[enumerate]{leftmargin=6.5mm,itemsep=0.6pt,topsep=3pt,parsep=0pt}
+\setlist[enumerate]{leftmargin=9mm,labelwidth=7mm,labelsep=2mm,itemsep=0.6pt,topsep=3pt,parsep=0pt}
 
 \titleformat{\section}{\sffamily\bfseries\large}{}{0pt}{}[\vspace{1.5pt}\titlerule]
 \titlespacing*{\section}{0pt}{10pt}{5pt}
@@ -52,7 +52,7 @@
 \newcolumntype{L}[1]{>{\RaggedRight\arraybackslash}p{#1}}
 \newcommand{\cvrow}[2]{\textbf{#1} & #2 \\[2.2pt]}
 \newcommand{\daterow}[2]{#1 & #2 \\[2.2pt]}
-\newcommand{\pub}[1]{\item #1}
+\newcommand{\pub}[2]{\item[#1.] #2}
 \newcommand{\leadpub}{\textbf{\ensuremath{\blacktriangleright}}\hspace{0.25em}}
 \newcommand{\me}{\textbf{Giseop KIM}}
 \newcommand{\corr}{\textsuperscript{\dag}}
@@ -188,53 +188,53 @@
 
 \subsection{Peer-Reviewed Journal Articles}
 \begin{enumerate}
-\pub{S. Lee\first, H. Yu, \me, and S. Choi\corr, ``LAMP: Implicit Language Map for Robot Navigation,'' \textit{IEEE Robotics and Automation Letters}, vol. 10, no. 12, pp. 12365--12372, 2025.}
-\pub{M. Kim\first, \me, and S. Choi\corr, ``Addressing Diverging Training Costs Using BEVRestore for High-Resolution Bird's Eye View Map Construction,'' \textit{IEEE Robotics and Automation Letters}, 2024.}
-\pub{H. Kim\first, J. Choi, T. Sim, \me, and Y. Cho\corr, ``Narrowing Your FOV with SOLiD: Spatially Organized and Lightweight Global Descriptor for FOV-Constrained LiDAR Place Recognition,'' \textit{IEEE Robotics and Automation Letters}, 2024.}
-\pub{M. Jung\first, W. Yang, D. Lee, H. Gil, \me, and A. Kim\corr, ``HeLiPR: Heterogeneous LiDAR Dataset for Inter-LiDAR Place Recognition under Spatiotemporal Variations,'' \textit{The International Journal of Robotics Research}, vol. 43, no. 12, pp. 1867--1883, 2024.}
-\pub{\leadpub \me\first, S. Choi, and A. Kim\corr, ``Scan Context++: Structural Place Recognition Robust to Rotation and Lateral Variations in Urban Environments,'' \textit{IEEE Transactions on Robotics}, 2022.}
-\pub{Y. Cho\first, \me, S. Lee, and J.-H. Ryu\corr, ``OpenStreetMap-based LiDAR Global Localization in Urban Environment without a Prior LiDAR Map,'' \textit{IEEE Robotics and Automation Letters}, 2022.}
-\pub{\leadpub \me\first, B. Park, and A. Kim\corr, ``1-Day Learning, 1-Year Localization: Long-term LiDAR Localization using Scan Context Image,'' \textit{IEEE Robotics and Automation Letters}, 2019.}
+\pub{J7}{S. Lee\first, H. Yu, \me, and S. Choi\corr, ``LAMP: Implicit Language Map for Robot Navigation,'' \textit{IEEE Robotics and Automation Letters}, vol. 10, no. 12, pp. 12365--12372, 2025.}
+\pub{J6}{M. Kim\first, \me, and S. Choi\corr, ``Addressing Diverging Training Costs Using BEVRestore for High-Resolution Bird's Eye View Map Construction,'' \textit{IEEE Robotics and Automation Letters}, 2024.}
+\pub{J5}{H. Kim\first, J. Choi, T. Sim, \me, and Y. Cho\corr, ``Narrowing Your FOV with SOLiD: Spatially Organized and Lightweight Global Descriptor for FOV-Constrained LiDAR Place Recognition,'' \textit{IEEE Robotics and Automation Letters}, 2024.}
+\pub{J4}{M. Jung\first, W. Yang, D. Lee, H. Gil, \me, and A. Kim\corr, ``HeLiPR: Heterogeneous LiDAR Dataset for Inter-LiDAR Place Recognition under Spatiotemporal Variations,'' \textit{The International Journal of Robotics Research}, vol. 43, no. 12, pp. 1867--1883, 2024.}
+\pub{J3}{\leadpub \me\first, S. Choi, and A. Kim\corr, ``Scan Context++: Structural Place Recognition Robust to Rotation and Lateral Variations in Urban Environments,'' \textit{IEEE Transactions on Robotics}, 2022.}
+\pub{J2}{Y. Cho\first, \me, S. Lee, and J.-H. Ryu\corr, ``OpenStreetMap-based LiDAR Global Localization in Urban Environment without a Prior LiDAR Map,'' \textit{IEEE Robotics and Automation Letters}, 2022.}
+\pub{J1}{\leadpub \me\first, B. Park, and A. Kim\corr, ``1-Day Learning, 1-Year Localization: Long-term LiDAR Localization using Scan Context Image,'' \textit{IEEE Robotics and Automation Letters}, 2019.}
 \end{enumerate}
 
 \subsection{Peer-Reviewed International Conference Papers}
-\begin{enumerate}[resume]
-\pub{\leadpub H. Kim\first, B. Kim, and \me\corr, ``MarsLab: A Martian Rover Simulator for Planetary Rover Autonomous Navigation,'' \textit{International Conference on Space Robotics (iSpaRo)}, 2026, accepted, to appear.}
-\pub{\leadpub H. Kim\first and \me\corr, ``Simulation for Planetary Robotic Perception and Autonomy: A Concise Survey of Recent Capabilities and Gaps,'' \textit{iSpaRo}, 2026, accepted, to appear.}
-\pub{\leadpub Y. Lee\first, H. Ju, and \me\corr, ``LT-Mem: Volatility-Aware Spatio-Temporal Memory for Lifelong Scene Understanding,'' \textit{IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 2026. \textbf{Best Paper Award}.}
-\pub{\leadpub B. Nayak\first, H. Ju\first, and \me\corr, ``Mag4D-SLAM Dataset: A Repeated-Traversal Multi-Modal 4D Geomagnetic Dataset for Localization and Mapping,'' \textit{IROS}, 2026.}
-\pub{S. Moon\first, J. Baek, Y. Jeong, D. Chae, \me, J. Lee, J. Kim\corr, and S. Choi\corr, ``Streaming Dense Voxel Representations for 3D Occupancy Prediction,'' \textit{European Conference on Computer Vision (ECCV)}, 2026.}
-\pub{\leadpub B. Suh\first, H. Ju, and \me\corr, ``What Matters for Real-World Long-Horizon Robot Navigation?: An Experimental Study of Implicit Goals and Sparse Memory,'' \textit{23rd IFAC World Congress}, 2026.}
-\pub{J. Lee\first, J. Kim\first, W. Shin, \me, and H. Oh\corr, ``Learning Point Cloud Geometry as a Statistical Manifold: Theory and Practice,'' \textit{Robotics: Science and Systems (RSS)}, 2026.}
-\pub{\leadpub H. Ju\first, B. Suh, and \me\corr, ``Have We Mastered Scale in Deep Monocular Visual SLAM? The ScaleMaster Dataset and Benchmark,'' \textit{IEEE International Conference on Robotics and Automation (ICRA)}, 2026.}
-\pub{M. Kim\first, D. Lee, J. Yu, J. Hur, \me, and J. Kim\corr, ``Inlier-Centric Post-Training Quantization for Object Detection Models,'' \textit{International Conference on Learning Representations (ICLR)}, 2026.}
-\pub{J. Kim\first, S. Jeong\first, \me, M.-H. Jeon, E. Jun, and A. Kim\corr, ``2D Gaussian Splatting-based Sparse-view Transparent Object Depth Reconstruction via Physics Simulation for Scene Update,'' \textit{IEEE/CVF International Conference on Computer Vision (ICCV)}, 2025.}
-\pub{H. Gil\first, D. Lee\first, \me, and A. Kim\corr, ``Ephemerality Meets LiDAR-based Lifelong Mapping,'' \textit{ICRA}, 2025.}
-\pub{M. Kim\first, \me, K.-H. Jin, and S. Choi\corr, ``BroadBEV: Collaborative LiDAR-Camera Fusion for Broad-Sighted Bird's Eye View Map Construction,'' \textit{ICRA}, 2024.}
-\pub{H. Lim\first, K. Han, G. Shin, \me, S. Hong, and H. Myung\corr, ``ORORA: Outlier-Robust Radar Odometry,'' \textit{ICRA}, 2023.}
-\pub{S. Yun\first, M. Jung, J. Kim, S. Jung, Y. Cho, M.-H. Jeon, \me, and A. Kim\corr, ``STheReO: Stereo Thermal Dataset for Research in Odometry and Mapping,'' \textit{IROS}, 2022.}
-\pub{\leadpub \me\first and A. Kim\corr, ``LT-mapper: A Modular Framework for LiDAR-based Lifelong Mapping,'' \textit{ICRA}, 2022.}
-\pub{\leadpub \me\first and A. Kim\corr, ``Remove, then Revert: Static Point Cloud Map Construction using Multiresolution Range Images,'' \textit{IROS}, 2020.}
-\pub{\leadpub \me\first, Y. S. Park, Y. Cho, J. Jeong, and A. Kim\corr, ``MulRan: Multimodal Range Dataset for Urban Place Recognition,'' \textit{ICRA}, 2020.}
-\pub{Y. Cho\first, \me, and A. Kim\corr, ``Unsupervised Geometry-aware Deep LiDAR Odometry,'' \textit{ICRA}, 2020.}
-\pub{\leadpub \me\first and A. Kim\corr, ``Scan Context: Egocentric Spatial Descriptor for Place Recognition within 3D Point Cloud Map,'' \textit{IROS}, 2018.}
+\begin{enumerate}
+\pub{C19}{\leadpub H. Kim\first, B. Kim, and \me\corr, ``MarsLab: A Martian Rover Simulator for Planetary Rover Autonomous Navigation,'' \textit{International Conference on Space Robotics (iSpaRo)}, 2026, accepted, to appear.}
+\pub{C18}{\leadpub H. Kim\first and \me\corr, ``Simulation for Planetary Robotic Perception and Autonomy: A Concise Survey of Recent Capabilities and Gaps,'' \textit{iSpaRo}, 2026, accepted, to appear.}
+\pub{C17}{\leadpub Y. Lee\first, H. Ju, and \me\corr, ``LT-Mem: Volatility-Aware Spatio-Temporal Memory for Lifelong Scene Understanding,'' \textit{IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 2026. \textbf{Best Paper Award}.}
+\pub{C16}{\leadpub B. Nayak\first, H. Ju\first, and \me\corr, ``Mag4D-SLAM Dataset: A Repeated-Traversal Multi-Modal 4D Geomagnetic Dataset for Localization and Mapping,'' \textit{IROS}, 2026.}
+\pub{C15}{S. Moon\first, J. Baek, Y. Jeong, D. Chae, \me, J. Lee, J. Kim\corr, and S. Choi\corr, ``Streaming Dense Voxel Representations for 3D Occupancy Prediction,'' \textit{European Conference on Computer Vision (ECCV)}, 2026.}
+\pub{C14}{\leadpub B. Suh\first, H. Ju, and \me\corr, ``What Matters for Real-World Long-Horizon Robot Navigation?: An Experimental Study of Implicit Goals and Sparse Memory,'' \textit{23rd IFAC World Congress}, 2026.}
+\pub{C13}{J. Lee\first, J. Kim\first, W. Shin, \me, and H. Oh\corr, ``Learning Point Cloud Geometry as a Statistical Manifold: Theory and Practice,'' \textit{Robotics: Science and Systems (RSS)}, 2026.}
+\pub{C12}{\leadpub H. Ju\first, B. Suh, and \me\corr, ``Have We Mastered Scale in Deep Monocular Visual SLAM? The ScaleMaster Dataset and Benchmark,'' \textit{IEEE International Conference on Robotics and Automation (ICRA)}, 2026.}
+\pub{C11}{M. Kim\first, D. Lee, J. Yu, J. Hur, \me, and J. Kim\corr, ``Inlier-Centric Post-Training Quantization for Object Detection Models,'' \textit{International Conference on Learning Representations (ICLR)}, 2026.}
+\pub{C10}{J. Kim\first, S. Jeong\first, \me, M.-H. Jeon, E. Jun, and A. Kim\corr, ``2D Gaussian Splatting-based Sparse-view Transparent Object Depth Reconstruction via Physics Simulation for Scene Update,'' \textit{IEEE/CVF International Conference on Computer Vision (ICCV)}, 2025.}
+\pub{C9}{H. Gil\first, D. Lee\first, \me, and A. Kim\corr, ``Ephemerality Meets LiDAR-based Lifelong Mapping,'' \textit{ICRA}, 2025.}
+\pub{C8}{M. Kim\first, \me, K.-H. Jin, and S. Choi\corr, ``BroadBEV: Collaborative LiDAR-Camera Fusion for Broad-Sighted Bird's Eye View Map Construction,'' \textit{ICRA}, 2024.}
+\pub{C7}{H. Lim\first, K. Han, G. Shin, \me, S. Hong, and H. Myung\corr, ``ORORA: Outlier-Robust Radar Odometry,'' \textit{ICRA}, 2023.}
+\pub{C6}{S. Yun\first, M. Jung, J. Kim, S. Jung, Y. Cho, M.-H. Jeon, \me, and A. Kim\corr, ``STheReO: Stereo Thermal Dataset for Research in Odometry and Mapping,'' \textit{IROS}, 2022.}
+\pub{C5}{\leadpub \me\first and A. Kim\corr, ``LT-mapper: A Modular Framework for LiDAR-based Lifelong Mapping,'' \textit{ICRA}, 2022.}
+\pub{C4}{\leadpub \me\first and A. Kim\corr, ``Remove, then Revert: Static Point Cloud Map Construction using Multiresolution Range Images,'' \textit{IROS}, 2020.}
+\pub{C3}{\leadpub \me\first, Y. S. Park, Y. Cho, J. Jeong, and A. Kim\corr, ``MulRan: Multimodal Range Dataset for Urban Place Recognition,'' \textit{ICRA}, 2020.}
+\pub{C2}{Y. Cho\first, \me, and A. Kim\corr, ``Unsupervised Geometry-aware Deep LiDAR Odometry,'' \textit{ICRA}, 2020.}
+\pub{C1}{\leadpub \me\first and A. Kim\corr, ``Scan Context: Egocentric Spatial Descriptor for Place Recognition within 3D Point Cloud Map,'' \textit{IROS}, 2018.}
 \end{enumerate}
 
 \subsection{Book Chapters}
-\begin{enumerate}[resume]
-\pub{J. Behley, M. Fallon, S. Zhao, \me, J. Zhang, F. Zhang, and A. Kim, ``LiDAR SLAM,'' Chapter 8 in \textit{SLAM Handbook: From Localization and Mapping to Spatial Intelligence}, 2026.}
+\begin{enumerate}
+\pub{B1}{J. Behley, M. Fallon, S. Zhao, \me, J. Zhang, F. Zhang, and A. Kim, ``LiDAR SLAM,'' Chapter 8 in \textit{SLAM Handbook: From Localization and Mapping to Spatial Intelligence}, 2026.}
 \end{enumerate}
 
 \subsection{Domestic Journal Articles}
-\begin{enumerate}[resume]
-\pub{\leadpub B. Suh\first, J. Kim, J. Son, M. Park, and \me\corr, ``Knowledge Fusion Strategies for Object Goal Navigation in the VLM Era: A Survey,'' \textit{Transactions of the Korean Society of Automotive Engineers}, vol. 34, no. 1, pp. 119--131, 2026.}
+\begin{enumerate}
+\pub{DJ1}{\leadpub B. Suh\first, J. Kim, J. Son, M. Park, and \me\corr, ``Knowledge Fusion Strategies for Object Goal Navigation in the VLM Era: A Survey,'' \textit{Transactions of the Korean Society of Automotive Engineers}, vol. 34, no. 1, pp. 119--131, 2026.}
 \end{enumerate}
 
 \subsection{Domestic Conference Papers}
-\begin{enumerate}[resume]
-\pub{\leadpub A. Lee\first and \me\corr, ``Floorplan-based Point-to-Language Grounded Navigation,'' Institute of Control, Robotics and Systems Annual Conference (ICROS), 2026.}
-\pub{\leadpub A. Lee\first, H. Yoon\first, S. Park\first, M. Lee\first, and \me\corr, ``Rendezvous Briefing: VLM-based Semantic-Aware Multi-Robot Collaborative Exploration,'' ICROS, 2026.}
-\pub{\leadpub \me\first\corr, M. Park, and J. Son, ``Change-Robust LiDAR Localization in Urban Environments,'' Institute of Electronics and Information Engineers Conference, 2025.}
+\begin{enumerate}
+\pub{DC3}{\leadpub A. Lee\first and \me\corr, ``Floorplan-based Point-to-Language Grounded Navigation,'' Institute of Control, Robotics and Systems Annual Conference (ICROS), 2026.}
+\pub{DC2}{\leadpub A. Lee\first, H. Yoon\first, S. Park\first, M. Lee\first, and \me\corr, ``Rendezvous Briefing: VLM-based Semantic-Aware Multi-Robot Collaborative Exploration,'' ICROS, 2026.}
+\pub{DC1}{\leadpub \me\first\corr, M. Park, and J. Son, ``Change-Robust LiDAR Localization in Urban Environments,'' Institute of Electronics and Information Engineers Conference, 2025.}
 \end{enumerate}
 
 \section{Invited Talks and Tutorials}

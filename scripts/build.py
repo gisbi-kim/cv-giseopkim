@@ -105,7 +105,6 @@ def cells(row):
 def body_md(source):
     output = []
     depth = 0
-    pub_number = 0
     current_section = ''
     lines = source.splitlines()
     i = 0
@@ -190,11 +189,13 @@ def body_md(source):
         elif line.startswith((r'\begin{enumerate}', r'\end{enumerate}')):
             output.append('')
         elif line.startswith(r'\pub{'):
-            value, pos = group(line, len(r'\pub'))
+            identifier, pos = group(line, len(r'\pub'))
+            if not re.fullmatch(r'(?:J|C|B|DJ|DC)[1-9][0-9]*', identifier):
+                raise ValueError(f'Invalid publication identifier: {identifier}')
+            value, pos = group(line, pos)
             if line[pos:].strip():
                 raise ValueError('Unexpected text after publication')
-            pub_number += 1
-            output.append(f'{pub_number}. {inline(value)}')
+            output.append(f'- **{identifier}.** {inline(value)}')
         elif line.startswith(r'\item'):
             output.append('    ' * max(depth-1, 0) + '- ' + inline(line[len(r'\item'):]))
         elif line.startswith(r'\vfill'):
