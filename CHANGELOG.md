@@ -2,6 +2,7 @@
 
 ## 2026-10-06
 
+- Removed the forced page break before Graduate Student Advising so the remaining sections flow into available space.
 - Removed the closing paragraph about public-webpage compilation, source review date, and publication omissions from PDF and README.
 - Expanded abbreviated publication venues to full conference names, added journal abbreviations (RA-L, T-RO, IJRR, Transactions of KSAE), and expanded the two abbreviated KRoC talk entries in PDF and README.
 - Added Notation/Meaning headers and horizontal rules to the publication legend, indented 8 mm in PDF; retained the corresponding five-row README table.
