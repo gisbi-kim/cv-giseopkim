@@ -2,6 +2,7 @@
 
 ## 2026-10-06
 
+- Tightened Research Directions bullet spacing and placed each bold title and description together, separated by a colon, in PDF and README.
 - Replaced the Research Directions panels with two plain-text bullets, using bold titles, descriptions on the following line, and spacing between items in PDF and README.
 - Moved Research Directions and both panels into Research Group as a subsection; README heading levels and main navigation now reflect this hierarchy.
 - Separated the two Research Directions into individual shaded panels with full-width bold titles and spaced descriptions; README now presents them as separate subheadings. All research text is retained.
