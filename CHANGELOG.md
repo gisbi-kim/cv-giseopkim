@@ -3,8 +3,9 @@
 ## 2026-10-06
 
 - Standardized the CV author name as **Giseop KIM** in the title, page headers, publication author markers, PDF metadata, and generated README.
+- Removed the duplicate historical-source folder from the current tree. README links to the original source snapshots in Git history.
 
-The active CV now uses the author's July 23, 2026 XeLaTeX design recovered from `giseop_kim_cv.tex`, rather than the repository's March `cv.cls` design. The recovered source's accompanying PDF was byte-identical to `giseop_kim_cv_archival_v3.pdf` in the author's [Drive CV folder](https://drive.google.com/drive/folders/1_0XFI8jedwYIr4QIIQ17cvAXhwOPRSrd). Historical sources remain in `legacy/`; the original external files were not changed.
+The active CV now uses the author's July 23, 2026 XeLaTeX design recovered from `giseop_kim_cv.tex`, rather than the repository's March `cv.cls` design. The recovered source's accompanying PDF was byte-identical to `giseop_kim_cv_archival_v3.pdf` in the author's [Drive CV folder](https://drive.google.com/drive/folders/1_0XFI8jedwYIr4QIIQ17cvAXhwOPRSrd). Historical sources are available in Git history; the original external files were not changed.
 
 - Added the two accepted iSpaRo 2026 papers, **MarsLab** and **Simulation for Planetary Robotic Perception and Autonomy**. Both retain “accepted, to appear” because the conference is November 3–6, 2026.
 - Removed “to appear” from the IROS 2026 and ECCV 2026 papers after the listed conference dates. Added LT-Mem's IROS 2026 **Best Paper Award**.
@@ -24,5 +25,5 @@ Validation: XeLaTeX compilation with resolved page counts; all PDF fonts embedde
 
 ## Historical sources
 
-- **2026-03-25:** existing repository `main.tex`, `cv.cls`, and `ref.bib`, archived under `legacy/` at their original committed contents.
-- **2026-07-23:** recovered `giseop_kim_cv.tex`, preserved as `legacy/giseop_kim_cv_20260723.tex`. This is the design baseline for the current revision.
+- **2026-03-25:** original repository `main.tex`, `cv.cls`, and `ref.bib`, available at commit `8d8762413870dde628d96ff8b99b268a4a610c3c`.
+- **2026-07-23:** recovered `giseop_kim_cv.tex`, available in the migration commit `25abd06c2aa670b5dc46db1c6d97ea9737518651`. This is the design baseline for the current revision.

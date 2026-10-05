@@ -241,7 +241,6 @@ Review `main.pdf` and `README.md`, then commit them together with any source cha
 | [revision.tex](revision.tex) | Shared revision date |
 | [scripts/build.py](scripts/build.py) | PDF and Markdown generation |
 | [CHANGELOG.md](CHANGELOG.md) | Source provenance and update record |
-| [legacy/](legacy/) | Previous source snapshots, kept for reference |
 
 ## Sources & versions
 
@@ -249,6 +248,8 @@ The current update uses the author's supplied APRL publications and project reco
 
 | Version | Status / change |
 | --- | --- |
-| [March 25, 2026](legacy/main.tex) | Historical `cv.cls` / BibTeX source from the repository; no longer the active build |
-| [July 23, 2026](legacy/giseop_kim_cv_20260723.tex) | Recovered XeLaTeX design source, matching the author's [Drive CV archive](https://drive.google.com/drive/folders/1_0XFI8jedwYIr4QIIQ17cvAXhwOPRSrd) |
+| [March 25, 2026](https://github.com/gisbi-kim/cv-giseopkim/blob/8d8762413870dde628d96ff8b99b268a4a610c3c/main.tex) | Historical `cv.cls` / BibTeX source, available in Git history |
+| [July 23, 2026](https://github.com/gisbi-kim/cv-giseopkim/blob/25abd06c2aa670b5dc46db1c6d97ea9737518651/legacy/giseop_kim_cv_20260723.tex) | Recovered XeLaTeX design source in Git history, matching the author's [Drive CV archive](https://drive.google.com/drive/folders/1_0XFI8jedwYIr4QIIQ17cvAXhwOPRSrd) |
 | [Current source](main.tex) | July design with updated archival publications, funded projects, talks, awards, and service; synchronized PDF and README |
+
+Previous source snapshots are retained in Git history; the current tree contains only the active source and outputs.
