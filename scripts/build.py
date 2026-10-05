@@ -114,6 +114,30 @@ def body_md(source):
             if heading[1] == 'section':
                 current_section = heading[2]
             output.append('\n' + ('## ' if heading[1] == 'section' else '### ') + heading[2] + '\n')
+        elif line.startswith(r'\begin{fundedtable}'):
+            output.extend(['', '| Project / funding details | Role | Period |', '| --- | --- | --- |'])
+            while not lines[i].strip().startswith(r'\end{fundedtable}'):
+                row = lines[i].strip()
+                i += 1
+                if not row:
+                    continue
+                if not row.startswith(r'\fundrow'):
+                    raise ValueError('Expected a funded project row')
+                pos = len(r'\fundrow')
+                fields = []
+                for _ in range(6):
+                    value, pos = group(row, pos)
+                    fields.append(inline(value).replace('|', '&#124;'))
+                if row[pos:].strip():
+                    raise ValueError('Unexpected text after funding row')
+                name, role, period, sponsor, program, description = fields
+                details = f'**{name}**<br>**Sponsor:** {sponsor}'
+                if program:
+                    details += f'<br>**Program:** {program}'
+                details += '<br>' + description
+                output.append(f'| {details} | {role} | {period} |')
+            i += 1
+            output.append('')
         elif line.startswith((r'\begin{tabularx}', r'\begin{longtable}')):
             rows = []
             while not lines[i].strip().startswith((r'\end{tabularx}', r'\end{longtable}')):

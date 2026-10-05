@@ -2,6 +2,7 @@
 
 ## 2026-10-06
 
+- Replaced the funded-project bullet lists with tables separating project/funding details, role, and period. Kept every sponsor, program, title/topic/center, and all 8 ongoing plus 2 completed projects; PDF table headings repeat across pages and README uses matching Markdown tables.
 - Linked KAIST and Civil and Environmental Engineering to their official websites in all three education entries, in both PDF and README.
 - Linked the Ph.D. advisors' names to Ayoung Kim's RPM Robotics Lab and Youngchul Kim's KAIST Urban Design Lab in both PDF and README.
 - Standardized the CV author name as **Giseop KIM** in the title, page headers, publication author markers, PDF metadata, and generated README.
@@ -23,7 +24,7 @@ Sources: the author-supplied APRL publications, projects, and personal-site text
 
 The KIRIA title `지도에서 기억으로: 장기 자율주행을 위한 인지와 추론의 연결` is rendered in English as “From Maps to Memory: Bridging Perception and Reasoning for Long-Term Autonomous Navigation.” A missing space in the supplied KAIST title (“Gapfor”) is repaired. These are editorial presentation changes, not changes to the event or its date.
 
-Validation: XeLaTeX compilation with resolved page counts; all PDF fonts embedded; PDF text and every rendered page inspected; generated Markdown checked for publication numbering, section coverage, tables, and nested project lists.
+Validation: XeLaTeX compilation with resolved page counts; all PDF fonts embedded; PDF text and every rendered page inspected; generated Markdown checked for publication numbering, section coverage, and tables. Every original funded-project field is preserved in the table conversion.
 
 ## Historical sources
 

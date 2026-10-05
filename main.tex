@@ -7,6 +7,7 @@
 \usepackage[protrusion=false]{microtype}
 \usepackage{tabularx}
 \usepackage{longtable}
+\usepackage{booktabs}
 \usepackage{array}
 \usepackage{enumitem}
 \usepackage{titlesec}
@@ -56,6 +57,32 @@
 \newcommand{\corr}{\textsuperscript{\dag}}
 \newcommand{\first}{\textsuperscript{*}}
 
+
+% Funding tables preserve every project field and repeat headings across pages.
+\newenvironment{fundedtable}{%
+  \small
+  \begin{longtable}{@{}L{100mm}@{\hspace{5mm}}L{25mm}@{\hspace{5mm}}L{37mm}@{}}
+  \toprule
+  \textbf{Project / funding details} & \textbf{Role} & \textbf{Period} \\
+  \midrule
+  \endfirsthead
+  \toprule
+  \textbf{Project / funding details} & \textbf{Role} & \textbf{Period} \\
+  \midrule
+  \endhead
+  \bottomrule
+  \endfoot
+  \bottomrule
+  \endlastfoot
+}{\end{longtable}}
+\newcommand{\fundrow}[6]{%
+  \textbf{#1}\par
+  \textbf{Sponsor:} #4\par
+  \if\relax\detokenize{#5}\relax\else\textbf{Program:} #5\par\fi
+  #6 & #2 & #3 \\[5pt]
+  \midrule
+}
+
 \begin{document}
 
 \begin{minipage}[t]{0.63\textwidth}
@@ -102,69 +129,25 @@
 \end{tabularx}
 
 \section{Funded Research}
+{\small PI: Principal Investigator; Co-PI: Co-Principal Investigator; Participant: Participating Researcher.}
+
 \subsection{Ongoing Projects}
-\begin{itemize}[leftmargin=4.5mm,itemsep=4pt]
-\item \textbf{Robot Industry Technology Development Program} (Co-Principal Investigator)
-  \begin{itemize}[label=--,leftmargin=5mm,itemsep=0pt,topsep=1pt]
-  \item \textbf{Period:} Jul. 2026--Dec. 2029 \quad \textbf{Sponsor:} Ministry of Trade, Industry and Energy
-  \item \textbf{Program:} 2026 Robot Industry Technology Development Program (Core Robot Industry Technology Development)
-  \item \textbf{Title:} Spatial-RFM: Development of a VLM-based Spatial Intelligence Robot Foundation Model for Humanoid and Quadruped Robot Navigation in Unstructured Environments
-  \end{itemize}
-\item \textbf{AIMS: Memory-Augmented Spatial Intelligence} (Principal Investigator)
-  \begin{itemize}[label=--,leftmargin=5mm,itemsep=0pt,topsep=1pt]
-  \item \textbf{Period:} Mar. 2026--Feb. 2030 \quad \textbf{Sponsor:} Ministry of Science and ICT
-  \item \textbf{Program:} NRF Early-career Research Program (Type B), Basic Research Program 2026
-  \item \textbf{Title:} Memory-Augmented Spatial Intelligence for Heterogeneous Autonomous Mobility Systems Understanding and Interacting with Implicit Human Instructions
-  \end{itemize}
-\item \textbf{Industry Project 2026-1 (Confidential)} (Principal Investigator)
-  \begin{itemize}[label=--,leftmargin=5mm,itemsep=0pt,topsep=1pt]
-  \item \textbf{Period:} Apr. 2026--Mar. 2027 \quad \textbf{Sponsor:} Industry-funded
-  \item \textbf{Program:} Industry-academic technical service
-  \item \textbf{Title:} Mapping and Localization in Factory Environments
-  \end{itemize}
-\item \textbf{Basic Research Laboratory, Exploratory Type} (Co-Principal Investigator)
-  \begin{itemize}[label=--,leftmargin=5mm,itemsep=0pt,topsep=1pt]
-  \item \textbf{Period:} Jul. 2026--Jun. 2029 \quad \textbf{Sponsor:} Ministry of Science and ICT
-  \item \textbf{Program:} Basic Research Program, Basic Research Laboratory (Exploratory Type) 2026
-  \item \textbf{Topic:} Fundamental Study on Morphogenetic Cooperative Mobility Intelligence based on Physical Agentic AI
-  \end{itemize}
-\item \textbf{Glocal Lab} (Participating Researcher)
-  \begin{itemize}[label=--,leftmargin=5mm,itemsep=0pt,topsep=1pt]
-  \item \textbf{Period:} Sep. 2025--Aug. 2028 (+6 years) \quad \textbf{Sponsor:} Ministry of Education
-  \item \textbf{Program:} Glocal Lab Program, Academic Research Support Program for Science and Engineering 2025
-  \item \textbf{Center:} TransHuman Robotics Research Center, Robotics and Mechatronics Research Institute of DGIST
-  \end{itemize}
-\item \textbf{InnoCORE} (Participating Researcher)
-  \begin{itemize}[label=--,leftmargin=5mm,itemsep=0pt,topsep=1pt]
-  \item \textbf{Period:} Jul. 2025--Dec. 2027 (+3 years) \quad \textbf{Sponsor:} Ministry of Science and ICT
-  \item \textbf{Title:} DGIST Team on Bio-Embodied Physical AI
-  \end{itemize}
-\item \textbf{AI Star Fellowship} (Participating Researcher)
-  \begin{itemize}[label=--,leftmargin=5mm,itemsep=0pt,topsep=1pt]
-  \item \textbf{Period:} 2025--2030 \quad \textbf{Sponsor:} Ministry of Science and ICT
-  \item \textbf{Title:} Human-centered Symbiotic Embodied AI Systems
-  \end{itemize}
-\item \textbf{DGIST Start-up Research} (Principal Investigator)
-  \begin{itemize}[label=--,leftmargin=5mm,itemsep=0pt,topsep=1pt]
-  \item \textbf{Period:} Jan. 2025--Dec. 2028 \quad \textbf{Sponsor:} DGIST
-  \item \textbf{Title:} Self-evolving Robot-Web Navigation Intelligence
-  \end{itemize}
-\end{itemize}
+\begin{fundedtable}
+\fundrow{Robot Industry Technology Development Program}{Co-PI}{Jul. 2026--Dec. 2029}{Ministry of Trade, Industry and Energy}{2026 Robot Industry Technology Development Program (Core Robot Industry Technology Development)}{\textbf{Title:} Spatial-RFM: Development of a VLM-based Spatial Intelligence Robot Foundation Model for Humanoid and Quadruped Robot Navigation in Unstructured Environments}
+\fundrow{AIMS: Memory-Augmented Spatial Intelligence}{PI}{Mar. 2026--Feb. 2030}{Ministry of Science and ICT}{NRF Early-career Research Program (Type B), Basic Research Program 2026}{\textbf{Title:} Memory-Augmented Spatial Intelligence for Heterogeneous Autonomous Mobility Systems Understanding and Interacting with Implicit Human Instructions}
+\fundrow{Industry Project 2026-1 (Confidential)}{PI}{Apr. 2026--Mar. 2027}{Industry-funded}{Industry-academic technical service}{\textbf{Title:} Mapping and Localization in Factory Environments}
+\fundrow{Basic Research Laboratory, Exploratory Type}{Co-PI}{Jul. 2026--Jun. 2029}{Ministry of Science and ICT}{Basic Research Program, Basic Research Laboratory (Exploratory Type) 2026}{\textbf{Topic:} Fundamental Study on Morphogenetic Cooperative Mobility Intelligence based on Physical Agentic AI}
+\fundrow{Glocal Lab}{Participant}{Sep. 2025--Aug. 2028 (+6 years)}{Ministry of Education}{Glocal Lab Program, Academic Research Support Program for Science and Engineering 2025}{\textbf{Center:} TransHuman Robotics Research Center, Robotics and Mechatronics Research Institute of DGIST}
+\fundrow{InnoCORE}{Participant}{Jul. 2025--Dec. 2027 (+3 years)}{Ministry of Science and ICT}{}{\textbf{Title:} DGIST Team on Bio-Embodied Physical AI}
+\fundrow{AI Star Fellowship}{Participant}{2025--2030}{Ministry of Science and ICT}{}{\textbf{Title:} Human-centered Symbiotic Embodied AI Systems}
+\fundrow{DGIST Start-up Research}{PI}{Jan. 2025--Dec. 2028}{DGIST}{}{\textbf{Title:} Self-evolving Robot-Web Navigation Intelligence}
+\end{fundedtable}
 
 \subsection{Completed Projects}
-\begin{itemize}[leftmargin=4.5mm,itemsep=4pt]
-\item \textbf{P2P Autonomous Driving Platform} (Participating Researcher)
-  \begin{itemize}[label=--,leftmargin=5mm,itemsep=0pt,topsep=1pt]
-  \item \textbf{Period:} Sep. 2025--Mar. 2026 \quad \textbf{Sponsor:} Ministry of Trade, Industry and Energy
-  \item \textbf{Program:} Autonomous Driving Technology Development Innovation Program, Korea Evaluation Institute of Industrial Technology
-  \item \textbf{Title:} Development of a Level-4 Passenger-Van Autonomous Driving Platform for Point-to-Point Mobility in Designated Areas
-  \end{itemize}
-\item \textbf{N-HRHR} (Participating Researcher)
-  \begin{itemize}[label=--,leftmargin=5mm,itemsep=0pt,topsep=1pt]
-  \item \textbf{Period:} Jul.--Dec. 2025 \quad \textbf{Sponsor:} DGIST
-  \item \textbf{Title:} Exploring Human-Robot Collaborative Coexistence in the Era of Large-Scale Robots
-  \end{itemize}
-\end{itemize}
+\begin{fundedtable}
+\fundrow{P2P Autonomous Driving Platform}{Participant}{Sep. 2025--Mar. 2026}{Ministry of Trade, Industry and Energy}{Autonomous Driving Technology Development Innovation Program, Korea Evaluation Institute of Industrial Technology}{\textbf{Title:} Development of a Level-4 Passenger-Van Autonomous Driving Platform for Point-to-Point Mobility in Designated Areas}
+\fundrow{N-HRHR}{Participant}{Jul.--Dec. 2025}{DGIST}{}{\textbf{Title:} Exploring Human-Robot Collaborative Coexistence in the Era of Large-Scale Robots}
+\end{fundedtable}
 
 \section{Honors and Awards}
 \begin{tabularx}{\textwidth}{@{}L{34mm}Y@{}}

@@ -46,47 +46,27 @@ Autonomy and Perceptual Robotics Lab (APRL)
 
 ## Funded Research
 
+PI: Principal Investigator; Co-PI: Co-Principal Investigator; Participant: Participating Researcher.
+
 ### Ongoing Projects
 
-- **Robot Industry Technology Development Program** (Co-Principal Investigator)
-    - **Period:** Jul. 2026–Dec. 2029 **Sponsor:** Ministry of Trade, Industry and Energy
-    - **Program:** 2026 Robot Industry Technology Development Program (Core Robot Industry Technology Development)
-    - **Title:** Spatial-RFM: Development of a VLM-based Spatial Intelligence Robot Foundation Model for Humanoid and Quadruped Robot Navigation in Unstructured Environments
-- **AIMS: Memory-Augmented Spatial Intelligence** (Principal Investigator)
-    - **Period:** Mar. 2026–Feb. 2030 **Sponsor:** Ministry of Science and ICT
-    - **Program:** NRF Early-career Research Program (Type B), Basic Research Program 2026
-    - **Title:** Memory-Augmented Spatial Intelligence for Heterogeneous Autonomous Mobility Systems Understanding and Interacting with Implicit Human Instructions
-- **Industry Project 2026-1 (Confidential)** (Principal Investigator)
-    - **Period:** Apr. 2026–Mar. 2027 **Sponsor:** Industry-funded
-    - **Program:** Industry-academic technical service
-    - **Title:** Mapping and Localization in Factory Environments
-- **Basic Research Laboratory, Exploratory Type** (Co-Principal Investigator)
-    - **Period:** Jul. 2026–Jun. 2029 **Sponsor:** Ministry of Science and ICT
-    - **Program:** Basic Research Program, Basic Research Laboratory (Exploratory Type) 2026
-    - **Topic:** Fundamental Study on Morphogenetic Cooperative Mobility Intelligence based on Physical Agentic AI
-- **Glocal Lab** (Participating Researcher)
-    - **Period:** Sep. 2025–Aug. 2028 (+6 years) **Sponsor:** Ministry of Education
-    - **Program:** Glocal Lab Program, Academic Research Support Program for Science and Engineering 2025
-    - **Center:** TransHuman Robotics Research Center, Robotics and Mechatronics Research Institute of DGIST
-- **InnoCORE** (Participating Researcher)
-    - **Period:** Jul. 2025–Dec. 2027 (+3 years) **Sponsor:** Ministry of Science and ICT
-    - **Title:** DGIST Team on Bio-Embodied Physical AI
-- **AI Star Fellowship** (Participating Researcher)
-    - **Period:** 2025–2030 **Sponsor:** Ministry of Science and ICT
-    - **Title:** Human-centered Symbiotic Embodied AI Systems
-- **DGIST Start-up Research** (Principal Investigator)
-    - **Period:** Jan. 2025–Dec. 2028 **Sponsor:** DGIST
-    - **Title:** Self-evolving Robot-Web Navigation Intelligence
+| Project / funding details | Role | Period |
+| --- | --- | --- |
+| **Robot Industry Technology Development Program**<br>**Sponsor:** Ministry of Trade, Industry and Energy<br>**Program:** 2026 Robot Industry Technology Development Program (Core Robot Industry Technology Development)<br>**Title:** Spatial-RFM: Development of a VLM-based Spatial Intelligence Robot Foundation Model for Humanoid and Quadruped Robot Navigation in Unstructured Environments | Co-PI | Jul. 2026–Dec. 2029 |
+| **AIMS: Memory-Augmented Spatial Intelligence**<br>**Sponsor:** Ministry of Science and ICT<br>**Program:** NRF Early-career Research Program (Type B), Basic Research Program 2026<br>**Title:** Memory-Augmented Spatial Intelligence for Heterogeneous Autonomous Mobility Systems Understanding and Interacting with Implicit Human Instructions | PI | Mar. 2026–Feb. 2030 |
+| **Industry Project 2026-1 (Confidential)**<br>**Sponsor:** Industry-funded<br>**Program:** Industry-academic technical service<br>**Title:** Mapping and Localization in Factory Environments | PI | Apr. 2026–Mar. 2027 |
+| **Basic Research Laboratory, Exploratory Type**<br>**Sponsor:** Ministry of Science and ICT<br>**Program:** Basic Research Program, Basic Research Laboratory (Exploratory Type) 2026<br>**Topic:** Fundamental Study on Morphogenetic Cooperative Mobility Intelligence based on Physical Agentic AI | Co-PI | Jul. 2026–Jun. 2029 |
+| **Glocal Lab**<br>**Sponsor:** Ministry of Education<br>**Program:** Glocal Lab Program, Academic Research Support Program for Science and Engineering 2025<br>**Center:** TransHuman Robotics Research Center, Robotics and Mechatronics Research Institute of DGIST | Participant | Sep. 2025–Aug. 2028 (+6 years) |
+| **InnoCORE**<br>**Sponsor:** Ministry of Science and ICT<br>**Title:** DGIST Team on Bio-Embodied Physical AI | Participant | Jul. 2025–Dec. 2027 (+3 years) |
+| **AI Star Fellowship**<br>**Sponsor:** Ministry of Science and ICT<br>**Title:** Human-centered Symbiotic Embodied AI Systems | Participant | 2025–2030 |
+| **DGIST Start-up Research**<br>**Sponsor:** DGIST<br>**Title:** Self-evolving Robot-Web Navigation Intelligence | PI | Jan. 2025–Dec. 2028 |
 
 ### Completed Projects
 
-- **P2P Autonomous Driving Platform** (Participating Researcher)
-    - **Period:** Sep. 2025–Mar. 2026 **Sponsor:** Ministry of Trade, Industry and Energy
-    - **Program:** Autonomous Driving Technology Development Innovation Program, Korea Evaluation Institute of Industrial Technology
-    - **Title:** Development of a Level-4 Passenger-Van Autonomous Driving Platform for Point-to-Point Mobility in Designated Areas
-- **N-HRHR** (Participating Researcher)
-    - **Period:** Jul.–Dec. 2025 **Sponsor:** DGIST
-    - **Title:** Exploring Human-Robot Collaborative Coexistence in the Era of Large-Scale Robots
+| Project / funding details | Role | Period |
+| --- | --- | --- |
+| **P2P Autonomous Driving Platform**<br>**Sponsor:** Ministry of Trade, Industry and Energy<br>**Program:** Autonomous Driving Technology Development Innovation Program, Korea Evaluation Institute of Industrial Technology<br>**Title:** Development of a Level-4 Passenger-Van Autonomous Driving Platform for Point-to-Point Mobility in Designated Areas | Participant | Sep. 2025–Mar. 2026 |
+| **N-HRHR**<br>**Sponsor:** DGIST<br>**Title:** Exploring Human-Robot Collaborative Coexistence in the Era of Large-Scale Robots | Participant | Jul.–Dec. 2025 |
 
 ## Honors and Awards
 
