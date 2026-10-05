@@ -59,7 +59,7 @@ def verify(snapshot, tex):
     advising = tex.split(r'\section{Graduate Student Advising}', 1)[1].split(r'\end{tabularx}', 1)[0]
     actual = {}
     for line in advising.splitlines():
-        match = re.match(r'\\textbf\{(?:\\href\{[^}]+\}\{([^}]+)\}|([^}]+))\}\s*&\s*([^&]+)&\s*(.*?)\s*\\\\', line)
+        match = re.match(r'\\talkbadge\{DGIST\}\s*&\s*\\textbf\{(?:\\href\{[^}]+\}\{([^}]+)\}|([^}]+))\}\s*&\s*([^&]+)&\s*(.*?)\s*\\\\', line)
         if match:
             name = match[1] or match[2]
             actual[name] = (match[3].strip(), match[4].strip())

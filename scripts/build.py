@@ -62,6 +62,9 @@ def inline(text):
             value, pos = group(text, pos)
             value = inline(value)
             out.append(f'**{value}**' if cmd in ('textbf', 'legendmark') else f'<sup>{value}</sup>' if cmd == 'textsuperscript' else f'*{value}*')
+        elif cmd == 'talkbadge':
+            value, pos = group(text, pos)
+            out.append('🏫 **' + inline(value) + '**')
         elif cmd == 'href':
             url, pos = group(text, pos)
             label, pos = group(text, pos)
@@ -196,6 +199,8 @@ def body_md(source):
                 headers = ['Notation', 'Meaning']
             elif current_section == 'Teaching':
                 headers = ['Institution', 'Term', 'Code', 'Course']
+            elif current_section == 'Graduate Student Advising':
+                headers = ['Institution', 'Name', 'Degree', 'Period']
             output.append('| ' + ' | '.join(headers) + ' |')
             output.append('| ' + ' | '.join('---' for _ in headers) + ' |')
             output.extend('| ' + ' | '.join(value.replace('|', '&#124;') for value in row) + ' |' for row in rows)

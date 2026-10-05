@@ -130,15 +130,15 @@ Leader/Director, [Autonomy and Perceptual Robotics Lab (APRL)](https://aprl.dgis
 
 ## Graduate Student Advising
 
-| Name | Degree | Period |
-| --- | --- | --- |
-| **[Bokeon Suh](https://scholar.google.com/citations?user=ZawXymQAAAAJ&hl=en)** | Integrated M.S./Ph.D. | Fall 2025–present |
-| **[Jiseon Kim](https://scholar.google.com/citations?user=KK3SC5sAAAAJ&hl=en)** | M.S. | Fall 2025–present |
-| **[Yumin Lee](https://scholar.google.com/citations?user=ekS5bSIAAAAJ&hl=en)** | M.S. | Fall 2025–present |
-| **[Hyoseok Ju](https://scholar.google.com/citations?hl=en&user=aYXHS9oAAAAJ&view_op=list_works)** | Integrated M.S./Ph.D. | Fall 2025–present |
-| **[Doyeon Kim](https://scholar.google.com/citations?user=W9zGnr0AAAAJ&hl=en)** | Ph.D. | Spring 2026–present |
-| **Beomsu Kim** | M.S. | Spring 2026–present |
-| **[Hoyun Kim](https://scholar.google.com/citations?hl=ko&user=xyJ_O5AAAAAJ)** | M.S. | Spring 2026–present |
+| Institution | Name | Degree | Period |
+| --- | --- | --- | --- |
+| 🏫 **DGIST** | **[Bokeon Suh](https://scholar.google.com/citations?user=ZawXymQAAAAJ&hl=en)** | Integrated M.S./Ph.D. | Fall 2025–present |
+| 🏫 **DGIST** | **[Jiseon Kim](https://scholar.google.com/citations?user=KK3SC5sAAAAJ&hl=en)** | M.S. | Fall 2025–present |
+| 🏫 **DGIST** | **[Yumin Lee](https://scholar.google.com/citations?user=ekS5bSIAAAAJ&hl=en)** | M.S. | Fall 2025–present |
+| 🏫 **DGIST** | **[Hyoseok Ju](https://scholar.google.com/citations?hl=en&user=aYXHS9oAAAAJ&view_op=list_works)** | Integrated M.S./Ph.D. | Fall 2025–present |
+| 🏫 **DGIST** | **[Doyeon Kim](https://scholar.google.com/citations?user=W9zGnr0AAAAJ&hl=en)** | Ph.D. | Spring 2026–present |
+| 🏫 **DGIST** | **Beomsu Kim** | M.S. | Spring 2026–present |
+| 🏫 **DGIST** | **[Hoyun Kim](https://scholar.google.com/citations?hl=ko&user=xyJ_O5AAAAAJ)** | M.S. | Spring 2026–present |
 
 ## Teaching
 
