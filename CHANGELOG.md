@@ -2,6 +2,7 @@
 
 ## 2026-10-06
 
+- Expanded abbreviated publication venues to full conference names, added journal abbreviations (RA-L, T-RO, IJRR, Transactions of KSAE), and expanded the two abbreviated KRoC talk entries in PDF and README.
 - Added Notation/Meaning headers and horizontal rules to the publication legend, indented 8 mm in PDF; retained the corresponding five-row README table.
 - Linked the IROS 2026 Best Paper Award text in Honors and Awards and the LT-Mem publication entry to the APRL award-photo gallery in PDF and README.
 - Indented funded-project tables by 8 mm beneath their subsection headings, narrowing the project-details column to keep the right edge aligned with the text margin.
