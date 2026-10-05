@@ -2,6 +2,7 @@
 
 ## 2026-10-06
 
+- Linked NAVER LABS in the professional experience entry to its official website in PDF and README.
 - Changed the lab leadership title from Director to Leader/Director.
 - Simplified the title below the author's name to Assistant Professor in PDF and README.
 - Set clickable PDF links to dark blue (#1D4E89) so they are visually distinct from body text.
