@@ -2,6 +2,7 @@
 
 ## 2026-10-06
 
+- Grouped all 23 invited talks and tutorials using the personal website's Conference, University, Research Institute, Industry, and Public Sector categories. Each category retains reverse chronological order; README category headings include icons.
 - Reformatted publication notation as a five-row legend in PDF and README, with each symbol or label beside its explanation.
 - Linked the ICRA 2027 Workshops & Tutorials Committee role to the corresponding section of the official committee page in both PDF and README.
 - Replaced the funded-project bullet lists with tables separating project/funding details, role, and period. Kept every sponsor, program, title/topic/center, and all 8 ongoing plus 2 completed projects; PDF table headings repeat across pages and README uses matching Markdown tables.

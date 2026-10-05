@@ -114,11 +114,15 @@ def body_md(source):
         i += 1
         if not line:
             continue
-        heading = re.match(r'\\(section|subsection)\{([^}]+)\}', line)
+        heading = re.match(r'\\(section|subsection|talkcategory)\{([^}]+)\}', line)
         if heading:
             if heading[1] == 'section':
                 current_section = heading[2]
-            output.append('\n' + ('## ' if heading[1] == 'section' else '### ') + heading[2] + '\n')
+            label = heading[2]
+            if heading[1] != 'section' and current_section == 'Invited Talks and Tutorials':
+                icons = {'Conference': '🎤', 'University': '🎓', 'Research Institute': '🔬', 'Industry': '🏭', 'Public Sector': '🏛️'}
+                label = icons[label] + ' ' + label
+            output.append('\n' + ('## ' if heading[1] == 'section' else '### ') + label + '\n')
         elif line.startswith(r'\begin{fundedtable}'):
             output.extend(['', '| Project / funding details | Role | Period |', '| --- | --- | --- |'])
             while not lines[i].strip().startswith(r'\end{fundedtable}'):
@@ -143,9 +147,9 @@ def body_md(source):
                 output.append(f'| {details} | {role} | {period} |')
             i += 1
             output.append('')
-        elif line.startswith((r'\begin{tabularx}', r'\begin{longtable}')):
+        elif line.startswith((r'\begin{tabularx}', r'\begin{longtable}', r'\begin{talktable}')):
             rows = []
-            while not lines[i].strip().startswith((r'\end{tabularx}', r'\end{longtable}')):
+            while not lines[i].strip().startswith((r'\end{tabularx}', r'\end{longtable}', r'\end{talktable}')):
                 row = lines[i].strip()
                 i += 1
                 if not row:

@@ -16,6 +16,7 @@
 \usepackage{xurl}
 \usepackage{ragged2e}
 \usepackage{lastpage}
+\usepackage{needspace}
 
 \IfFontExistsTF{Bitstream Charter}{\setmainfont{Bitstream Charter}}{\setmainfont{Charter}}
 \setsansfont{DejaVu Sans}
@@ -56,6 +57,14 @@
 \newcommand{\me}{\textbf{Giseop KIM}}
 \newcommand{\corr}{\textsuperscript{\dag}}
 \newcommand{\first}{\textsuperscript{*}}
+\newcommand{\talkcategory}[1]{\titlespacing*{\subsection}{0pt}{4pt}{1pt}\Needspace{5\baselineskip}\subsection{#1}}
+\newenvironment{talktable}{%
+  \small
+  \renewcommand{\daterow}[2]{##1 & ##2 \\[0.4pt]}%
+  \setlength{\LTpre}{2pt}%
+  \setlength{\LTpost}{2pt}%
+  \begin{longtable}{@{}L{32mm}L{135mm}@{}}
+}{\end{longtable}}
 
 
 % Funding tables preserve every project field and repeat headings across pages.
@@ -229,31 +238,48 @@
 \end{enumerate}
 
 \section{Invited Talks and Tutorials}
-\begin{longtable}{@{}L{32mm}L{135mm}@{}}
+\talkcategory{Conference}
+\begin{talktable}
 \daterow{Sep. 27, 2026}{``From Maps to Memory: Bridging the Perception--Reasoning Gap for Long-Term Robot Navigation,'' Workshop on Bridging Navigation, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026).}
-\daterow{Sep. 4, 2026}{``Lidar Inertial SLAM for Spaceship Docking,'' Invited Seminar, Korea Aerospace Research Institute (KARI).}
-\daterow{Aug. 19, 2026}{``From Maps to Memory: Bridging Perception and Reasoning for Long-Term Autonomous Navigation,'' Invited Seminar, Korea Institute for Robot Industry Advancement (KIRIA), Seoul.}
-\daterow{Jul. 30, 2026}{``Geometric 3D Vision Made Easy? -- The DUSt3R Family and Its Evolution,'' Invited Seminar, Electronics and Telecommunications Research Institute (ETRI), Daegu-Gyeongbuk Regional Research Division.}
-\daterow{Jul. 24, 2026}{``Bridging the Perception--Reasoning Gap for Long-Term Robot Navigation (Feat. the Research Journey),'' Invited Talk, Korea Advanced Institute of Science and Technology (KAIST).}
 \daterow{Jul. 3, 2026}{``Visual Language Multi-robot SLAM,'' Early-career Researcher Award Session, 41st Annual Conference of the Institute of Control, Robotics and Systems (ICROS 2026), Daegu.}
-\daterow{Jun. 2, 2026}{``What, When, and Why Visual-Language Navigation?,'' Private Meetup at the IEEE International Conference on Robotics and Automation (ICRA 2026), URobotics.}
-\daterow{May 28, 2026}{``3D Perception, Language, and AI for Human-Robot Interactive Navigation,'' Ewha Womans University.}
-\daterow{Apr. 2, 2026}{``Memory-Augmented Spatial Intelligence for Autonomous Robot Navigation,'' Hanyang University ERICA.}
-\daterow{Mar. 24, 2026}{``Memory-Augmented Spatial Intelligence for Autonomous Robot Navigation,'' ETRI Daegu-Gyeongbuk Regional Research Division.}
 \daterow{Feb. 6, 2026}{``IMU Basics and Inertial Aided Navigation,'' Spatial AI Tutorial Organizer and Speaker, Korea Robotics Society Annual Conference (KRoC 2026), Pyeongchang.}
 \daterow{Feb. 5, 2026}{``Memory-Augmented Spatial Intelligence for Autonomous Robot Navigation,'' Early-career Researcher Award Session, KRoC 2026, Pyeongchang.}
 \daterow{Feb. 5, 2026}{``CoT, Scene Graphs, and Recent Paradigms for Mobile Robot Navigation: A Short Survey and Real-World Lessons,'' Special Session on AI-based Autonomous Systems, KRoC 2026, Pyeongchang.}
-\daterow{Feb. 2, 2026}{``Daegu's Innovation, Moving Towards a Robot and Future Mobility City,'' Dalseo-gu Office Monthly Meeting Special Lecture, Daegu.}
 \daterow{Jan. 19, 2026}{``An Invitation to 3D Vision, Spatial AI, and Physical AI,'' Invited Tutorial, International Conference on Electronics, Information, and Communication (ICEIC 2026), Macau.}
-\daterow{Dec. 10, 2025}{``SLAM, Spatial AI, and Human-Robot Interactive Navigation,'' Department of Intelligent Robotics, Sungkyunkwan University, Suwon.}
-\daterow{Dec. 9, 2025}{``Robotics and Spatial AI for Construction,'' Department of Civil and Environmental Engineering, KAIST, Daejeon.}
-\daterow{Dec. 8, 2025}{``SLAM, Spatial AI, and Human-Robot Interactive Navigation,'' Department of Industrial Machinery DX, Korea Institute of Machinery and Materials, Daejeon.}
 \daterow{Oct. 30, 2025}{``Physical AI for Smart Factory: Humanoid, Sensing, and Spatial Intelligence,'' Fall Conference of the Korean Fiber Society, Busan.}
 \daterow{Aug. 15, 2025}{``Generative AI for Mobile Robot Navigation,'' AI Robotics KR Conference: Human and AI Robotics Together, Seoul.}
 \daterow{Jul. 18, 2025}{``Generative AI for Mobile Robot Navigation,'' Joint Summer School on Image Understanding and Image Processing, Institute of Electronics and Information Engineers, Seoul.}
-\daterow{Jun. 13, 2025}{``Lessons from Translating Research into Products and Services,'' SLAM and Perception Seminar, Hyundai Motor Company Uiwang Research Institute.}
+\end{talktable}
+
+\talkcategory{University}
+\begin{talktable}
+\daterow{Jul. 24, 2026}{``Bridging the Perception--Reasoning Gap for Long-Term Robot Navigation (Feat. the Research Journey),'' Invited Talk, Korea Advanced Institute of Science and Technology (KAIST).}
+\daterow{May 28, 2026}{``3D Perception, Language, and AI for Human-Robot Interactive Navigation,'' Ewha Womans University.}
+\daterow{Apr. 2, 2026}{``Memory-Augmented Spatial Intelligence for Autonomous Robot Navigation,'' Hanyang University ERICA.}
+\daterow{Dec. 10, 2025}{``SLAM, Spatial AI, and Human-Robot Interactive Navigation,'' Department of Intelligent Robotics, Sungkyunkwan University, Suwon.}
+\daterow{Dec. 9, 2025}{``Robotics and Spatial AI for Construction,'' Department of Civil and Environmental Engineering, KAIST, Daejeon.}
+\end{talktable}
+
+\talkcategory{Research Institute}
+\begin{talktable}
+\daterow{Sep. 4, 2026}{``Lidar Inertial SLAM for Spaceship Docking,'' Invited Seminar, Korea Aerospace Research Institute (KARI).}
+\daterow{Aug. 19, 2026}{``From Maps to Memory: Bridging Perception and Reasoning for Long-Term Autonomous Navigation,'' Invited Seminar, Korea Institute for Robot Industry Advancement (KIRIA), Seoul.}
+\daterow{Jul. 30, 2026}{``Geometric 3D Vision Made Easy? -- The DUSt3R Family and Its Evolution,'' Invited Seminar, Electronics and Telecommunications Research Institute (ETRI), Daegu-Gyeongbuk Regional Research Division.}
+\daterow{Mar. 24, 2026}{``Memory-Augmented Spatial Intelligence for Autonomous Robot Navigation,'' ETRI Daegu-Gyeongbuk Regional Research Division.}
+\daterow{Dec. 8, 2025}{``SLAM, Spatial AI, and Human-Robot Interactive Navigation,'' Department of Industrial Machinery DX, Korea Institute of Machinery and Materials, Daejeon.}
 \daterow{May 28, 2025}{``Spatial AI, from the 2000s to 2025: The Evolution of Spatial Intelligence and the Future of Robotics,'' ETRI Daegu-Gyeongbuk Regional Research Division Mid- to Long-term Research Roadmap Meeting, Daegu.}
-\end{longtable}
+\end{talktable}
+
+\talkcategory{Industry}
+\begin{talktable}
+\daterow{Jun. 2, 2026}{``What, When, and Why Visual-Language Navigation?,'' Private Meetup at the IEEE International Conference on Robotics and Automation (ICRA 2026), URobotics.}
+\daterow{Jun. 13, 2025}{``Lessons from Translating Research into Products and Services,'' SLAM and Perception Seminar, Hyundai Motor Company Uiwang Research Institute.}
+\end{talktable}
+
+\talkcategory{Public Sector}
+\begin{talktable}
+\daterow{Feb. 2, 2026}{``Daegu's Innovation, Moving Towards a Robot and Future Mobility City,'' Dalseo-gu Office Monthly Meeting Special Lecture, Daegu.}
+\end{talktable}
 
 \section{Graduate Student Advising}
 \begin{tabularx}{\textwidth}{@{}L{34mm}L{40mm}Y@{}}

@@ -147,31 +147,53 @@ PI: Principal Investigator; Co-PI: Co-Principal Investigator; Participant: Parti
 
 ## Invited Talks and Tutorials
 
+### 🎤 Conference
+
 | Date / period | Details |
 | --- | --- |
 | Sep. 27, 2026 | “From Maps to Memory: Bridging the Perception–Reasoning Gap for Long-Term Robot Navigation,” Workshop on Bridging Navigation, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026). |
-| Sep. 4, 2026 | “Lidar Inertial SLAM for Spaceship Docking,” Invited Seminar, Korea Aerospace Research Institute (KARI). |
-| Aug. 19, 2026 | “From Maps to Memory: Bridging Perception and Reasoning for Long-Term Autonomous Navigation,” Invited Seminar, Korea Institute for Robot Industry Advancement (KIRIA), Seoul. |
-| Jul. 30, 2026 | “Geometric 3D Vision Made Easy? – The DUSt3R Family and Its Evolution,” Invited Seminar, Electronics and Telecommunications Research Institute (ETRI), Daegu-Gyeongbuk Regional Research Division. |
-| Jul. 24, 2026 | “Bridging the Perception–Reasoning Gap for Long-Term Robot Navigation (Feat. the Research Journey),” Invited Talk, Korea Advanced Institute of Science and Technology (KAIST). |
 | Jul. 3, 2026 | “Visual Language Multi-robot SLAM,” Early-career Researcher Award Session, 41st Annual Conference of the Institute of Control, Robotics and Systems (ICROS 2026), Daegu. |
-| Jun. 2, 2026 | “What, When, and Why Visual-Language Navigation?,” Private Meetup at the IEEE International Conference on Robotics and Automation (ICRA 2026), URobotics. |
-| May 28, 2026 | “3D Perception, Language, and AI for Human-Robot Interactive Navigation,” Ewha Womans University. |
-| Apr. 2, 2026 | “Memory-Augmented Spatial Intelligence for Autonomous Robot Navigation,” Hanyang University ERICA. |
-| Mar. 24, 2026 | “Memory-Augmented Spatial Intelligence for Autonomous Robot Navigation,” ETRI Daegu-Gyeongbuk Regional Research Division. |
 | Feb. 6, 2026 | “IMU Basics and Inertial Aided Navigation,” Spatial AI Tutorial Organizer and Speaker, Korea Robotics Society Annual Conference (KRoC 2026), Pyeongchang. |
 | Feb. 5, 2026 | “Memory-Augmented Spatial Intelligence for Autonomous Robot Navigation,” Early-career Researcher Award Session, KRoC 2026, Pyeongchang. |
 | Feb. 5, 2026 | “CoT, Scene Graphs, and Recent Paradigms for Mobile Robot Navigation: A Short Survey and Real-World Lessons,” Special Session on AI-based Autonomous Systems, KRoC 2026, Pyeongchang. |
-| Feb. 2, 2026 | “Daegu's Innovation, Moving Towards a Robot and Future Mobility City,” Dalseo-gu Office Monthly Meeting Special Lecture, Daegu. |
 | Jan. 19, 2026 | “An Invitation to 3D Vision, Spatial AI, and Physical AI,” Invited Tutorial, International Conference on Electronics, Information, and Communication (ICEIC 2026), Macau. |
-| Dec. 10, 2025 | “SLAM, Spatial AI, and Human-Robot Interactive Navigation,” Department of Intelligent Robotics, Sungkyunkwan University, Suwon. |
-| Dec. 9, 2025 | “Robotics and Spatial AI for Construction,” Department of Civil and Environmental Engineering, KAIST, Daejeon. |
-| Dec. 8, 2025 | “SLAM, Spatial AI, and Human-Robot Interactive Navigation,” Department of Industrial Machinery DX, Korea Institute of Machinery and Materials, Daejeon. |
 | Oct. 30, 2025 | “Physical AI for Smart Factory: Humanoid, Sensing, and Spatial Intelligence,” Fall Conference of the Korean Fiber Society, Busan. |
 | Aug. 15, 2025 | “Generative AI for Mobile Robot Navigation,” AI Robotics KR Conference: Human and AI Robotics Together, Seoul. |
 | Jul. 18, 2025 | “Generative AI for Mobile Robot Navigation,” Joint Summer School on Image Understanding and Image Processing, Institute of Electronics and Information Engineers, Seoul. |
-| Jun. 13, 2025 | “Lessons from Translating Research into Products and Services,” SLAM and Perception Seminar, Hyundai Motor Company Uiwang Research Institute. |
+
+### 🎓 University
+
+| Date / period | Details |
+| --- | --- |
+| Jul. 24, 2026 | “Bridging the Perception–Reasoning Gap for Long-Term Robot Navigation (Feat. the Research Journey),” Invited Talk, Korea Advanced Institute of Science and Technology (KAIST). |
+| May 28, 2026 | “3D Perception, Language, and AI for Human-Robot Interactive Navigation,” Ewha Womans University. |
+| Apr. 2, 2026 | “Memory-Augmented Spatial Intelligence for Autonomous Robot Navigation,” Hanyang University ERICA. |
+| Dec. 10, 2025 | “SLAM, Spatial AI, and Human-Robot Interactive Navigation,” Department of Intelligent Robotics, Sungkyunkwan University, Suwon. |
+| Dec. 9, 2025 | “Robotics and Spatial AI for Construction,” Department of Civil and Environmental Engineering, KAIST, Daejeon. |
+
+### 🔬 Research Institute
+
+| Date / period | Details |
+| --- | --- |
+| Sep. 4, 2026 | “Lidar Inertial SLAM for Spaceship Docking,” Invited Seminar, Korea Aerospace Research Institute (KARI). |
+| Aug. 19, 2026 | “From Maps to Memory: Bridging Perception and Reasoning for Long-Term Autonomous Navigation,” Invited Seminar, Korea Institute for Robot Industry Advancement (KIRIA), Seoul. |
+| Jul. 30, 2026 | “Geometric 3D Vision Made Easy? – The DUSt3R Family and Its Evolution,” Invited Seminar, Electronics and Telecommunications Research Institute (ETRI), Daegu-Gyeongbuk Regional Research Division. |
+| Mar. 24, 2026 | “Memory-Augmented Spatial Intelligence for Autonomous Robot Navigation,” ETRI Daegu-Gyeongbuk Regional Research Division. |
+| Dec. 8, 2025 | “SLAM, Spatial AI, and Human-Robot Interactive Navigation,” Department of Industrial Machinery DX, Korea Institute of Machinery and Materials, Daejeon. |
 | May 28, 2025 | “Spatial AI, from the 2000s to 2025: The Evolution of Spatial Intelligence and the Future of Robotics,” ETRI Daegu-Gyeongbuk Regional Research Division Mid- to Long-term Research Roadmap Meeting, Daegu. |
+
+### 🏭 Industry
+
+| Date / period | Details |
+| --- | --- |
+| Jun. 2, 2026 | “What, When, and Why Visual-Language Navigation?,” Private Meetup at the IEEE International Conference on Robotics and Automation (ICRA 2026), URobotics. |
+| Jun. 13, 2025 | “Lessons from Translating Research into Products and Services,” SLAM and Perception Seminar, Hyundai Motor Company Uiwang Research Institute. |
+
+### 🏛️ Public Sector
+
+| Date / period | Details |
+| --- | --- |
+| Feb. 2, 2026 | “Daegu's Innovation, Moving Towards a Robot and Future Mobility City,” Dalseo-gu Office Monthly Meeting Special Lecture, Daegu. |
 
 ## Graduate Student Advising
 
