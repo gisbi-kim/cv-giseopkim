@@ -2,6 +2,7 @@
 
 ## 2026-10-06
 
+- Renamed Funded Research to Funded Projects in PDF, README, and the README table of contents.
 - Linked MECH307 (Introduction to Artificial Intelligence) and RT604 (Advanced Mobile System) course titles to the author-supplied public lecture repositories in PDF and README.
 - Added International/Domestic badges to all 23 talks within the existing host categories, shown below each date. IROS 2026, the ICRA 2026 URobotics meetup, and ICEIC 2026 use International; the other 20 use Domestic based on event/host context. Presentation language is not recorded in the source, so these badges do not verify English/Korean delivery.
 - Linked 29 publication titles to the Paper/Book URLs published on the [APRL publications page](https://team-aprl.github.io/publications.html), including arXiv, public PDFs, publisher pages, and the SLAM Handbook repository. The two domestic conference entries without public paper links remain unlinked. All identifiers, titles, author lists, and publication status are retained.

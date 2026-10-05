@@ -13,7 +13,7 @@ Leader/Director, [Autonomy and Perceptual Robotics Lab (APRL)](https://aprl.dgis
 >
 > PDF and Markdown share one source and revision date. Publications include journal articles, regular conference papers, book chapters, and archival domestic papers. Preprints and non-archival papers are excluded; workshop awards and organizing roles remain in their respective sections.
 
-[Academic Appointments and Professional Experience](#academic-appointments-and-professional-experience) · [Education](#education) · [Research Directions](#research-directions) · [Funded Research](#funded-research) · [Honors and Awards](#honors-and-awards) · [Academic Leadership and Service](#academic-leadership-and-service) · [Publications](#publications) · [Invited Talks and Tutorials](#invited-talks-and-tutorials) · [Graduate Student Advising](#graduate-student-advising) · [Teaching at DGIST](#teaching-at-dgist) · [Research Group](#research-group)
+[Academic Appointments and Professional Experience](#academic-appointments-and-professional-experience) · [Education](#education) · [Research Directions](#research-directions) · [Funded Projects](#funded-projects) · [Honors and Awards](#honors-and-awards) · [Academic Leadership and Service](#academic-leadership-and-service) · [Publications](#publications) · [Invited Talks and Tutorials](#invited-talks-and-tutorials) · [Graduate Student Advising](#graduate-student-advising) · [Teaching at DGIST](#teaching-at-dgist) · [Research Group](#research-group)
 
 ---
 
@@ -44,7 +44,7 @@ Leader/Director, [Autonomy and Perceptual Robotics Lab (APRL)](https://aprl.dgis
 | **Spatial intelligence for navigation** | SLAM 2.0 for the Robot Web era; neural map representations; human-robot interactive visual-language navigation; long-term and multi-robot autonomy. |
 | **Embodied reasoning and world models** | Reasoning for robots; generative AI for mobile robot navigation; memory-augmented spatial intelligence; robot world models. |
 
-## Funded Research
+## Funded Projects
 
 PI: Principal Investigator; Co-PI: Co-Principal Investigator; Participant: Participating Researcher.
 
