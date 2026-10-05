@@ -2,6 +2,7 @@
 
 ## 2026-10-06
 
+- Linked the lab name in the Leader/Director line to the APRL homepage in PDF and README.
 - Linked NAVER LABS in the professional experience entry to its official website in PDF and README.
 - Changed the lab leadership title from Director to Leader/Director.
 - Simplified the title below the author's name to Assistant Professor in PDF and README.
