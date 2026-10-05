@@ -2,6 +2,7 @@
 
 ## 2026-10-06
 
+- Linked six graduate advisees' names to their Google Scholar profiles listed on the public APRL team page. Beomsu Kim has no published Scholar URL there and remains unlinked. Updated the roster check to accept linked names without changing degree or start-term verification.
 - Redesigned the publication legend as an indented pale-blue panel with a compact title band, larger colored symbols, and more row spacing. README retains the matching five-row notation table.
 - Verified the current group summary against the public APRL team page: one postdoc, one Ph.D. student, two integrated M.S./Ph.D. students, and four M.S. students (8 full-time members excluding the PI). Excluded 2027 incoming/prospective placeholders and open positions. Added dated roster evidence, a consistency/live verification script, repository instructions, and a CV verification skill; the existing CV counts remain correct.
 - Linked six talk titles to the public materials listed on the personal website: IROS 2026 web slides, ICROS 2026 slides, three KRoC 2026 slide decks, and ICEIC 2026 slides. PDF and README retain the source URLs.

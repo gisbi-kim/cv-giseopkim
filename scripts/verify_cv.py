@@ -57,8 +57,12 @@ def verify(snapshot, tex):
     if expected not in summary:
         raise ValueError('CV group summary disagrees with evidence: expected ' + expected)
     advising = tex.split(r'\section{Graduate Student Advising}', 1)[1].split(r'\end{tabularx}', 1)[0]
-    actual = {name: (degree.strip(), start.strip()) for name, degree, start in
-              re.findall(r'\\textbf\{([^}]+)\}\s*&\s*([^&]+)&\s*(.*?)\s*\\\\', advising)}
+    actual = {}
+    for line in advising.splitlines():
+        match = re.match(r'\\textbf\{(?:\\href\{[^}]+\}\{([^}]+)\}|([^}]+))\}\s*&\s*([^&]+)&\s*(.*?)\s*\\\\', line)
+        if match:
+            name = match[1] or match[2]
+            actual[name] = (match[3].strip(), match[4].strip())
     expected_students = {entry['name']: (DEGREES[entry['category']], entry['start'] + '--present')
                          for entry in entries if entry['category'] in DEGREES}
     if actual != expected_students:
