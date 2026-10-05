@@ -2,6 +2,7 @@
 
 ## 2026-10-06
 
+- Linked the Ph.D. advisors' names to Ayoung Kim's RPM Robotics Lab and Youngchul Kim's KAIST Urban Design Lab in both PDF and README.
 - Standardized the CV author name as **Giseop KIM** in the title, page headers, publication author markers, PDF metadata, and generated README.
 - Removed the duplicate historical-source folder from the current tree. README links to the original source snapshots in Git history.
 

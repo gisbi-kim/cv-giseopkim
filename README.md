@@ -33,7 +33,7 @@ Autonomy and Perceptual Robotics Lab (APRL)
 
 | Date / period | Details |
 | --- | --- |
-| 2022 | **Ph.D., Civil and Environmental Engineering**, KAIST. Advisors: Prof. Ayoung Kim and Prof. Youngchul Kim. |
+| 2022 | **Ph.D., Civil and Environmental Engineering**, KAIST. Advisors: [Prof. Ayoung Kim](https://rpm.snu.ac.kr/) and [Prof. Youngchul Kim](https://urbandesignlab.kaist.ac.kr/). |
 | 2019 | **M.S., Civil and Environmental Engineering**, KAIST. |
 | 2017 | **B.S., Civil and Environmental Engineering**, KAIST. |
 
