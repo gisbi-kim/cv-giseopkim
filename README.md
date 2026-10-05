@@ -72,7 +72,7 @@ PI: Principal Investigator; Co-PI: Co-Principal Investigator; Participant: Parti
 
 | Date / period | Details |
 | --- | --- |
-| Sep. 30, 2026 | **Best Paper Award**, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026), for “LT-Mem: Volatility-Aware Spatio-Temporal Memory for Lifelong Scene Understanding.” Recipients: Yumin Lee, Hyoseok Ju, and Giseop KIM. |
+| Sep. 30, 2026 | **[Best Paper Award](https://team-aprl.github.io/gallery.html#iros2026-best-paper-award)**, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026), for “LT-Mem: Volatility-Aware Spatio-Temporal Memory for Lifelong Scene Understanding.” Recipients: Yumin Lee, Hyoseok Ju, and Giseop KIM. |
 | Jul. 2026 | **Outstanding Young Researcher Award**, 41st Annual Conference of the Institute of Control, Robotics and Systems (ICROS 2026). |
 | Feb. 2026 | **Early-career Researcher Award**, Korea Robotics Society Annual Conference (KRoC 2026). |
 | Oct. 2025 | **Best Poster Award**, Human-aware Embodied AI Workshop at the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2025) (student advisee: Jiseon Kim). |
@@ -113,7 +113,7 @@ PI: Principal Investigator; Co-PI: Co-Principal Investigator; Participant: Parti
 
 - **C19.** ▶ H. Kim<sup>*</sup>, B. Kim, and **Giseop KIM**<sup>†</sup>, “[MarsLab: A Martian Rover Simulator for Planetary Rover Autonomous Navigation,](https://arxiv.org/abs/2609.34702)” *International Conference on Space Robotics (iSpaRo)*, 2026, accepted, to appear.
 - **C18.** ▶ H. Kim<sup>*</sup> and **Giseop KIM**<sup>†</sup>, “[Simulation for Planetary Robotic Perception and Autonomy: A Concise Survey of Recent Capabilities and Gaps,](https://arxiv.org/abs/2609.34743)” *iSpaRo*, 2026, accepted, to appear.
-- **C17.** ▶ Y. Lee<sup>*</sup>, H. Ju, and **Giseop KIM**<sup>†</sup>, “[LT-Mem: Volatility-Aware Spatio-Temporal Memory for Lifelong Scene Understanding,](https://arxiv.org/abs/2608.19059)” *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, 2026. **Best Paper Award**.
+- **C17.** ▶ Y. Lee<sup>*</sup>, H. Ju, and **Giseop KIM**<sup>†</sup>, “[LT-Mem: Volatility-Aware Spatio-Temporal Memory for Lifelong Scene Understanding,](https://arxiv.org/abs/2608.19059)” *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, 2026. **[Best Paper Award](https://team-aprl.github.io/gallery.html#iros2026-best-paper-award)**.
 - **C16.** ▶ B. Nayak<sup>*</sup>, H. Ju<sup>*</sup>, and **Giseop KIM**<sup>†</sup>, “[Mag4D-SLAM Dataset: A Repeated-Traversal Multi-Modal 4D Geomagnetic Dataset for Localization and Mapping,](https://arxiv.org/abs/2607.21986)” *IROS*, 2026.
 - **C15.** S. Moon<sup>*</sup>, J. Baek, Y. Jeong, D. Chae, **Giseop KIM**, J. Lee, J. Kim<sup>†</sup>, and S. Choi<sup>†</sup>, “[Streaming Dense Voxel Representations for 3D Occupancy Prediction,](https://arxiv.org/abs/2503.22087)” *European Conference on Computer Vision (ECCV)*, 2026.
 - **C14.** ▶ B. Suh<sup>*</sup>, H. Ju, and **Giseop KIM**<sup>†</sup>, “[What Matters for Real-World Long-Horizon Robot Navigation?: An Experimental Study of Implicit Goals and Sparse Memory,](https://team-aprl.github.io/assets/publications/bsuh-long-horizon-navigation-ifac-2026.pdf)” *23rd IFAC World Congress*, 2026.

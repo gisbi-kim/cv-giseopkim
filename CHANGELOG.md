@@ -2,6 +2,7 @@
 
 ## 2026-10-06
 
+- Linked the IROS 2026 Best Paper Award text in Honors and Awards and the LT-Mem publication entry to the APRL award-photo gallery in PDF and README.
 - Indented funded-project tables by 8 mm beneath their subsection headings, narrowing the project-details column to keep the right edge aligned with the text margin.
 - Renamed Funded Research to Funded Projects in PDF, README, and the README table of contents.
 - Linked MECH307 (Introduction to Artificial Intelligence) and RT604 (Advanced Mobile System) course titles to the author-supplied public lecture repositories in PDF and README.
