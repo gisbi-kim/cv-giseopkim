@@ -122,6 +122,12 @@ def body_md(source):
                 icons = {'Conference': '🎤', 'University': '🎓', 'Research Institute': '🔬', 'Industry': '🏭', 'Public Sector': '🏛️'}
                 label = icons[label] + ' ' + label
             output.append('\n' + ('## ' if heading[1] == 'section' else '### ') + label + '\n')
+        elif line.startswith(r'\directioncard'):
+            title, pos = group(line, len(r'\directioncard'))
+            description, pos = group(line, pos)
+            if line[pos:].strip():
+                raise ValueError('Unexpected text after research direction')
+            output.extend(['', '### ' + inline(title), '', inline(description), ''])
         elif line.startswith(r'\begin{fundedtable}'):
             output.extend(['', '| Project / funding details | Role | Period |', '| --- | --- | --- |'])
             while not lines[i].strip().startswith(r'\end{fundedtable}'):

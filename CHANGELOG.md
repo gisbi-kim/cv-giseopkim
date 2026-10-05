@@ -2,6 +2,7 @@
 
 ## 2026-10-06
 
+- Separated the two Research Directions into individual shaded panels with full-width bold titles and spaced descriptions; README now presents them as separate subheadings. All research text is retained.
 - Reordered the final sections to Teaching, Funded Projects, and Invited Talks and Tutorials. Renamed Teaching at DGIST to Teaching and added a DGIST badge beneath each term in the left column, with matching README badges.
 - Linked six graduate advisees' names to their Google Scholar profiles listed on the public APRL team page. Beomsu Kim has no published Scholar URL there and remains unlinked. Updated the roster check to accept linked names without changing degree or start-term verification.
 - Redesigned the publication legend as an indented pale-blue panel with a compact title band, larger colored symbols, and more row spacing. README retains the matching five-row notation table.

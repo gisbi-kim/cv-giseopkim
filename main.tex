@@ -119,6 +119,15 @@
   \begin{tabular}{@{}L{24mm}@{\hspace{4mm}}L{\dimexpr\linewidth-28mm\relax}@{}}
 }{\end{tabular}\end{tcolorbox}}
 \newcommand{\legendmark}[1]{{\normalsize\bfseries\textcolor{linkblue}{#1}}}
+\newcommand{\directioncard}[2]{%
+  \Needspace{6\baselineskip}%
+  \begin{tcolorbox}[colback=linkblue!2!white,colframe=linkblue!25!white,
+    boxrule=0.4pt,arc=1mm,left=3mm,right=3mm,top=2mm,bottom=2mm,
+    before skip=3pt,after skip=4pt,fontupper=\small]
+    {\sffamily\bfseries\normalsize #1}\par\vspace{3pt}
+    #2
+  \end{tcolorbox}%
+}
 
 \begin{document}
 
@@ -163,10 +172,8 @@
 \end{tabularx}
 
 \section{Research Directions}
-\begin{tabularx}{\textwidth}{@{}L{47mm}Y@{}}
-\textbf{Spatial intelligence for navigation} & SLAM 2.0 for the Robot Web era; neural map representations; human-robot interactive visual-language navigation; long-term and multi-robot autonomy. \\[5pt]
-\textbf{Embodied reasoning and world models} & Reasoning for robots; generative AI for mobile robot navigation; memory-augmented spatial intelligence; robot world models. \\[2pt]
-\end{tabularx}
+\directioncard{Spatial intelligence for navigation}{SLAM 2.0 for the Robot Web era; neural map representations; human-robot interactive visual-language navigation; long-term and multi-robot autonomy.}
+\directioncard{Embodied reasoning and world models}{Reasoning for robots; generative AI for mobile robot navigation; memory-augmented spatial intelligence; robot world models.}
 
 \section{Academic Leadership and Service}
 \begin{tabularx}{\textwidth}{@{}L{34mm}Y@{}}
