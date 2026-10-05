@@ -69,6 +69,7 @@
   \ifstrequal{#1}{International}{\colorbox{internationalbg}{\textcolor{internationaltext}{#1}}}{\colorbox{domesticbg}{#1}}}%
 }
 \newcommand{\talkrow}[3]{#1\par\vspace{1pt}\talkbadge{#2} & #3 \\[2pt]}
+\newcommand{\teachrow}[4]{#2\par\vspace{1pt}\talkbadge{#1} & #3 & #4 \\[4pt]}
 \newenvironment{talktable}{%
   \small
   \renewcommand{\daterow}[2]{##1 & ##2 \\[0.4pt]}%
@@ -255,6 +256,40 @@
 \textbf{\href{https://scholar.google.com/citations?hl=ko\&user=xyJ_O5AAAAAJ}{Hoyun Kim}} & M.S. & Spring 2026--present \\[2pt]
 \end{tabularx}
 
+\Needspace{20\baselineskip}
+\section{Teaching}
+\begin{tabularx}{\textwidth}{@{}L{26mm}L{24mm}Y@{}}
+\teachrow{DGIST}{2026 Fall}{RT616}{\href{https://github.com/team-aprl/lecture-RT616-public}{Vision/Image Processing}}
+\teachrow{DGIST}{2026 Fall}{TM563}{AI-based Autonomous Robot Systems}
+\teachrow{DGIST}{2026 Spring}{RT604}{\href{https://github.com/team-aprl/lecture-RT604-public}{Advanced Mobile System}}
+\teachrow{DGIST}{2026 Spring}{MECH301}{Robots for Human}
+\teachrow{DGIST}{2025 Fall}{MECH307}{\href{https://github.com/team-aprl/lecture-MECH307-public/tree/main}{Introduction to Artificial Intelligence}}
+\teachrow{DGIST}{2025 Fall}{AT603}{Introduction to Mobility Engineering}
+\teachrow{DGIST}{2025 Spring}{BE203}{Creative Mechanical Design}
+\end{tabularx}
+
+\Needspace{14\baselineskip}
+\section{Funded Projects}
+{\small PI: Principal Investigator; Co-PI: Co-Principal Investigator; Participant: Participating Researcher.}
+
+\subsection{Ongoing Projects}
+\begin{fundedtable}
+\fundrow{Robot Industry Technology Development Program}{Co-PI}{Jul. 2026--Dec. 2029}{Ministry of Trade, Industry and Energy}{2026 Robot Industry Technology Development Program (Core Robot Industry Technology Development)}{\textbf{Title:} Spatial-RFM: Development of a VLM-based Spatial Intelligence Robot Foundation Model for Humanoid and Quadruped Robot Navigation in Unstructured Environments}
+\fundrow{AIMS: Memory-Augmented Spatial Intelligence}{PI}{Mar. 2026--Feb. 2030}{Ministry of Science and ICT}{NRF Early-career Research Program (Type B), Basic Research Program 2026}{\textbf{Title:} Memory-Augmented Spatial Intelligence for Heterogeneous Autonomous Mobility Systems Understanding and Interacting with Implicit Human Instructions}
+\fundrow{Industry Project 2026-1 (Confidential)}{PI}{Apr. 2026--Mar. 2027}{Industry-funded}{Industry-academic technical service}{\textbf{Title:} Mapping and Localization in Factory Environments}
+\fundrow{Basic Research Laboratory, Exploratory Type}{Co-PI}{Jul. 2026--Jun. 2029}{Ministry of Science and ICT}{Basic Research Program, Basic Research Laboratory (Exploratory Type) 2026}{\textbf{Topic:} Fundamental Study on Morphogenetic Cooperative Mobility Intelligence based on Physical Agentic AI}
+\fundrow{Glocal Lab}{Participant}{Sep. 2025--Aug. 2028 (+6 years)}{Ministry of Education}{Glocal Lab Program, Academic Research Support Program for Science and Engineering 2025}{\textbf{Center:} TransHuman Robotics Research Center, Robotics and Mechatronics Research Institute of DGIST}
+\fundrow{InnoCORE}{Participant}{Jul. 2025--Dec. 2027 (+3 years)}{Ministry of Science and ICT}{}{\textbf{Title:} DGIST Team on Bio-Embodied Physical AI}
+\fundrow{AI Star Fellowship}{Participant}{2025--2030}{Ministry of Science and ICT}{}{\textbf{Title:} Human-centered Symbiotic Embodied AI Systems}
+\fundrow{DGIST Start-up Research}{PI}{Jan. 2025--Dec. 2028}{DGIST}{}{\textbf{Title:} Self-evolving Robot-Web Navigation Intelligence}
+\end{fundedtable}
+
+\subsection{Completed Projects}
+\begin{fundedtable}
+\fundrow{P2P Autonomous Driving Platform}{Participant}{Sep. 2025--Mar. 2026}{Ministry of Trade, Industry and Energy}{Autonomous Driving Technology Development Innovation Program, Korea Evaluation Institute of Industrial Technology}{\textbf{Title:} Development of a Level-4 Passenger-Van Autonomous Driving Platform for Point-to-Point Mobility in Designated Areas}
+\fundrow{N-HRHR}{Participant}{Jul.--Dec. 2025}{DGIST}{}{\textbf{Title:} Exploring Human-Robot Collaborative Coexistence in the Era of Large-Scale Robots}
+\end{fundedtable}
+
 \Needspace{9\baselineskip}
 \section{Invited Talks and Tutorials}
 \talkcategory{Conference}
@@ -299,38 +334,5 @@
 \begin{talktable}
 \talkrow{Feb. 2, 2026}{Domestic}{``Daegu's Innovation, Moving Towards a Robot and Future Mobility City,'' Dalseo-gu Office Monthly Meeting Special Lecture, Daegu.}
 \end{talktable}
-
-\Needspace{14\baselineskip}
-\section{Funded Projects}
-{\small PI: Principal Investigator; Co-PI: Co-Principal Investigator; Participant: Participating Researcher.}
-
-\subsection{Ongoing Projects}
-\begin{fundedtable}
-\fundrow{Robot Industry Technology Development Program}{Co-PI}{Jul. 2026--Dec. 2029}{Ministry of Trade, Industry and Energy}{2026 Robot Industry Technology Development Program (Core Robot Industry Technology Development)}{\textbf{Title:} Spatial-RFM: Development of a VLM-based Spatial Intelligence Robot Foundation Model for Humanoid and Quadruped Robot Navigation in Unstructured Environments}
-\fundrow{AIMS: Memory-Augmented Spatial Intelligence}{PI}{Mar. 2026--Feb. 2030}{Ministry of Science and ICT}{NRF Early-career Research Program (Type B), Basic Research Program 2026}{\textbf{Title:} Memory-Augmented Spatial Intelligence for Heterogeneous Autonomous Mobility Systems Understanding and Interacting with Implicit Human Instructions}
-\fundrow{Industry Project 2026-1 (Confidential)}{PI}{Apr. 2026--Mar. 2027}{Industry-funded}{Industry-academic technical service}{\textbf{Title:} Mapping and Localization in Factory Environments}
-\fundrow{Basic Research Laboratory, Exploratory Type}{Co-PI}{Jul. 2026--Jun. 2029}{Ministry of Science and ICT}{Basic Research Program, Basic Research Laboratory (Exploratory Type) 2026}{\textbf{Topic:} Fundamental Study on Morphogenetic Cooperative Mobility Intelligence based on Physical Agentic AI}
-\fundrow{Glocal Lab}{Participant}{Sep. 2025--Aug. 2028 (+6 years)}{Ministry of Education}{Glocal Lab Program, Academic Research Support Program for Science and Engineering 2025}{\textbf{Center:} TransHuman Robotics Research Center, Robotics and Mechatronics Research Institute of DGIST}
-\fundrow{InnoCORE}{Participant}{Jul. 2025--Dec. 2027 (+3 years)}{Ministry of Science and ICT}{}{\textbf{Title:} DGIST Team on Bio-Embodied Physical AI}
-\fundrow{AI Star Fellowship}{Participant}{2025--2030}{Ministry of Science and ICT}{}{\textbf{Title:} Human-centered Symbiotic Embodied AI Systems}
-\fundrow{DGIST Start-up Research}{PI}{Jan. 2025--Dec. 2028}{DGIST}{}{\textbf{Title:} Self-evolving Robot-Web Navigation Intelligence}
-\end{fundedtable}
-
-\subsection{Completed Projects}
-\begin{fundedtable}
-\fundrow{P2P Autonomous Driving Platform}{Participant}{Sep. 2025--Mar. 2026}{Ministry of Trade, Industry and Energy}{Autonomous Driving Technology Development Innovation Program, Korea Evaluation Institute of Industrial Technology}{\textbf{Title:} Development of a Level-4 Passenger-Van Autonomous Driving Platform for Point-to-Point Mobility in Designated Areas}
-\fundrow{N-HRHR}{Participant}{Jul.--Dec. 2025}{DGIST}{}{\textbf{Title:} Exploring Human-Robot Collaborative Coexistence in the Era of Large-Scale Robots}
-\end{fundedtable}
-
-\section{Teaching at DGIST}
-\begin{tabularx}{\textwidth}{@{}L{26mm}L{24mm}Y@{}}
-2026 Fall & RT616 & \href{https://github.com/team-aprl/lecture-RT616-public}{Vision/Image Processing} \\
-2026 Fall & TM563 & AI-based Autonomous Robot Systems \\
-2026 Spring & RT604 & \href{https://github.com/team-aprl/lecture-RT604-public}{Advanced Mobile System} \\
-2026 Spring & MECH301 & Robots for Human \\
-2025 Fall & MECH307 & \href{https://github.com/team-aprl/lecture-MECH307-public/tree/main}{Introduction to Artificial Intelligence} \\
-2025 Fall & AT603 & Introduction to Mobility Engineering \\
-2025 Spring & BE203 & Creative Mechanical Design \\
-\end{tabularx}
 
 \end{document}

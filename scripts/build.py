@@ -155,7 +155,14 @@ def body_md(source):
                 i += 1
                 if not row:
                     continue
-                if row.startswith(r'\talkrow'):
+                if row.startswith(r'\teachrow'):
+                    pos = len(r'\teachrow')
+                    institution, pos = group(row, pos)
+                    term, pos = group(row, pos)
+                    code, pos = group(row, pos)
+                    course, pos = group(row, pos)
+                    rows.append([inline(term) + '<br>🏫 **' + inline(institution) + '**', inline(code), inline(course)])
+                elif row.startswith(r'\talkrow'):
                     pos = row.index('{')
                     date_text, pos = group(row, pos)
                     badge, pos = group(row, pos)
@@ -181,7 +188,7 @@ def body_md(source):
                 headers = ['Direction', 'Focus']
             elif current_section == 'Publications':
                 headers = ['Notation', 'Meaning']
-            elif current_section == 'Teaching at DGIST':
+            elif current_section == 'Teaching':
                 headers = ['Term', 'Code', 'Course']
             output.append('| ' + ' | '.join(headers) + ' |')
             output.append('| ' + ' | '.join('---' for _ in headers) + ' |')

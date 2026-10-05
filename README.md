@@ -13,7 +13,7 @@ Leader/Director, [Autonomy and Perceptual Robotics Lab (APRL)](https://aprl.dgis
 >
 > PDF and Markdown share one source and revision date. Publications include journal articles, regular conference papers, book chapters, and archival domestic papers. Preprints and non-archival papers are excluded; workshop awards and organizing roles remain in their respective sections.
 
-[Research Group](#research-group) · [Academic Appointments and Professional Experience](#academic-appointments-and-professional-experience) · [Education](#education) · [Research Directions](#research-directions) · [Academic Leadership and Service](#academic-leadership-and-service) · [Honors and Awards](#honors-and-awards) · [Publications](#publications) · [Graduate Student Advising](#graduate-student-advising) · [Invited Talks and Tutorials](#invited-talks-and-tutorials) · [Funded Projects](#funded-projects) · [Teaching at DGIST](#teaching-at-dgist)
+[Research Group](#research-group) · [Academic Appointments and Professional Experience](#academic-appointments-and-professional-experience) · [Education](#education) · [Research Directions](#research-directions) · [Academic Leadership and Service](#academic-leadership-and-service) · [Honors and Awards](#honors-and-awards) · [Publications](#publications) · [Graduate Student Advising](#graduate-student-advising) · [Teaching](#teaching) · [Funded Projects](#funded-projects) · [Invited Talks and Tutorials](#invited-talks-and-tutorials)
 
 ---
 
@@ -137,6 +137,42 @@ Leader/Director, [Autonomy and Perceptual Robotics Lab (APRL)](https://aprl.dgis
 | **Beomsu Kim** | M.S. | Spring 2026–present |
 | **[Hoyun Kim](https://scholar.google.com/citations?hl=ko&user=xyJ_O5AAAAAJ)** | M.S. | Spring 2026–present |
 
+## Teaching
+
+| Term | Code | Course |
+| --- | --- | --- |
+| 2026 Fall<br>🏫 **DGIST** | RT616 | [Vision/Image Processing](https://github.com/team-aprl/lecture-RT616-public) |
+| 2026 Fall<br>🏫 **DGIST** | TM563 | AI-based Autonomous Robot Systems |
+| 2026 Spring<br>🏫 **DGIST** | RT604 | [Advanced Mobile System](https://github.com/team-aprl/lecture-RT604-public) |
+| 2026 Spring<br>🏫 **DGIST** | MECH301 | Robots for Human |
+| 2025 Fall<br>🏫 **DGIST** | MECH307 | [Introduction to Artificial Intelligence](https://github.com/team-aprl/lecture-MECH307-public/tree/main) |
+| 2025 Fall<br>🏫 **DGIST** | AT603 | Introduction to Mobility Engineering |
+| 2025 Spring<br>🏫 **DGIST** | BE203 | Creative Mechanical Design |
+
+## Funded Projects
+
+PI: Principal Investigator; Co-PI: Co-Principal Investigator; Participant: Participating Researcher.
+
+### Ongoing Projects
+
+| Project / funding details | Role | Period |
+| --- | --- | --- |
+| **Robot Industry Technology Development Program**<br>**Sponsor:** Ministry of Trade, Industry and Energy<br>**Program:** 2026 Robot Industry Technology Development Program (Core Robot Industry Technology Development)<br>**Title:** Spatial-RFM: Development of a VLM-based Spatial Intelligence Robot Foundation Model for Humanoid and Quadruped Robot Navigation in Unstructured Environments | Co-PI | Jul. 2026–Dec. 2029 |
+| **AIMS: Memory-Augmented Spatial Intelligence**<br>**Sponsor:** Ministry of Science and ICT<br>**Program:** NRF Early-career Research Program (Type B), Basic Research Program 2026<br>**Title:** Memory-Augmented Spatial Intelligence for Heterogeneous Autonomous Mobility Systems Understanding and Interacting with Implicit Human Instructions | PI | Mar. 2026–Feb. 2030 |
+| **Industry Project 2026-1 (Confidential)**<br>**Sponsor:** Industry-funded<br>**Program:** Industry-academic technical service<br>**Title:** Mapping and Localization in Factory Environments | PI | Apr. 2026–Mar. 2027 |
+| **Basic Research Laboratory, Exploratory Type**<br>**Sponsor:** Ministry of Science and ICT<br>**Program:** Basic Research Program, Basic Research Laboratory (Exploratory Type) 2026<br>**Topic:** Fundamental Study on Morphogenetic Cooperative Mobility Intelligence based on Physical Agentic AI | Co-PI | Jul. 2026–Jun. 2029 |
+| **Glocal Lab**<br>**Sponsor:** Ministry of Education<br>**Program:** Glocal Lab Program, Academic Research Support Program for Science and Engineering 2025<br>**Center:** TransHuman Robotics Research Center, Robotics and Mechatronics Research Institute of DGIST | Participant | Sep. 2025–Aug. 2028 (+6 years) |
+| **InnoCORE**<br>**Sponsor:** Ministry of Science and ICT<br>**Title:** DGIST Team on Bio-Embodied Physical AI | Participant | Jul. 2025–Dec. 2027 (+3 years) |
+| **AI Star Fellowship**<br>**Sponsor:** Ministry of Science and ICT<br>**Title:** Human-centered Symbiotic Embodied AI Systems | Participant | 2025–2030 |
+| **DGIST Start-up Research**<br>**Sponsor:** DGIST<br>**Title:** Self-evolving Robot-Web Navigation Intelligence | PI | Jan. 2025–Dec. 2028 |
+
+### Completed Projects
+
+| Project / funding details | Role | Period |
+| --- | --- | --- |
+| **P2P Autonomous Driving Platform**<br>**Sponsor:** Ministry of Trade, Industry and Energy<br>**Program:** Autonomous Driving Technology Development Innovation Program, Korea Evaluation Institute of Industrial Technology<br>**Title:** Development of a Level-4 Passenger-Van Autonomous Driving Platform for Point-to-Point Mobility in Designated Areas | Participant | Sep. 2025–Mar. 2026 |
+| **N-HRHR**<br>**Sponsor:** DGIST<br>**Title:** Exploring Human-Robot Collaborative Coexistence in the Era of Large-Scale Robots | Participant | Jul.–Dec. 2025 |
+
 ## Invited Talks and Tutorials
 
 ### 🎤 Conference
@@ -186,42 +222,6 @@ Leader/Director, [Autonomy and Perceptual Robotics Lab (APRL)](https://aprl.dgis
 | Date / period | Details |
 | --- | --- |
 | Feb. 2, 2026<br>🇰🇷 **Domestic** | “Daegu's Innovation, Moving Towards a Robot and Future Mobility City,” Dalseo-gu Office Monthly Meeting Special Lecture, Daegu. |
-
-## Funded Projects
-
-PI: Principal Investigator; Co-PI: Co-Principal Investigator; Participant: Participating Researcher.
-
-### Ongoing Projects
-
-| Project / funding details | Role | Period |
-| --- | --- | --- |
-| **Robot Industry Technology Development Program**<br>**Sponsor:** Ministry of Trade, Industry and Energy<br>**Program:** 2026 Robot Industry Technology Development Program (Core Robot Industry Technology Development)<br>**Title:** Spatial-RFM: Development of a VLM-based Spatial Intelligence Robot Foundation Model for Humanoid and Quadruped Robot Navigation in Unstructured Environments | Co-PI | Jul. 2026–Dec. 2029 |
-| **AIMS: Memory-Augmented Spatial Intelligence**<br>**Sponsor:** Ministry of Science and ICT<br>**Program:** NRF Early-career Research Program (Type B), Basic Research Program 2026<br>**Title:** Memory-Augmented Spatial Intelligence for Heterogeneous Autonomous Mobility Systems Understanding and Interacting with Implicit Human Instructions | PI | Mar. 2026–Feb. 2030 |
-| **Industry Project 2026-1 (Confidential)**<br>**Sponsor:** Industry-funded<br>**Program:** Industry-academic technical service<br>**Title:** Mapping and Localization in Factory Environments | PI | Apr. 2026–Mar. 2027 |
-| **Basic Research Laboratory, Exploratory Type**<br>**Sponsor:** Ministry of Science and ICT<br>**Program:** Basic Research Program, Basic Research Laboratory (Exploratory Type) 2026<br>**Topic:** Fundamental Study on Morphogenetic Cooperative Mobility Intelligence based on Physical Agentic AI | Co-PI | Jul. 2026–Jun. 2029 |
-| **Glocal Lab**<br>**Sponsor:** Ministry of Education<br>**Program:** Glocal Lab Program, Academic Research Support Program for Science and Engineering 2025<br>**Center:** TransHuman Robotics Research Center, Robotics and Mechatronics Research Institute of DGIST | Participant | Sep. 2025–Aug. 2028 (+6 years) |
-| **InnoCORE**<br>**Sponsor:** Ministry of Science and ICT<br>**Title:** DGIST Team on Bio-Embodied Physical AI | Participant | Jul. 2025–Dec. 2027 (+3 years) |
-| **AI Star Fellowship**<br>**Sponsor:** Ministry of Science and ICT<br>**Title:** Human-centered Symbiotic Embodied AI Systems | Participant | 2025–2030 |
-| **DGIST Start-up Research**<br>**Sponsor:** DGIST<br>**Title:** Self-evolving Robot-Web Navigation Intelligence | PI | Jan. 2025–Dec. 2028 |
-
-### Completed Projects
-
-| Project / funding details | Role | Period |
-| --- | --- | --- |
-| **P2P Autonomous Driving Platform**<br>**Sponsor:** Ministry of Trade, Industry and Energy<br>**Program:** Autonomous Driving Technology Development Innovation Program, Korea Evaluation Institute of Industrial Technology<br>**Title:** Development of a Level-4 Passenger-Van Autonomous Driving Platform for Point-to-Point Mobility in Designated Areas | Participant | Sep. 2025–Mar. 2026 |
-| **N-HRHR**<br>**Sponsor:** DGIST<br>**Title:** Exploring Human-Robot Collaborative Coexistence in the Era of Large-Scale Robots | Participant | Jul.–Dec. 2025 |
-
-## Teaching at DGIST
-
-| Term | Code | Course |
-| --- | --- | --- |
-| 2026 Fall | RT616 | [Vision/Image Processing](https://github.com/team-aprl/lecture-RT616-public) |
-| 2026 Fall | TM563 | AI-based Autonomous Robot Systems |
-| 2026 Spring | RT604 | [Advanced Mobile System](https://github.com/team-aprl/lecture-RT604-public) |
-| 2026 Spring | MECH301 | Robots for Human |
-| 2025 Fall | MECH307 | [Introduction to Artificial Intelligence](https://github.com/team-aprl/lecture-MECH307-public/tree/main) |
-| 2025 Fall | AT603 | Introduction to Mobility Engineering |
-| 2025 Spring | BE203 | Creative Mechanical Design |
 
 ---
 
