@@ -214,7 +214,7 @@ def body_md(source):
             output.append('')
         elif line.startswith(r'\pub{'):
             identifier, pos = group(line, len(r'\pub'))
-            if not re.fullmatch(r'(?:J|C|B|DJ|DC)[1-9][0-9]*', identifier):
+            if not re.fullmatch(r'(?:J|C|B|DJ|DC|T)[1-9][0-9]*', identifier):
                 raise ValueError(f'Invalid publication identifier: {identifier}')
             value, pos = group(line, pos)
             if line[pos:].strip():
@@ -251,7 +251,7 @@ Leader/Director, [Autonomy and Perceptual Robotics Lab (APRL)](https://aprl.dgis
 
 > **Last updated: {updated} (Asia/Seoul)**
 >
-> PDF and Markdown share one source and revision date. Publications include journal articles, regular conference papers, book chapters, and archival domestic papers. Preprints and non-archival papers are excluded; workshop awards and organizing roles remain in their respective sections.
+> PDF and Markdown share one source and revision date. Publications include journal articles, regular conference papers, book chapters, archival domestic papers, and dissertations and theses. Preprints and non-archival papers are excluded; workshop awards and organizing roles remain in their respective sections.
 
 {toc}
 

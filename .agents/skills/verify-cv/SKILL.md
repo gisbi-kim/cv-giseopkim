@@ -32,7 +32,8 @@ The first command checks the saved roster against the TeX summary and advising t
 ## CV conventions
 
 - Exclude preprints and non-archival workshop papers from Publications. An accepted archival paper may link to its arXiv version. Retain workshop awards and organizer roles in their appropriate sections.
-- Use full conference/journal names and journal abbreviations. Retain latest-first display and stable category identifiers with the oldest entry numbered 1: J, C, B, DJ, DC.
+- Use full conference/journal names and journal abbreviations. Retain latest-first display and stable category identifiers with the oldest entry numbered 1: J, C, B, DJ, DC, T (dissertations and theses).
+- Verify dissertation/thesis titles and years against the author's original bibliography, personal publication page, and university library records. Prefer a working public thesis PDF; otherwise link the university catalog record.
 - Keep `Giseop KIM`, `Leader/Director`, `Funded Projects`, approved links, and the approved section order. Update members and aggregate counts together.
 - Add links only where the source supplies a corresponding public resource. TeX URLs must escape `&`, `%`, and `#`; verify the decoded PDF/README destinations. GitHub strips new-tab targets and PDF URI behavior depends on the viewer; do not claim to force new tabs.
 

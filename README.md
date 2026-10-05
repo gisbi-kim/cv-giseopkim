@@ -11,7 +11,7 @@ Leader/Director, [Autonomy and Perceptual Robotics Lab (APRL)](https://aprl.dgis
 
 > **Last updated: 2026-10-06 (Asia/Seoul)**
 >
-> PDF and Markdown share one source and revision date. Publications include journal articles, regular conference papers, book chapters, and archival domestic papers. Preprints and non-archival papers are excluded; workshop awards and organizing roles remain in their respective sections.
+> PDF and Markdown share one source and revision date. Publications include journal articles, regular conference papers, book chapters, archival domestic papers, and dissertations and theses. Preprints and non-archival papers are excluded; workshop awards and organizing roles remain in their respective sections.
 
 [Research Group](#research-group) · [Academic Appointments and Professional Experience](#academic-appointments-and-professional-experience) · [Education](#education) · [Academic Leadership and Service](#academic-leadership-and-service) · [Honors and Awards](#honors-and-awards) · [Publications](#publications) · [Graduate Student Advising](#graduate-student-advising) · [Teaching](#teaching) · [Funded Projects](#funded-projects) · [Invited Talks and Tutorials](#invited-talks-and-tutorials)
 
@@ -122,6 +122,11 @@ Leader/Director, [Autonomy and Perceptual Robotics Lab (APRL)](https://aprl.dgis
 - **DC3.** ▶ A. Lee<sup>*</sup> and **Giseop KIM**<sup>†</sup>, “Floorplan-based Point-to-Language Grounded Navigation,” Institute of Control, Robotics and Systems Annual Conference (ICROS), 2026.
 - **DC2.** ▶ A. Lee<sup>*</sup>, H. Yoon<sup>*</sup>, S. Park<sup>*</sup>, M. Lee<sup>*</sup>, and **Giseop KIM**<sup>†</sup>, “Rendezvous Briefing: VLM-based Semantic-Aware Multi-Robot Collaborative Exploration,” Institute of Control, Robotics and Systems Annual Conference (ICROS), 2026.
 - **DC1.** ▶ **Giseop KIM**<sup>*</sup><sup>†</sup>, M. Park, and J. Son, “[Change-Robust LiDAR Localization in Urban Environments,](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12551179)” Institute of Electronics and Information Engineers Conference, 2025.
+
+### Dissertations and Theses
+
+- **T2.** **Giseop KIM**, “[LiDAR-based Lifelong Robotic Mapping in Changing Environments,](https://library.kaist.ac.kr/search/detail/view.do?bibCtrlNo=996232&flag=dissertation)” Ph.D. dissertation, [Korea Advanced Institute of Science and Technology (KAIST)](https://www.kaist.ac.kr/en/), 2022.
+- **T1.** **Giseop KIM**, “[Isovist-induced Robust LiDAR Localization,](https://gisbi-kim.github.io/uploads/gkim-dissertation-ms.pdf)” M.S. thesis, [Korea Advanced Institute of Science and Technology (KAIST)](https://www.kaist.ac.kr/en/), 2019.
 
 ## Graduate Student Advising
 
