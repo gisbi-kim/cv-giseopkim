@@ -167,7 +167,7 @@ def body_md(source):
                     term, pos = group(row, pos)
                     code, pos = group(row, pos)
                     course, pos = group(row, pos)
-                    rows.append([inline(term) + '<br>🏫 **' + inline(institution) + '**', inline(code), inline(course)])
+                    rows.append(['🏫 **' + inline(institution) + '**', inline(term), inline(code), inline(course)])
                 elif row.startswith(r'\talkrow'):
                     pos = row.index('{')
                     date_text, pos = group(row, pos)
@@ -195,7 +195,7 @@ def body_md(source):
             elif current_section == 'Publications':
                 headers = ['Notation', 'Meaning']
             elif current_section == 'Teaching':
-                headers = ['Term', 'Code', 'Course']
+                headers = ['Institution', 'Term', 'Code', 'Course']
             output.append('| ' + ' | '.join(headers) + ' |')
             output.append('| ' + ' | '.join('---' for _ in headers) + ' |')
             output.extend('| ' + ' | '.join(value.replace('|', '&#124;') for value in row) + ' |' for row in rows)

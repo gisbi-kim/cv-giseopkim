@@ -69,7 +69,7 @@
   \ifstrequal{#1}{International}{\colorbox{internationalbg}{\textcolor{internationaltext}{#1}}}{\colorbox{domesticbg}{#1}}}%
 }
 \newcommand{\talkrow}[3]{#1\par\vspace{1pt}\talkbadge{#2} & #3 \\[2pt]}
-\newcommand{\teachrow}[4]{#2\par\vspace{1pt}\talkbadge{#1} & #3 & #4 \\[4pt]}
+\newcommand{\teachrow}[4]{\talkbadge{#1} & #2 & #3 & #4 \\[4pt]}
 \newenvironment{talktable}{%
   \small
   \renewcommand{\daterow}[2]{##1 & ##2 \\[0.4pt]}%
@@ -265,9 +265,9 @@
 \textbf{\href{https://scholar.google.com/citations?hl=ko\&user=xyJ_O5AAAAAJ}{Hoyun Kim}} & M.S. & Spring 2026--present \\[2pt]
 \end{tabularx}
 
-\Needspace{20\baselineskip}
+\Needspace{14\baselineskip}
 \section{Teaching}
-\begin{tabularx}{\textwidth}{@{}L{26mm}L{24mm}Y@{}}
+\begin{tabularx}{\textwidth}{@{}L{12mm}L{26mm}L{20mm}Y@{}}
 \teachrow{DGIST}{2026 Fall}{RT616}{\href{https://github.com/team-aprl/lecture-RT616-public}{Vision/Image Processing}}
 \teachrow{DGIST}{2026 Fall}{TM563}{AI-based Autonomous Robot Systems}
 \teachrow{DGIST}{2026 Spring}{RT604}{\href{https://github.com/team-aprl/lecture-RT604-public}{Advanced Mobile System}}

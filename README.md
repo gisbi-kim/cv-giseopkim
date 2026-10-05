@@ -142,15 +142,15 @@ Leader/Director, [Autonomy and Perceptual Robotics Lab (APRL)](https://aprl.dgis
 
 ## Teaching
 
-| Term | Code | Course |
-| --- | --- | --- |
-| 2026 Fall<br>🏫 **DGIST** | RT616 | [Vision/Image Processing](https://github.com/team-aprl/lecture-RT616-public) |
-| 2026 Fall<br>🏫 **DGIST** | TM563 | AI-based Autonomous Robot Systems |
-| 2026 Spring<br>🏫 **DGIST** | RT604 | [Advanced Mobile System](https://github.com/team-aprl/lecture-RT604-public) |
-| 2026 Spring<br>🏫 **DGIST** | MECH301 | Robots for Human |
-| 2025 Fall<br>🏫 **DGIST** | MECH307 | [Introduction to Artificial Intelligence](https://github.com/team-aprl/lecture-MECH307-public/tree/main) |
-| 2025 Fall<br>🏫 **DGIST** | AT603 | Introduction to Mobility Engineering |
-| 2025 Spring<br>🏫 **DGIST** | BE203 | Creative Mechanical Design |
+| Institution | Term | Code | Course |
+| --- | --- | --- | --- |
+| 🏫 **DGIST** | 2026 Fall | RT616 | [Vision/Image Processing](https://github.com/team-aprl/lecture-RT616-public) |
+| 🏫 **DGIST** | 2026 Fall | TM563 | AI-based Autonomous Robot Systems |
+| 🏫 **DGIST** | 2026 Spring | RT604 | [Advanced Mobile System](https://github.com/team-aprl/lecture-RT604-public) |
+| 🏫 **DGIST** | 2026 Spring | MECH301 | Robots for Human |
+| 🏫 **DGIST** | 2025 Fall | MECH307 | [Introduction to Artificial Intelligence](https://github.com/team-aprl/lecture-MECH307-public/tree/main) |
+| 🏫 **DGIST** | 2025 Fall | AT603 | Introduction to Mobility Engineering |
+| 🏫 **DGIST** | 2025 Spring | BE203 | Creative Mechanical Design |
 
 ## Funded Projects
 

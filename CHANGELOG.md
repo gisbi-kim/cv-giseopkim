@@ -2,6 +2,7 @@
 
 ## 2026-10-06
 
+- Moved Teaching institution badges into a separate leftmost column, before the term, in PDF and README. Removed stacked term/badge lines and adjusted the section space reservation for the shorter rows.
 - Added Dissertations and Theses under Publications: T2, the 2022 KAIST Ph.D. dissertation, and T1, the 2019 KAIST M.S. thesis. Titles and years match the original ref.bib and https://gisbi-kim.github.io/papers-before-dgist/. Ph.D. title links to the KAIST catalog (bibCtrlNo=996232); M.S. title links to the working public /uploads/gkim-dissertation-ms.pdf. Extended README generation and verification conventions for T identifiers.
 - Added Seongnam, Republic of Korea to NAVER LABS experience and Daejeon, Republic of Korea to KAIST experience, matching the DGIST location format.
 - Linked Intelligent Robotic Autonomy and Perception Lab in professional experience to https://rpm.snu.ac.kr/, retaining the historical lab name.
