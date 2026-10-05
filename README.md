@@ -62,7 +62,7 @@ Leader/Director, [Autonomy and Perceptual Robotics Lab (APRL)](https://aprl.dgis
 
 | Date / period | Details |
 | --- | --- |
-| Sep. 30, 2026 | **[Best Paper Award](https://team-aprl.github.io/gallery.html#iros2026-best-paper-award)**, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026), for “LT-Mem: Volatility-Aware Spatio-Temporal Memory for Lifelong Scene Understanding.” Recipients: Yumin Lee, Hyoseok Ju, and Giseop KIM. |
+| Sep. 2026 | **[Best Paper Award](https://team-aprl.github.io/gallery.html#iros2026-best-paper-award)**, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026), for “LT-Mem: Volatility-Aware Spatio-Temporal Memory for Lifelong Scene Understanding.” Recipients: Yumin Lee, Hyoseok Ju, and Giseop KIM. |
 | Jul. 2026 | **Outstanding Young Researcher Award**, 41st Annual Conference of the Institute of Control, Robotics and Systems (ICROS 2026). |
 | Feb. 2026 | **Early-career Researcher Award**, Korea Robotics Society Annual Conference (KRoC 2026). |
 | Oct. 2025 | **Best Poster Award**, Human-aware Embodied AI Workshop at the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2025) (student advisee: Jiseon Kim). |
