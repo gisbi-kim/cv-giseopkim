@@ -218,7 +218,7 @@ def make_readme(updated):
     header = f'''<!-- Generated from main.tex by scripts/build.py. Edit the TeX source. -->
 # Giseop KIM
 
-**Assistant Professor · Principal Investigator**
+**Assistant Professor**
 
 Department of Robotics and Mechatronics Engineering, DGIST
 
