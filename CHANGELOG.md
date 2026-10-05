@@ -2,6 +2,7 @@
 
 ## 2026-10-06
 
+- Linked the IROS 2026 HEAI and Long-Term Perception workshop names to their verified official websites: https://heai-iros26-workshop.github.io/ and https://mit-spark.github.io/Longterm-Perception-WS/. Both sites list Giseop Kim among the organizers; wording and dates are unchanged.
 - Updated the ICRA 2027 Workshops & Tutorials Committee Co-Chair service period to 2026–2027 and removed “Forthcoming,” as specified by the author.
 - Indented funded project detail paragraphs (Sponsor, Program, Title/Topic/Center), including wrapped lines, by 0.7 em beneath each project name in the PDF.
 - Reduced Teaching rows' extra vertical spacing from 4 pt to 1 pt while preserving columns, badges, course text, and links.
