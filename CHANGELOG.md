@@ -2,6 +2,7 @@
 
 ## 2026-10-06
 
+- Added Seongnam, Republic of Korea to NAVER LABS experience and Daejeon, Republic of Korea to KAIST experience, matching the DGIST location format.
 - Linked Intelligent Robotic Autonomy and Perception Lab in professional experience to https://rpm.snu.ac.kr/, retaining the historical lab name.
 - Expanded KAIST to Korea Advanced Institute of Science and Technology (KAIST) in the professional experience entry, retaining the official homepage link.
 - Linked DGIST and KAIST institution names in professional experience to their official English homepages, matching the existing NAVER LABS link in PDF and README.
