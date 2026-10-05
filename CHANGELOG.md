@@ -2,6 +2,7 @@
 
 ## 2026-10-06
 
+- Reduced the space before Funded Projects tables to 2 pt, bringing the Ongoing/Completed Projects headings closer to their tables.
 - Added a leftmost DGIST institution badge column to Graduate Student Advising in PDF and README, matching Teaching. Preserved student links, degrees, and periods; updated advising verification to check the institution column.
 - Linked Spatial AI Tutorial to https://sites.google.com/view/kroc26-spatial-ai-tutorial/home in both service and invited talks, synchronized in PDF and README.
 - Trimmed 6 mm from the right end of all Funded Projects table rules, including repeated headers and footers, while preserving column widths and content.
