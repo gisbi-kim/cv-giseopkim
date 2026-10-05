@@ -2,6 +2,7 @@
 
 ## 2026-10-06
 
+- Added black envelope and globe icons to the first-page email and personal website links, matching the existing contact icons.
 - Put GitHub on its own line beneath Google Scholar in the first-page contact block, retaining the black icon and destination.
 - Added black home, graduation-cap, GitHub, and YouTube icons to the first-page lab/Scholar/GitHub/YouTube links. Bundled Font Awesome 6 icon fonts and their license so builds do not depend on a system icon-font installation.
 - Added Lab YouTube linking to https://www.youtube.com/@APRL-DGIST in the first-page contact block and README header.
