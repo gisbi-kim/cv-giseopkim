@@ -2,6 +2,7 @@
 
 ## 2026-10-06
 
+- Emphasized funded-project headings with larger bold sans-serif type and spacing. Reduced Role and Period columns to 19 mm and 29 mm, expanding project details to 116 mm; retained all project content and matching bold headings in README.
 - Linked the lab name in the Leader/Director line to the APRL homepage in PDF and README.
 - Linked NAVER LABS in the professional experience entry to its official website in PDF and README.
 - Changed the lab leadership title from Director to Leader/Director.
