@@ -1,0 +1,6 @@
+*.tex text eol=lf
+*.cls text eol=lf
+*.bib text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.pdf binary

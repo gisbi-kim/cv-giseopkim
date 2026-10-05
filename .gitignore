@@ -1,0 +1,11 @@
+# Keep the published CV PDF under version control; ignore build intermediates.
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.xdv
+__pycache__/
