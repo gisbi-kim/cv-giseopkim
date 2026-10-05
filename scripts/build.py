@@ -127,7 +127,7 @@ def body_md(source):
             description, pos = group(line, pos)
             if line[pos:].strip():
                 raise ValueError('Unexpected text after research direction')
-            output.extend(['', '### ' + inline(title), '', inline(description), ''])
+            output.extend(['', '#### ' + inline(title), '', inline(description), ''])
         elif line.startswith(r'\begin{fundedtable}'):
             output.extend(['', '| Project / funding details | Role | Period |', '| --- | --- | --- |'])
             while not lines[i].strip().startswith(r'\end{fundedtable}'):

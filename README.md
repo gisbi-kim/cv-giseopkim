@@ -13,7 +13,7 @@ Leader/Director, [Autonomy and Perceptual Robotics Lab (APRL)](https://aprl.dgis
 >
 > PDF and Markdown share one source and revision date. Publications include journal articles, regular conference papers, book chapters, and archival domestic papers. Preprints and non-archival papers are excluded; workshop awards and organizing roles remain in their respective sections.
 
-[Research Group](#research-group) · [Academic Appointments and Professional Experience](#academic-appointments-and-professional-experience) · [Education](#education) · [Research Directions](#research-directions) · [Academic Leadership and Service](#academic-leadership-and-service) · [Honors and Awards](#honors-and-awards) · [Publications](#publications) · [Graduate Student Advising](#graduate-student-advising) · [Teaching](#teaching) · [Funded Projects](#funded-projects) · [Invited Talks and Tutorials](#invited-talks-and-tutorials)
+[Research Group](#research-group) · [Academic Appointments and Professional Experience](#academic-appointments-and-professional-experience) · [Education](#education) · [Academic Leadership and Service](#academic-leadership-and-service) · [Honors and Awards](#honors-and-awards) · [Publications](#publications) · [Graduate Student Advising](#graduate-student-advising) · [Teaching](#teaching) · [Funded Projects](#funded-projects) · [Invited Talks and Tutorials](#invited-talks-and-tutorials)
 
 ---
 
@@ -24,6 +24,16 @@ Leader/Director, [Autonomy and Perceptual Robotics Lab (APRL)](https://aprl.dgis
 **Research profile.** Robotics researcher working at the intersection of simultaneous localization and mapping (SLAM), spatial and physical AI, 3D perception, sensor fusion, long-term autonomy, and visual-language robot navigation. Current research investigates memory-augmented spatial intelligence, shared robot experience, embodied reasoning, and robot world models for robust real-world navigation.
 
 **Autonomy and Perceptual Robotics Lab (APRL), DGIST.** Founded December 2024. Current full-time group: one postdoctoral researcher, three doctoral researchers (including two integrated M.S./Ph.D. students), and four M.S. students, with undergraduate interns and external collaborators across robotics, perception, and AI.
+
+### Research Directions
+
+#### Spatial intelligence for navigation
+
+SLAM 2.0 for the Robot Web era; neural map representations; human-robot interactive visual-language navigation; long-term and multi-robot autonomy.
+
+#### Embodied reasoning and world models
+
+Reasoning for robots; generative AI for mobile robot navigation; memory-augmented spatial intelligence; robot world models.
 
 ## Academic Appointments and Professional Experience
 
@@ -40,16 +50,6 @@ Leader/Director, [Autonomy and Perceptual Robotics Lab (APRL)](https://aprl.dgis
 | 2022 | **Ph.D., [Civil and Environmental Engineering](https://civil.kaist.ac.kr/)**, [KAIST](https://www.kaist.ac.kr/en/). Advisors: [Prof. Ayoung Kim](https://rpm.snu.ac.kr/) and [Prof. Youngchul Kim](https://urbandesignlab.kaist.ac.kr/). |
 | 2019 | **M.S., [Civil and Environmental Engineering](https://civil.kaist.ac.kr/)**, [KAIST](https://www.kaist.ac.kr/en/). |
 | 2017 | **B.S., [Civil and Environmental Engineering](https://civil.kaist.ac.kr/)**, [KAIST](https://www.kaist.ac.kr/en/). |
-
-## Research Directions
-
-### Spatial intelligence for navigation
-
-SLAM 2.0 for the Robot Web era; neural map representations; human-robot interactive visual-language navigation; long-term and multi-robot autonomy.
-
-### Embodied reasoning and world models
-
-Reasoning for robots; generative AI for mobile robot navigation; memory-augmented spatial intelligence; robot world models.
 
 ## Academic Leadership and Service
 
