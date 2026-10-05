@@ -69,15 +69,15 @@ Leader/Director, [Autonomy and Perceptual Robotics Lab (APRL)](https://aprl.dgis
 
 ## Publications
 
-**Legend**
+**Publication notation**
 
 | Notation | Meaning |
 | --- | --- |
-| ▶ | First/co-first or corresponding-author paper by Giseop KIM. |
-| <sup>*</sup> | First/co-first author. |
-| <sup>†</sup> | Corresponding author. |
+| **▶** | First/co-first or corresponding-author paper by Giseop KIM. |
+| ***** | First/co-first author. |
+| **†** | Corresponding author. |
 | **Giseop KIM** | The CV author's name is shown in bold. |
-| “to appear” | Accepted paper awaiting publication. |
+| *“to appear”* | Accepted paper awaiting publication. |
 
 ### Peer-Reviewed Journal Articles
 

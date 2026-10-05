@@ -18,6 +18,7 @@
 \usepackage{lastpage}
 \usepackage{needspace}
 \usepackage{etoolbox}
+\usepackage{tcolorbox}
 
 \IfFontExistsTF{Bitstream Charter}{\setmainfont{Bitstream Charter}}{\setmainfont{Charter}}
 \setsansfont{DejaVu Sans}
@@ -108,15 +109,15 @@
 
 \newenvironment{legendtable}{%
   \small
-  \setlength{\LTleft}{8mm}
-  \setlength{\LTright}{0pt plus 1fill}
-  \setlength{\LTpre}{3pt}
-  \setlength{\LTpost}{3pt}
-  \begin{longtable}{@{}L{24mm}@{\hspace{4mm}}L{136mm}@{}}
-  \toprule
-  \textbf{Notation} & \textbf{Meaning} \\
-  \midrule
-}{\bottomrule\end{longtable}}
+  \begin{tcolorbox}[width=\dimexpr\textwidth-8mm\relax,left skip=8mm,
+    colback=linkblue!3!white,colframe=linkblue!25!white,
+    colbacktitle=linkblue!8!white,coltitle=black,
+    title=Publication notation,fonttitle=\sffamily\bfseries\small,
+    boxrule=0.4pt,arc=1.5mm,left=3mm,right=3mm,top=2mm,bottom=2mm,
+    before skip=5pt,after skip=5pt]
+  \begin{tabular}{@{}L{24mm}@{\hspace{4mm}}L{\dimexpr\linewidth-28mm\relax}@{}}
+}{\end{tabular}\end{tcolorbox}}
+\newcommand{\legendmark}[1]{{\normalsize\bfseries\textcolor{linkblue}{#1}}}
 
 \begin{document}
 
@@ -184,14 +185,12 @@
 \end{tabularx}
 
 \section{Publications}
-\textbf{Legend}
-
 \begin{legendtable}
-\small \leadpub & \small First/co-first or corresponding-author paper by Giseop KIM. \\[1pt]
-\small \textsuperscript{*} & \small First/co-first author. \\[1pt]
-\small \textsuperscript{\dag} & \small Corresponding author. \\[1pt]
-\small \me & \small The CV author's name is shown in bold. \\[1pt]
-\small ``to appear'' & \small Accepted paper awaiting publication. \\
+\legendmark{\leadpub} & First/co-first or corresponding-author paper by Giseop KIM. \\[4pt]
+\legendmark{*} & First/co-first author. \\[4pt]
+\legendmark{\dag} & Corresponding author. \\[4pt]
+\me & The CV author's name is shown in bold. \\[4pt]
+\textit{``to appear''} & Accepted paper awaiting publication. \\
 \end{legendtable}
 
 \subsection{Peer-Reviewed Journal Articles}

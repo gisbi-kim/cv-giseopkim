@@ -58,10 +58,10 @@ def inline(text):
             out.append('|')
             if text[pos:pos+2] == '{}':
                 pos += 2
-        elif cmd in ('textbf', 'textit', 'emph', 'textsuperscript'):
+        elif cmd in ('textbf', 'textit', 'emph', 'textsuperscript', 'legendmark'):
             value, pos = group(text, pos)
             value = inline(value)
-            out.append(f'**{value}**' if cmd == 'textbf' else f'<sup>{value}</sup>' if cmd == 'textsuperscript' else f'*{value}*')
+            out.append(f'**{value}**' if cmd in ('textbf', 'legendmark') else f'<sup>{value}</sup>' if cmd == 'textsuperscript' else f'*{value}*')
         elif cmd == 'href':
             url, pos = group(text, pos)
             label, pos = group(text, pos)
@@ -147,6 +147,8 @@ def body_md(source):
             i += 1
             output.append('')
         elif line.startswith((r'\begin{tabularx}', r'\begin{longtable}', r'\begin{talktable}', r'\begin{legendtable}')):
+            if line.startswith(r'\begin{legendtable}'):
+                output.extend(['', '**Publication notation**', ''])
             rows = []
             while not lines[i].strip().startswith((r'\end{tabularx}', r'\end{longtable}', r'\end{talktable}', r'\end{legendtable}')):
                 row = lines[i].strip()
