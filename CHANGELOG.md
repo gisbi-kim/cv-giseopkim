@@ -2,6 +2,7 @@
 
 ## 2026-10-06
 
+- Replaced the Personal Website globe icon with a black user silhouette selected by the author.
 - Added South Korea after DGIST in the main affiliation line in PDF and README.
 - Removed the personal GitHub contact link from the first-page header and README at the author's request.
 - Replaced raw personal/lab website addresses in the contact block with Personal Website and Lab Website labels, retaining icons and URLs. Matched the README's lab link label.
