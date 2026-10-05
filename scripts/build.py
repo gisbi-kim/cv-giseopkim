@@ -165,6 +165,8 @@ def body_md(source):
             headers = ['Date / period', 'Details'] if width == 2 else ['Name', 'Degree', 'Period']
             if current_section == 'Research Directions':
                 headers = ['Direction', 'Focus']
+            elif current_section == 'Publications':
+                headers = ['Notation', 'Meaning']
             elif current_section == 'Teaching at DGIST':
                 headers = ['Term', 'Code', 'Course']
             output.append('| ' + ' | '.join(headers) + ' |')

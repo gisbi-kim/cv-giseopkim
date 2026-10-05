@@ -31,7 +31,7 @@
 \setlength{\emergencystretch}{2em}
 \renewcommand{\arraystretch}{1.08}
 \setlist[itemize]{leftmargin=4.2mm,itemsep=1.2pt,topsep=2pt,parsep=0pt}
-\setlist[enumerate]{leftmargin=6.5mm,itemsep=2.4pt,topsep=3pt,parsep=0pt}
+\setlist[enumerate]{leftmargin=6.5mm,itemsep=0.6pt,topsep=3pt,parsep=0pt}
 
 \titleformat{\section}{\sffamily\bfseries\large}{}{0pt}{}[\vspace{1.5pt}\titlerule]
 \titlespacing*{\section}{0pt}{10pt}{5pt}
@@ -167,7 +167,15 @@
 \end{tabularx}
 
 \section{Publications}
-{\small \leadpub first/co-first or corresponding-author paper by Giseop KIM; \textsuperscript{*}first/co-first author; \textsuperscript{\dag}corresponding author. Names of the CV author are in bold. Accepted papers are marked ``to appear.''}
+\textbf{Legend}
+
+\begin{tabularx}{\textwidth}{@{}L{24mm}Y@{}}
+\small \leadpub & \small First/co-first or corresponding-author paper by Giseop KIM. \\[1pt]
+\small \textsuperscript{*} & \small First/co-first author. \\[1pt]
+\small \textsuperscript{\dag} & \small Corresponding author. \\[1pt]
+\small \me & \small The CV author's name is shown in bold. \\[1pt]
+\small ``to appear'' & \small Accepted paper awaiting publication. \\
+\end{tabularx}
 
 \subsection{Peer-Reviewed Journal Articles}
 \begin{enumerate}
