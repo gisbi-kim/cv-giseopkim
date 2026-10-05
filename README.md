@@ -21,14 +21,14 @@ Leader/Director, [Autonomy and Perceptual Robotics Lab (APRL)](https://aprl.dgis
 
 **Research mission.** APRL advances spatial intelligence and robot world models to enable autonomous robots to navigate, reason, and learn from experience in the real world.
 
-**Research profile.** Robotics researcher working at the intersection of simultaneous localization and mapping (SLAM), spatial and physical AI, 3D perception, sensor fusion, long-term autonomy, and visual-language robot navigation. Current research investigates memory-augmented spatial intelligence, shared robot experience, embodied reasoning, and robot world models for robust real-world navigation.
-
-**Autonomy and Perceptual Robotics Lab (APRL), DGIST.** Founded December 2024. Current full-time group: one postdoctoral researcher, three doctoral researchers (including two integrated M.S./Ph.D. students), and four M.S. students, with undergraduate interns and external collaborators across robotics, perception, and AI.
-
-**Research Directions**
+**Research directions.**
 
 - **Spatial intelligence for navigation:** SLAM 2.0 for the Robot Web era; neural map representations; human-robot interactive visual-language navigation; long-term and multi-robot autonomy.
 - **Embodied reasoning and world models:** Reasoning for robots; generative AI for mobile robot navigation; memory-augmented spatial intelligence; robot world models.
+
+**Research profile.** Robotics researcher working at the intersection of simultaneous localization and mapping (SLAM), spatial and physical AI, 3D perception, sensor fusion, long-term autonomy, and visual-language robot navigation. Current research investigates memory-augmented spatial intelligence, shared robot experience, embodied reasoning, and robot world models for robust real-world navigation.
+
+**Lab composition.** Autonomy and Perceptual Robotics Lab (APRL), DGIST. Founded December 2024. Current full-time group: one postdoctoral researcher, three doctoral researchers (including two integrated M.S./Ph.D. students), and four M.S. students, with undergraduate interns and external collaborators across robotics, perception, and AI.
 
 ## Academic Appointments and Professional Experience
 

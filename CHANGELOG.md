@@ -2,6 +2,7 @@
 
 ## 2026-10-06
 
+- Reordered Research Group to mission, directions, profile, and lab composition; standardized the four bold labels without changing research descriptions or roster counts.
 - Matched the Research Directions label to the bold body-text size and typeface used for Research mission; README uses the corresponding bold label.
 - Tightened Research Directions bullet spacing and placed each bold title and description together, separated by a colon, in PDF and README.
 - Replaced the Research Directions panels with two plain-text bullets, using bold titles, descriptions on the following line, and spacing between items in PDF and README.
