@@ -2,6 +2,7 @@
 
 ## 2026-10-06
 
+- Tightened publication notation internally: reduced extra row spacing from 4 pt to 1 pt, title-to-table spacing from 3 pt to 1 pt, and set the legend's local array stretch to 1.0.
 - Made the affiliation lines full width beneath the name/title and contact blocks, allowing Joint appointments to stay on one line without changing its wording.
 - Shortened the plain publication-notation table to 115 mm so its horizontal rules end near the longest explanation rather than extending across unused space.
 - Changed DGIST badges in Teaching and Graduate Student Advising from gray to pale blue with dark blue text; Domestic talk badges retain their existing style.
