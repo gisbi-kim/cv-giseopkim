@@ -2,6 +2,7 @@
 
 ## 2026-10-06
 
+- Updated the ICRA 2027 Workshops & Tutorials Committee Co-Chair service period to 2026–2027 and removed “Forthcoming,” as specified by the author.
 - Indented funded project detail paragraphs (Sponsor, Program, Title/Topic/Center), including wrapped lines, by 0.7 em beneath each project name in the PDF.
 - Reduced Teaching rows' extra vertical spacing from 4 pt to 1 pt while preserving columns, badges, course text, and links.
 - Matched funded project names to the table body font size while retaining the existing bold sans-serif typeface.
