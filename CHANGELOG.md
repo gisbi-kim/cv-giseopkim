@@ -2,6 +2,7 @@
 
 ## 2026-10-06
 
+- Linked Spatial AI Tutorial to https://sites.google.com/view/kroc26-spatial-ai-tutorial/home in both service and invited talks, synchronized in PDF and README.
 - Trimmed 6 mm from the right end of all Funded Projects table rules, including repeated headers and footers, while preserving column widths and content.
 - Moved Teaching institution badges into a separate leftmost column, before the term, in PDF and README. Removed stacked term/badge lines and adjusted the section space reservation for the shorter rows.
 - Added Dissertations and Theses under Publications: T2, the 2022 KAIST Ph.D. dissertation, and T1, the 2019 KAIST M.S. thesis. Titles and years match the original ref.bib and https://gisbi-kim.github.io/papers-before-dgist/. Ph.D. title links to the KAIST catalog (bibCtrlNo=996232); M.S. title links to the working public /uploads/gkim-dissertation-ms.pdf. Extended README generation and verification conventions for T identifiers.

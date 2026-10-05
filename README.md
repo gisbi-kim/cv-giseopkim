@@ -54,7 +54,7 @@ Leader/Director, [Autonomy and Perceptual Robotics Lab (APRL)](https://aprl.dgis
 | 2026 | **Workshop Organizer**, Second Workshop on Human-aware Embodied AI, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026). |
 | 2026 | **Workshop Organizer**, Long-Term Perception for Human-Centric Autonomy: Towards Undo for the Physical World, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026). |
 | 2026 | **Organizing Committee Member**, 41st Annual Conference of the Institute of Control, Robotics and Systems (ICROS 2026). |
-| 2026 | **Tutorial Organizer and Speaker**, Spatial AI Tutorial, Korea Robotics Society Annual Conference (KRoC 2026). |
+| 2026 | **Tutorial Organizer and Speaker**, [Spatial AI Tutorial](https://sites.google.com/view/kroc26-spatial-ai-tutorial/home), Korea Robotics Society Annual Conference (KRoC 2026). |
 
 ## Honors and Awards
 
@@ -184,7 +184,7 @@ PI: Principal Investigator; Co-PI: Co-Principal Investigator; Participant: Parti
 | --- | --- |
 | Sep. 27, 2026<br>🌐 **International** | “[From Maps to Memory: Bridging the Perception–Reasoning Gap for Long-Term Robot Navigation](https://gisbi-kim.github.io/iros26-bridging-navigation-talk),” Workshop on Bridging Navigation, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026). |
 | Jul. 3, 2026<br>🇰🇷 **Domestic** | “[Visual Language Multi-robot SLAM](https://www.dropbox.com/scl/fi/zxwqqnc6hw6c74a0ww6cp/20260703-ICROS2026.pdf?rlkey=mcedth1cutmqcdnsyc1gtj5wy&dl=0),” Early-career Researcher Award Session, 41st Annual Conference of the Institute of Control, Robotics and Systems (ICROS 2026), Daegu. |
-| Feb. 6, 2026<br>🇰🇷 **Domestic** | “[IMU Basics and Inertial Aided Navigation](http://dropbox.com/scl/fi/1f8outhp6bywypygxbsn5/20260206-Kroc-2026-IMU-Basics-and-Inertial-Aided-Navigation.pptx?rlkey=qpyqft9cgxx5vzkccb6x4pp0x&dl=0),” Spatial AI Tutorial Organizer and Speaker, Korea Robotics Society Annual Conference (KRoC 2026), Pyeongchang. |
+| Feb. 6, 2026<br>🇰🇷 **Domestic** | “[IMU Basics and Inertial Aided Navigation](http://dropbox.com/scl/fi/1f8outhp6bywypygxbsn5/20260206-Kroc-2026-IMU-Basics-and-Inertial-Aided-Navigation.pptx?rlkey=qpyqft9cgxx5vzkccb6x4pp0x&dl=0),” [Spatial AI Tutorial](https://sites.google.com/view/kroc26-spatial-ai-tutorial/home) Organizer and Speaker, Korea Robotics Society Annual Conference (KRoC 2026), Pyeongchang. |
 | Feb. 5, 2026<br>🇰🇷 **Domestic** | “[Memory-Augmented Spatial Intelligence for Autonomous Robot Navigation](https://www.dropbox.com/scl/fi/6ccku80b4dlmgexg7y3e8/20260205-Kroc-2026-Giseop-Kim-sinjin.pptx?rlkey=3x0mtdfwjbu47l7cbk2w30fhk&e=1&dl=0),” Early-career Researcher Award Session, Korea Robotics Society Annual Conference (KRoC 2026), Pyeongchang. |
 | Feb. 5, 2026<br>🇰🇷 **Domestic** | “[CoT, Scene Graphs, and Recent Paradigms for Mobile Robot Navigation: A Short Survey and Real-World Lessons](https://www.dropbox.com/scl/fi/hhu6kb2utuommt3jfagcw/20260205-Kroc-2026-Giseop-Kim-TA3-Special-session.pptx?rlkey=31k2j9bnfrgptxmhkt2pb161a&e=1&dl=0),” Special Session on AI-based Autonomous Systems, Korea Robotics Society Annual Conference (KRoC 2026), Pyeongchang. |
 | Jan. 19, 2026<br>🌐 **International** | “[An Invitation to 3D Vision, Spatial AI, and Physical AI](https://www.dropbox.com/scl/fi/2aw69i4tv6ai6soddxbyu/20260118-slam-tutorial-iceic-giseop-kim.pptx?rlkey=txily56tuzntvnxlt99r5whtb&e=1&dl=0),” Invited Tutorial, International Conference on Electronics, Information, and Communication (ICEIC 2026), Macau. |
