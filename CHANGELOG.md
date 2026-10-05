@@ -2,6 +2,7 @@
 
 ## 2026-10-06
 
+- Reduced Teaching rows' extra vertical spacing from 4 pt to 1 pt while preserving columns, badges, course text, and links.
 - Matched funded project names to the table body font size while retaining the existing bold sans-serif typeface.
 - Left-aligned Publication notation with the Publications heading by removing its 8 mm indent; preserved its compact width and internal spacing.
 - Tightened publication notation internally: reduced extra row spacing from 4 pt to 1 pt, title-to-table spacing from 3 pt to 1 pt, and set the legend's local array stretch to 1.0.
