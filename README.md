@@ -25,7 +25,7 @@ Leader/Director, [Autonomy and Perceptual Robotics Lab (APRL)](https://aprl.dgis
 
 **Autonomy and Perceptual Robotics Lab (APRL), DGIST.** Founded December 2024. Current full-time group: one postdoctoral researcher, three doctoral researchers (including two integrated M.S./Ph.D. students), and four M.S. students, with undergraduate interns and external collaborators across robotics, perception, and AI.
 
-### Research Directions
+**Research Directions**
 
 - **Spatial intelligence for navigation:** SLAM 2.0 for the Robot Web era; neural map representations; human-robot interactive visual-language navigation; long-term and multi-robot autonomy.
 - **Embodied reasoning and world models:** Reasoning for robots; generative AI for mobile robot navigation; memory-augmented spatial intelligence; robot world models.
