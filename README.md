@@ -101,49 +101,49 @@ PI: Principal Investigator; Co-PI: Co-Principal Investigator; Participant: Parti
 
 ### Peer-Reviewed Journal Articles
 
-- **J7.** S. Lee<sup>*</sup>, H. Yu, **Giseop KIM**, and S. Choi<sup>†</sup>, “LAMP: Implicit Language Map for Robot Navigation,” *IEEE Robotics and Automation Letters*, vol. 10, no. 12, pp. 12365–12372, 2025.
-- **J6.** M. Kim<sup>*</sup>, **Giseop KIM**, and S. Choi<sup>†</sup>, “Addressing Diverging Training Costs Using BEVRestore for High-Resolution Bird's Eye View Map Construction,” *IEEE Robotics and Automation Letters*, 2024.
-- **J5.** H. Kim<sup>*</sup>, J. Choi, T. Sim, **Giseop KIM**, and Y. Cho<sup>†</sup>, “Narrowing Your FOV with SOLiD: Spatially Organized and Lightweight Global Descriptor for FOV-Constrained LiDAR Place Recognition,” *IEEE Robotics and Automation Letters*, 2024.
-- **J4.** M. Jung<sup>*</sup>, W. Yang, D. Lee, H. Gil, **Giseop KIM**, and A. Kim<sup>†</sup>, “HeLiPR: Heterogeneous LiDAR Dataset for Inter-LiDAR Place Recognition under Spatiotemporal Variations,” *The International Journal of Robotics Research*, vol. 43, no. 12, pp. 1867–1883, 2024.
-- **J3.** ▶ **Giseop KIM**<sup>*</sup>, S. Choi, and A. Kim<sup>†</sup>, “Scan Context++: Structural Place Recognition Robust to Rotation and Lateral Variations in Urban Environments,” *IEEE Transactions on Robotics*, 2022.
-- **J2.** Y. Cho<sup>*</sup>, **Giseop KIM**, S. Lee, and J.-H. Ryu<sup>†</sup>, “OpenStreetMap-based LiDAR Global Localization in Urban Environment without a Prior LiDAR Map,” *IEEE Robotics and Automation Letters*, 2022.
-- **J1.** ▶ **Giseop KIM**<sup>*</sup>, B. Park, and A. Kim<sup>†</sup>, “1-Day Learning, 1-Year Localization: Long-term LiDAR Localization using Scan Context Image,” *IEEE Robotics and Automation Letters*, 2019.
+- **J7.** S. Lee<sup>*</sup>, H. Yu, **Giseop KIM**, and S. Choi<sup>†</sup>, “[LAMP: Implicit Language Map for Robot Navigation,](https://arxiv.org/abs/2602.11862)” *IEEE Robotics and Automation Letters*, vol. 10, no. 12, pp. 12365–12372, 2025.
+- **J6.** M. Kim<sup>*</sup>, **Giseop KIM**, and S. Choi<sup>†</sup>, “[Addressing Diverging Training Costs Using BEVRestore for High-Resolution Bird's Eye View Map Construction,](https://arxiv.org/abs/2405.01016)” *IEEE Robotics and Automation Letters*, 2024.
+- **J5.** H. Kim<sup>*</sup>, J. Choi, T. Sim, **Giseop KIM**, and Y. Cho<sup>†</sup>, “[Narrowing Your FOV with SOLiD: Spatially Organized and Lightweight Global Descriptor for FOV-Constrained LiDAR Place Recognition,](https://arxiv.org/abs/2408.07330)” *IEEE Robotics and Automation Letters*, 2024.
+- **J4.** M. Jung<sup>*</sup>, W. Yang, D. Lee, H. Gil, **Giseop KIM**, and A. Kim<sup>†</sup>, “[HeLiPR: Heterogeneous LiDAR Dataset for Inter-LiDAR Place Recognition under Spatiotemporal Variations,](https://arxiv.org/abs/2309.14590)” *The International Journal of Robotics Research*, vol. 43, no. 12, pp. 1867–1883, 2024.
+- **J3.** ▶ **Giseop KIM**<sup>*</sup>, S. Choi, and A. Kim<sup>†</sup>, “[Scan Context++: Structural Place Recognition Robust to Rotation and Lateral Variations in Urban Environments,](https://gisbi-kim.github.io/uploads/gkim-2021-tro.pdf)” *IEEE Transactions on Robotics*, 2022.
+- **J2.** Y. Cho<sup>*</sup>, **Giseop KIM**, S. Lee, and J.-H. Ryu<sup>†</sup>, “[OpenStreetMap-based LiDAR Global Localization in Urban Environment without a Prior LiDAR Map,](https://gisbi-kim.github.io/uploads/ycho-2022-ral.pdf)” *IEEE Robotics and Automation Letters*, 2022.
+- **J1.** ▶ **Giseop KIM**<sup>*</sup>, B. Park, and A. Kim<sup>†</sup>, “[1-Day Learning, 1-Year Localization: Long-term LiDAR Localization using Scan Context Image,](https://gisbi-kim.github.io/uploads/gkim-2019-ral.pdf)” *IEEE Robotics and Automation Letters*, 2019.
 
 ### Peer-Reviewed International Conference Papers
 
-- **C19.** ▶ H. Kim<sup>*</sup>, B. Kim, and **Giseop KIM**<sup>†</sup>, “MarsLab: A Martian Rover Simulator for Planetary Rover Autonomous Navigation,” *International Conference on Space Robotics (iSpaRo)*, 2026, accepted, to appear.
-- **C18.** ▶ H. Kim<sup>*</sup> and **Giseop KIM**<sup>†</sup>, “Simulation for Planetary Robotic Perception and Autonomy: A Concise Survey of Recent Capabilities and Gaps,” *iSpaRo*, 2026, accepted, to appear.
-- **C17.** ▶ Y. Lee<sup>*</sup>, H. Ju, and **Giseop KIM**<sup>†</sup>, “LT-Mem: Volatility-Aware Spatio-Temporal Memory for Lifelong Scene Understanding,” *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, 2026. **Best Paper Award**.
-- **C16.** ▶ B. Nayak<sup>*</sup>, H. Ju<sup>*</sup>, and **Giseop KIM**<sup>†</sup>, “Mag4D-SLAM Dataset: A Repeated-Traversal Multi-Modal 4D Geomagnetic Dataset for Localization and Mapping,” *IROS*, 2026.
-- **C15.** S. Moon<sup>*</sup>, J. Baek, Y. Jeong, D. Chae, **Giseop KIM**, J. Lee, J. Kim<sup>†</sup>, and S. Choi<sup>†</sup>, “Streaming Dense Voxel Representations for 3D Occupancy Prediction,” *European Conference on Computer Vision (ECCV)*, 2026.
-- **C14.** ▶ B. Suh<sup>*</sup>, H. Ju, and **Giseop KIM**<sup>†</sup>, “What Matters for Real-World Long-Horizon Robot Navigation?: An Experimental Study of Implicit Goals and Sparse Memory,” *23rd IFAC World Congress*, 2026.
-- **C13.** J. Lee<sup>*</sup>, J. Kim<sup>*</sup>, W. Shin, **Giseop KIM**, and H. Oh<sup>†</sup>, “Learning Point Cloud Geometry as a Statistical Manifold: Theory and Practice,” *Robotics: Science and Systems (RSS)*, 2026.
-- **C12.** ▶ H. Ju<sup>*</sup>, B. Suh, and **Giseop KIM**<sup>†</sup>, “Have We Mastered Scale in Deep Monocular Visual SLAM? The ScaleMaster Dataset and Benchmark,” *IEEE International Conference on Robotics and Automation (ICRA)*, 2026.
-- **C11.** M. Kim<sup>*</sup>, D. Lee, J. Yu, J. Hur, **Giseop KIM**, and J. Kim<sup>†</sup>, “Inlier-Centric Post-Training Quantization for Object Detection Models,” *International Conference on Learning Representations (ICLR)*, 2026.
-- **C10.** J. Kim<sup>*</sup>, S. Jeong<sup>*</sup>, **Giseop KIM**, M.-H. Jeon, E. Jun, and A. Kim<sup>†</sup>, “2D Gaussian Splatting-based Sparse-view Transparent Object Depth Reconstruction via Physics Simulation for Scene Update,” *IEEE/CVF International Conference on Computer Vision (ICCV)*, 2025.
-- **C9.** H. Gil<sup>*</sup>, D. Lee<sup>*</sup>, **Giseop KIM**, and A. Kim<sup>†</sup>, “Ephemerality Meets LiDAR-based Lifelong Mapping,” *ICRA*, 2025.
-- **C8.** M. Kim<sup>*</sup>, **Giseop KIM**, K.-H. Jin, and S. Choi<sup>†</sup>, “BroadBEV: Collaborative LiDAR-Camera Fusion for Broad-Sighted Bird's Eye View Map Construction,” *ICRA*, 2024.
-- **C7.** H. Lim<sup>*</sup>, K. Han, G. Shin, **Giseop KIM**, S. Hong, and H. Myung<sup>†</sup>, “ORORA: Outlier-Robust Radar Odometry,” *ICRA*, 2023.
-- **C6.** S. Yun<sup>*</sup>, M. Jung, J. Kim, S. Jung, Y. Cho, M.-H. Jeon, **Giseop KIM**, and A. Kim<sup>†</sup>, “STheReO: Stereo Thermal Dataset for Research in Odometry and Mapping,” *IROS*, 2022.
-- **C5.** ▶ **Giseop KIM**<sup>*</sup> and A. Kim<sup>†</sup>, “LT-mapper: A Modular Framework for LiDAR-based Lifelong Mapping,” *ICRA*, 2022.
-- **C4.** ▶ **Giseop KIM**<sup>*</sup> and A. Kim<sup>†</sup>, “Remove, then Revert: Static Point Cloud Map Construction using Multiresolution Range Images,” *IROS*, 2020.
-- **C3.** ▶ **Giseop KIM**<sup>*</sup>, Y. S. Park, Y. Cho, J. Jeong, and A. Kim<sup>†</sup>, “MulRan: Multimodal Range Dataset for Urban Place Recognition,” *ICRA*, 2020.
-- **C2.** Y. Cho<sup>*</sup>, **Giseop KIM**, and A. Kim<sup>†</sup>, “Unsupervised Geometry-aware Deep LiDAR Odometry,” *ICRA*, 2020.
-- **C1.** ▶ **Giseop KIM**<sup>*</sup> and A. Kim<sup>†</sup>, “Scan Context: Egocentric Spatial Descriptor for Place Recognition within 3D Point Cloud Map,” *IROS*, 2018.
+- **C19.** ▶ H. Kim<sup>*</sup>, B. Kim, and **Giseop KIM**<sup>†</sup>, “[MarsLab: A Martian Rover Simulator for Planetary Rover Autonomous Navigation,](https://arxiv.org/abs/2609.34702)” *International Conference on Space Robotics (iSpaRo)*, 2026, accepted, to appear.
+- **C18.** ▶ H. Kim<sup>*</sup> and **Giseop KIM**<sup>†</sup>, “[Simulation for Planetary Robotic Perception and Autonomy: A Concise Survey of Recent Capabilities and Gaps,](https://arxiv.org/abs/2609.34743)” *iSpaRo*, 2026, accepted, to appear.
+- **C17.** ▶ Y. Lee<sup>*</sup>, H. Ju, and **Giseop KIM**<sup>†</sup>, “[LT-Mem: Volatility-Aware Spatio-Temporal Memory for Lifelong Scene Understanding,](https://arxiv.org/abs/2608.19059)” *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, 2026. **Best Paper Award**.
+- **C16.** ▶ B. Nayak<sup>*</sup>, H. Ju<sup>*</sup>, and **Giseop KIM**<sup>†</sup>, “[Mag4D-SLAM Dataset: A Repeated-Traversal Multi-Modal 4D Geomagnetic Dataset for Localization and Mapping,](https://arxiv.org/abs/2607.21986)” *IROS*, 2026.
+- **C15.** S. Moon<sup>*</sup>, J. Baek, Y. Jeong, D. Chae, **Giseop KIM**, J. Lee, J. Kim<sup>†</sup>, and S. Choi<sup>†</sup>, “[Streaming Dense Voxel Representations for 3D Occupancy Prediction,](https://arxiv.org/abs/2503.22087)” *European Conference on Computer Vision (ECCV)*, 2026.
+- **C14.** ▶ B. Suh<sup>*</sup>, H. Ju, and **Giseop KIM**<sup>†</sup>, “[What Matters for Real-World Long-Horizon Robot Navigation?: An Experimental Study of Implicit Goals and Sparse Memory,](https://team-aprl.github.io/assets/publications/bsuh-long-horizon-navigation-ifac-2026.pdf)” *23rd IFAC World Congress*, 2026.
+- **C13.** J. Lee<sup>*</sup>, J. Kim<sup>*</sup>, W. Shin, **Giseop KIM**, and H. Oh<sup>†</sup>, “[Learning Point Cloud Geometry as a Statistical Manifold: Theory and Practice,](https://arxiv.org/abs/2605.10456)” *Robotics: Science and Systems (RSS)*, 2026.
+- **C12.** ▶ H. Ju<sup>*</sup>, B. Suh, and **Giseop KIM**<sup>†</sup>, “[Have We Mastered Scale in Deep Monocular Visual SLAM? The ScaleMaster Dataset and Benchmark,](https://arxiv.org/abs/2602.18174)” *IEEE International Conference on Robotics and Automation (ICRA)*, 2026.
+- **C11.** M. Kim<sup>*</sup>, D. Lee, J. Yu, J. Hur, **Giseop KIM**, and J. Kim<sup>†</sup>, “[Inlier-Centric Post-Training Quantization for Object Detection Models,](https://arxiv.org/abs/2602.03472)” *International Conference on Learning Representations (ICLR)*, 2026.
+- **C10.** J. Kim<sup>*</sup>, S. Jeong<sup>*</sup>, **Giseop KIM**, M.-H. Jeon, E. Jun, and A. Kim<sup>†</sup>, “[2D Gaussian Splatting-based Sparse-view Transparent Object Depth Reconstruction via Physics Simulation for Scene Update,](https://arxiv.org/abs/2507.11069)” *IEEE/CVF International Conference on Computer Vision (ICCV)*, 2025.
+- **C9.** H. Gil<sup>*</sup>, D. Lee<sup>*</sup>, **Giseop KIM**, and A. Kim<sup>†</sup>, “[Ephemerality Meets LiDAR-based Lifelong Mapping,](https://arxiv.org/abs/2502.13452)” *ICRA*, 2025.
+- **C8.** M. Kim<sup>*</sup>, **Giseop KIM**, K.-H. Jin, and S. Choi<sup>†</sup>, “[BroadBEV: Collaborative LiDAR-Camera Fusion for Broad-Sighted Bird's Eye View Map Construction,](https://arxiv.org/abs/2309.11119)” *ICRA*, 2024.
+- **C7.** H. Lim<sup>*</sup>, K. Han, G. Shin, **Giseop KIM**, S. Hong, and H. Myung<sup>†</sup>, “[ORORA: Outlier-Robust Radar Odometry,](https://arxiv.org/abs/2303.01876)” *ICRA*, 2023.
+- **C6.** S. Yun<sup>*</sup>, M. Jung, J. Kim, S. Jung, Y. Cho, M.-H. Jeon, **Giseop KIM**, and A. Kim<sup>†</sup>, “[STheReO: Stereo Thermal Dataset for Research in Odometry and Mapping,](https://rpm.snu.ac.kr/publications/ssyun-2022-iros.pdf)” *IROS*, 2022.
+- **C5.** ▶ **Giseop KIM**<sup>*</sup> and A. Kim<sup>†</sup>, “[LT-mapper: A Modular Framework for LiDAR-based Lifelong Mapping,](https://gisbi-kim.github.io/uploads/gkim-2021-ltmapper.pdf)” *ICRA*, 2022.
+- **C4.** ▶ **Giseop KIM**<sup>*</sup> and A. Kim<sup>†</sup>, “[Remove, then Revert: Static Point Cloud Map Construction using Multiresolution Range Images,](https://gisbi-kim.github.io/uploads/gkim-2020-iros.pdf)” *IROS*, 2020.
+- **C3.** ▶ **Giseop KIM**<sup>*</sup>, Y. S. Park, Y. Cho, J. Jeong, and A. Kim<sup>†</sup>, “[MulRan: Multimodal Range Dataset for Urban Place Recognition,](https://gisbi-kim.github.io/uploads/gkim-2020-icra.pdf)” *ICRA*, 2020.
+- **C2.** Y. Cho<sup>*</sup>, **Giseop KIM**, and A. Kim<sup>†</sup>, “[Unsupervised Geometry-aware Deep LiDAR Odometry,](https://gisbi-kim.github.io/uploads/ycho-2020-icra.pdf)” *ICRA*, 2020.
+- **C1.** ▶ **Giseop KIM**<sup>*</sup> and A. Kim<sup>†</sup>, “[Scan Context: Egocentric Spatial Descriptor for Place Recognition within 3D Point Cloud Map,](https://gisbi-kim.github.io/uploads/gkim-2018-iros.pdf)” *IROS*, 2018.
 
 ### Book Chapters
 
-- **B1.** J. Behley, M. Fallon, S. Zhao, **Giseop KIM**, J. Zhang, F. Zhang, and A. Kim, “LiDAR SLAM,” Chapter 8 in *SLAM Handbook: From Localization and Mapping to Spatial Intelligence*, 2026.
+- **B1.** J. Behley, M. Fallon, S. Zhao, **Giseop KIM**, J. Zhang, F. Zhang, and A. Kim, “[LiDAR SLAM,](https://github.com/SLAM-Handbook-contributors/slam-handbook-public-release)” Chapter 8 in *SLAM Handbook: From Localization and Mapping to Spatial Intelligence*, 2026.
 
 ### Domestic Journal Articles
 
-- **DJ1.** ▶ B. Suh<sup>*</sup>, J. Kim, J. Son, M. Park, and **Giseop KIM**<sup>†</sup>, “Knowledge Fusion Strategies for Object Goal Navigation in the VLM Era: A Survey,” *Transactions of the Korean Society of Automotive Engineers*, vol. 34, no. 1, pp. 119–131, 2026.
+- **DJ1.** ▶ B. Suh<sup>*</sup>, J. Kim, J. Son, M. Park, and **Giseop KIM**<sup>†</sup>, “[Knowledge Fusion Strategies for Object Goal Navigation in the VLM Era: A Survey,](http://journal.ksae.org/_common/do.php?a=current&b=21&bidx=4298&aidx=47641)” *Transactions of the Korean Society of Automotive Engineers*, vol. 34, no. 1, pp. 119–131, 2026.
 
 ### Domestic Conference Papers
 
 - **DC3.** ▶ A. Lee<sup>*</sup> and **Giseop KIM**<sup>†</sup>, “Floorplan-based Point-to-Language Grounded Navigation,” Institute of Control, Robotics and Systems Annual Conference (ICROS), 2026.
 - **DC2.** ▶ A. Lee<sup>*</sup>, H. Yoon<sup>*</sup>, S. Park<sup>*</sup>, M. Lee<sup>*</sup>, and **Giseop KIM**<sup>†</sup>, “Rendezvous Briefing: VLM-based Semantic-Aware Multi-Robot Collaborative Exploration,” ICROS, 2026.
-- **DC1.** ▶ **Giseop KIM**<sup>*</sup><sup>†</sup>, M. Park, and J. Son, “Change-Robust LiDAR Localization in Urban Environments,” Institute of Electronics and Information Engineers Conference, 2025.
+- **DC1.** ▶ **Giseop KIM**<sup>*</sup><sup>†</sup>, M. Park, and J. Son, “[Change-Robust LiDAR Localization in Urban Environments,](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12551179)” Institute of Electronics and Information Engineers Conference, 2025.
 
 ## Invited Talks and Tutorials
 

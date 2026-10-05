@@ -2,6 +2,7 @@
 
 ## 2026-10-06
 
+- Linked 29 publication titles to the Paper/Book URLs published on the [APRL publications page](https://team-aprl.github.io/publications.html), including arXiv, public PDFs, publisher pages, and the SLAM Handbook repository. The two domestic conference entries without public paper links remain unlinked. All identifiers, titles, author lists, and publication status are retained.
 - Emphasized funded-project headings with larger bold sans-serif type and spacing. Reduced Role and Period columns to 19 mm and 29 mm, expanding project details to 116 mm; retained all project content and matching bold headings in README.
 - Linked the lab name in the Leader/Director line to the APRL homepage in PDF and README.
 - Linked NAVER LABS in the professional experience entry to its official website in PDF and README.
