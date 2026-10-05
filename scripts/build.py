@@ -222,7 +222,7 @@ def make_readme(updated):
 
 Department of Robotics and Mechatronics Engineering, DGIST
 
-Autonomy and Perceptual Robotics Lab (APRL)
+Leader/Director, Autonomy and Perceptual Robotics Lab (APRL)
 
 [**Download the PDF CV →**](main.pdf) · [Personal Website](https://gisbi-kim.github.io/) · [APRL](https://aprl.dgist.ac.kr) · [Google Scholar](https://scholar.google.com/citations?user=9mKOLX8AAAAJ) · [GitHub](https://github.com/gisbi-kim) · [Email](mailto:gsk@dgist.ac.kr)
 

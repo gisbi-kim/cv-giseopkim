@@ -2,6 +2,7 @@
 
 ## 2026-10-06
 
+- Changed the lab leadership title from Director to Leader/Director.
 - Simplified the title below the author's name to Assistant Professor in PDF and README.
 - Set clickable PDF links to dark blue (#1D4E89) so they are visually distinct from body text.
 - Updated teaching from the [APRL teaching page](https://team-aprl.github.io/teaching.html): added Fall 2026 RT616 (Vision/Image Processing, with its public material link) and TM563 (AI-based Autonomous Robot Systems). All seven course entries are shown in reverse chronological order.
