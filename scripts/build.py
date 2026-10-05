@@ -45,7 +45,7 @@ def inline(text):
         if cmd in ('%', '&', '_', '#', '$'):
             out.append(cmd)
         elif cmd == 'me':
-            out.append('**Giseop Kim**')
+            out.append('**Giseop KIM**')
         elif cmd == 'first':
             out.append('<sup>*</sup>')
         elif cmd == 'corr':
@@ -180,7 +180,7 @@ def make_readme(updated):
     sections = re.findall(r'\\section\{([^}]+)\}', body)
     toc = ' · '.join(f'[{name}](#{name.lower().replace(" ", "-")})' for name in sections)
     header = f'''<!-- Generated from main.tex by scripts/build.py. Edit the TeX source. -->
-# Giseop Kim
+# Giseop KIM
 
 **Assistant Professor · Principal Investigator**
 
@@ -234,7 +234,7 @@ Review `main.pdf` and `README.md`, then commit them together with any source cha
 
 ## Sources & versions
 
-The current update uses the author's supplied APRL publications and project records, supplied personal-site records, and the public personal-site data. Sources: [APRL publications](https://team-aprl.github.io/publications.html), [APRL projects](https://team-aprl.github.io/projects.html), and [Giseop Kim](https://gisbi-kim.github.io/). A Korean KIRIA talk title is translated into English for this CV; the original title is recorded in the changelog. Review dates describe the CV revision, while future accepted publications retain “to appear.”
+The current update uses the author's supplied APRL publications and project records, supplied personal-site records, and the public personal-site data. Sources: [APRL publications](https://team-aprl.github.io/publications.html), [APRL projects](https://team-aprl.github.io/projects.html), and [Giseop KIM](https://gisbi-kim.github.io/). A Korean KIRIA talk title is translated into English for this CV; the original title is recorded in the changelog. Review dates describe the CV revision, while future accepted publications retain “to appear.”
 
 | Version | Status / change |
 | --- | --- |
