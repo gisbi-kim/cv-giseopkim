@@ -2,6 +2,7 @@
 
 ## 2026-10-06
 
+- Verified the current group summary against the public APRL team page: one postdoc, one Ph.D. student, two integrated M.S./Ph.D. students, and four M.S. students (8 full-time members excluding the PI). Excluded 2027 incoming/prospective placeholders and open positions. Added dated roster evidence, a consistency/live verification script, repository instructions, and a CV verification skill; the existing CV counts remain correct.
 - Linked six talk titles to the public materials listed on the personal website: IROS 2026 web slides, ICROS 2026 slides, three KRoC 2026 slide decks, and ICEIC 2026 slides. PDF and README retain the source URLs.
 - Shortened the IROS 2026 Best Paper Award date to Sep. 2026 in PDF and README.
 - Reordered the activity sections to Service, Awards, Publications, Advising, Talks, Funded Projects, and Teaching. Moved Research Group to the opening research mission/profile block, including its lab summary, and synchronized README navigation.

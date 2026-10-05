@@ -1,0 +1,17 @@
+{
+  "reviewed_on": "2026-10-06",
+  "source_url": "https://team-aprl.github.io/team.html",
+  "source_section": "Current Lab Members / Full-time Researchers",
+  "counting_rule": "Named current full-time members excluding the PI. Integrated MS/PhD students count once as doctoral researchers. Incoming/prospective placeholders, open positions, interns, UGRP, alumni, and collaborators are excluded.",
+  "members": [
+    {"name": "Bokeon Suh", "category": "integrated", "start": "Fall 2025"},
+    {"name": "Jiseon Kim", "category": "ms", "start": "Fall 2025"},
+    {"name": "Yumin Lee", "category": "ms", "start": "Fall 2025"},
+    {"name": "Hyoseok Ju", "category": "integrated", "start": "Fall 2025"},
+    {"name": "Nayak Bibhutibhusan", "category": "postdoc", "start": "Fall 2025"},
+    {"name": "Doyeon Kim", "category": "phd", "start": "Spring 2026"},
+    {"name": "Beomsu Kim", "category": "ms", "start": "Spring 2026"},
+    {"name": "Hoyun Kim", "category": "ms", "start": "Spring 2026"}
+  ],
+  "excluded_placeholders": ["Incoming Student (MS student, 2027S-)", "Prospective Student (In discussion, 2027S-)"]
+}

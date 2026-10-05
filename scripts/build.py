@@ -266,6 +266,8 @@ On Windows, install the same fonts and TeX tools, then use `python scripts/build
 
 Review `main.pdf` and `README.md`, then commit them together with any source changes. `revision.tex` carries their shared date. `main.pdf` is versioned; only build intermediates are ignored. README is generated and should not be edited independently. Website updates must first be incorporated into the TeX source; this build does not scrape or reverify biographical facts.
 
+For factual updates, follow [AGENTS.md](AGENTS.md) and the repository [CV verification skill](.agents/skills/verify-cv/SKILL.md). Run `python scripts/verify_cv.py` for consistency with the dated team evidence, or `python scripts/verify_cv.py --live` to also compare the current public roster. The [team evidence](verification/team-roster.json) records named members, the review date, and exclusions; it does not update automatically.
+
 | File | Purpose |
 | --- | --- |
 | [main.pdf](main.pdf) | Published PDF CV |
@@ -273,6 +275,10 @@ Review `main.pdf` and `README.md`, then commit them together with any source cha
 | [revision.tex](revision.tex) | Shared revision date |
 | [scripts/build.py](scripts/build.py) | PDF and Markdown generation |
 | [CHANGELOG.md](CHANGELOG.md) | Source provenance and update record |
+| [AGENTS.md](AGENTS.md) | Repository maintenance instructions |
+| [.agents/skills/verify-cv/SKILL.md](.agents/skills/verify-cv/SKILL.md) | CV source and verification workflow |
+| [scripts/verify_cv.py](scripts/verify_cv.py) | Team-summary and advising consistency check, with optional live comparison |
+| [verification/team-roster.json](verification/team-roster.json) | Dated public roster evidence and counting rules |
 
 ## Sources & versions
 
