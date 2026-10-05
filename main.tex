@@ -65,7 +65,8 @@
 \newcommand{\talkcategory}[1]{\titlespacing*{\subsection}{0pt}{4pt}{1pt}\Needspace{5\baselineskip}\subsection{#1}}
 \newcommand{\talkbadge}[1]{%
   {\setlength{\fboxsep}{2pt}\sffamily\scriptsize
-  \ifstrequal{#1}{International}{\colorbox{internationalbg}{\textcolor{internationaltext}{#1}}}{\colorbox{domesticbg}{#1}}}%
+  \ifstrequal{#1}{International}{\colorbox{internationalbg}{\textcolor{internationaltext}{#1}}}{%
+    \ifstrequal{#1}{DGIST}{\colorbox{internationalbg}{\textcolor{internationaltext}{#1}}}{\colorbox{domesticbg}{#1}}}}%
 }
 \newcommand{\talkrow}[3]{#1\par\vspace{1pt}\talkbadge{#2} & #3 \\[2pt]}
 \newcommand{\teachrow}[4]{\talkbadge{#1} & #2 & #3 & #4 \\[4pt]}

@@ -2,6 +2,7 @@
 
 ## 2026-10-06
 
+- Changed DGIST badges in Teaching and Graduate Student Advising from gray to pale blue with dark blue text; Domestic talk badges retain their existing style.
 - Top-aligned the contact block with the name block using explicit minipage top anchors, and tightened contact line spacing to 10 pt to remove its floating appearance.
 - Replaced the colored publication-notation panel with an indented plain LaTeX table using black text and horizontal rules. Removed background fills, rounded borders, colored symbols, and the unused tcolorbox dependency; notation meanings are unchanged.
 - Reduced the space before Funded Projects tables to 2 pt, bringing the Ongoing/Completed Projects headings closer to their tables.
