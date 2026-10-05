@@ -18,7 +18,6 @@
 \usepackage{lastpage}
 \usepackage{needspace}
 \usepackage{etoolbox}
-\usepackage{tcolorbox}
 
 \IfFontExistsTF{Bitstream Charter}{\setmainfont{Bitstream Charter}}{\setmainfont{Charter}}
 \setsansfont{DejaVu Sans}
@@ -111,16 +110,14 @@
 }
 
 \newenvironment{legendtable}{%
+  \par\vspace{3pt}\noindent\hspace*{8mm}%
+  \begin{minipage}{\dimexpr\textwidth-8mm\relax}
   \small
-  \begin{tcolorbox}[width=\dimexpr\textwidth-8mm\relax,left skip=8mm,
-    colback=linkblue!3!white,colframe=linkblue!25!white,
-    colbacktitle=linkblue!8!white,coltitle=black,
-    title=Publication notation,fonttitle=\sffamily\bfseries\small,
-    boxrule=0.4pt,arc=1.5mm,left=3mm,right=3mm,top=2mm,bottom=2mm,
-    before skip=5pt,after skip=5pt]
+  \textbf{Publication notation}\par\vspace{3pt}
   \begin{tabular}{@{}L{24mm}@{\hspace{4mm}}L{\dimexpr\linewidth-28mm\relax}@{}}
-}{\end{tabular}\end{tcolorbox}}
-\newcommand{\legendmark}[1]{{\normalsize\bfseries\textcolor{linkblue}{#1}}}
+  \toprule
+}{\bottomrule\end{tabular}\end{minipage}\par\vspace{3pt}}
+\newcommand{\legendmark}[1]{{\normalsize\bfseries #1}}
 \newcommand{\directionitem}[2]{%
   \Needspace{4\baselineskip}%
   \item \textbf{#1:} #2
