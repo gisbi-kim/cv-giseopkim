@@ -2,6 +2,7 @@
 
 ## 2026-10-06
 
+- Updated Hyoseok Ju to Integrated M.S./Ph.D., retaining Fall 2025–present. Adjusted the group summary to three doctoral researchers (including two integrated students) and four M.S. students.
 - Assigned publication identifiers by category: J (international journals), C (international conferences), B (book chapters), DJ (domestic journals), and DC (domestic conferences). Number 1 denotes the oldest entry in each category; latest-first display order is retained in both PDF and README.
 - Grouped all 23 invited talks and tutorials using the personal website's Conference, University, Research Institute, Industry, and Public Sector categories. Each category retains reverse chronological order; README category headings include icons.
 - Reformatted publication notation as a five-row legend in PDF and README, with each symbol or label beside its explanation.

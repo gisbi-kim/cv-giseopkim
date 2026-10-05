@@ -202,7 +202,7 @@ PI: Principal Investigator; Co-PI: Co-Principal Investigator; Participant: Parti
 | **Bokeon Suh** | Integrated M.S./Ph.D. | Fall 2025–present |
 | **Jiseon Kim** | M.S. | Fall 2025–present |
 | **Yumin Lee** | M.S. | Fall 2025–present |
-| **Hyoseok Ju** | M.S. | Fall 2025–present |
+| **Hyoseok Ju** | Integrated M.S./Ph.D. | Fall 2025–present |
 | **Doyeon Kim** | Ph.D. | Spring 2026–present |
 | **Beomsu Kim** | M.S. | Spring 2026–present |
 | **Hoyun Kim** | M.S. | Spring 2026–present |
@@ -219,7 +219,7 @@ PI: Principal Investigator; Co-PI: Co-Principal Investigator; Participant: Parti
 
 ## Research Group
 
-**Autonomy and Perceptual Robotics Lab (APRL), DGIST.** Founded December 2024. Current full-time group: one postdoctoral researcher, two doctoral researchers (including one integrated M.S./Ph.D. student), and five M.S. students, with undergraduate interns and external collaborators across robotics, perception, and AI.
+**Autonomy and Perceptual Robotics Lab (APRL), DGIST.** Founded December 2024. Current full-time group: one postdoctoral researcher, three doctoral researchers (including two integrated M.S./Ph.D. students), and four M.S. students, with undergraduate interns and external collaborators across robotics, perception, and AI.
 
 *This curriculum vitae was compiled from the public Giseop KIM and APRL webpages. Publication status and activities reflect the sources reviewed on 2026-10-06. Preprints and non-archival publications are omitted.*
 
