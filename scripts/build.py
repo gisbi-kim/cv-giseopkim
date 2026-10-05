@@ -252,7 +252,7 @@ Department of Robotics and Mechatronics Engineering, DGIST
 
 Leader/Director, [Autonomy and Perceptual Robotics Lab (APRL)](https://aprl.dgist.ac.kr)
 
-[**Download the PDF CV →**](main.pdf) · [Personal Website](https://gisbi-kim.github.io/) · [Lab Website](https://aprl.dgist.ac.kr) · [Lab YouTube](https://www.youtube.com/@APRL-DGIST) · [Google Scholar](https://scholar.google.com/citations?user=9mKOLX8AAAAJ) · [GitHub](https://github.com/gisbi-kim) · [Email](mailto:gsk@dgist.ac.kr)
+[**Download the PDF CV →**](main.pdf) · [Personal Website](https://gisbi-kim.github.io/) · [Lab Website](https://aprl.dgist.ac.kr) · [Lab YouTube](https://www.youtube.com/@APRL-DGIST) · [Google Scholar](https://scholar.google.com/citations?user=9mKOLX8AAAAJ) · [Email](mailto:gsk@dgist.ac.kr)
 
 > **Last updated: {updated} (Asia/Seoul)**
 >

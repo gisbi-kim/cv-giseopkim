@@ -2,6 +2,7 @@
 
 ## 2026-10-06
 
+- Removed the personal GitHub contact link from the first-page header and README at the author's request.
 - Replaced raw personal/lab website addresses in the contact block with Personal Website and Lab Website labels, retaining icons and URLs. Matched the README's lab link label.
 - Added black envelope and globe icons to the first-page email and personal website links, matching the existing contact icons.
 - Put GitHub on its own line beneath Google Scholar in the first-page contact block, retaining the black icon and destination.
