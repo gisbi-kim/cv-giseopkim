@@ -211,6 +211,8 @@ PI: Principal Investigator; Co-PI: Co-Principal Investigator; Participant: Parti
 
 | Term | Code | Course |
 | --- | --- | --- |
+| 2026 Fall | RT616 | [Vision/Image Processing](https://github.com/team-aprl/lecture-RT616-public) |
+| 2026 Fall | TM563 | AI-based Autonomous Robot Systems |
 | 2026 Spring | RT604 | Advanced Mobile System |
 | 2026 Spring | MECH301 | Robots for Human |
 | 2025 Fall | MECH307 | Introduction to Artificial Intelligence |

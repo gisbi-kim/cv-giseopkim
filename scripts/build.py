@@ -198,7 +198,7 @@ def body_md(source):
             output.append(f'- **{identifier}.** {inline(value)}')
         elif line.startswith(r'\item'):
             output.append('    ' * max(depth-1, 0) + '- ' + inline(line[len(r'\item'):]))
-        elif line.startswith(r'\vfill'):
+        elif line.startswith((r'\vfill', r'\newpage')):
             pass
         else:
             output.append(inline(line))
