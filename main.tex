@@ -103,7 +103,7 @@
 \newcommand{\fundperiod}[1]{\fundperiodsplit#1\relax}
 \def\fundperiodsplit#1--#2\relax{#1--\par#2}
 \newcommand{\fundrow}[6]{%
-  {\sffamily\bfseries\normalsize #1\par}\vspace{2pt}%
+  {\sffamily\bfseries #1\par}\vspace{2pt}%
   \textbf{Sponsor:} #4\par
   \if\relax\detokenize{#5}\relax\else\textbf{Program:} #5\par\fi
   #6 & #2 & \fundperiod{#3} \\[5pt]

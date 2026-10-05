@@ -2,6 +2,7 @@
 
 ## 2026-10-06
 
+- Matched funded project names to the table body font size while retaining the existing bold sans-serif typeface.
 - Left-aligned Publication notation with the Publications heading by removing its 8 mm indent; preserved its compact width and internal spacing.
 - Tightened publication notation internally: reduced extra row spacing from 4 pt to 1 pt, title-to-table spacing from 3 pt to 1 pt, and set the legend's local array stretch to 1.0.
 - Made the affiliation lines full width beneath the name/title and contact blocks, allowing Joint appointments to stay on one line without changing its wording.
