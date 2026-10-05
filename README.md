@@ -36,7 +36,7 @@ Leader/Director, [Autonomy and Perceptual Robotics Lab (APRL)](https://aprl.dgis
 | --- | --- |
 | Dec. 2024–present | **Assistant Professor**, [Daegu Gyeongbuk Institute of Science and Technology (DGIST)](https://www.dgist.ac.kr/eng/), Daegu, Republic of Korea. Principal Investigator, APRL. |
 | Dec. 2021–Dec. 2024 | **Research Scientist**, [NAVER LABS](https://www.naverlabs.com/). Research in autonomous driving, 3D vision, mapping, and localization. |
-| Mar. 2017–Aug. 2021 | **Graduate Researcher**, [KAIST](https://www.kaist.ac.kr/en/), Intelligent Robotic Autonomy and Perception Lab. |
+| Mar. 2017–Aug. 2021 | **Graduate Researcher**, [Korea Advanced Institute of Science and Technology (KAIST)](https://www.kaist.ac.kr/en/), Intelligent Robotic Autonomy and Perception Lab. |
 
 ## Education
 

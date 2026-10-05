@@ -2,6 +2,7 @@
 
 ## 2026-10-06
 
+- Expanded KAIST to Korea Advanced Institute of Science and Technology (KAIST) in the professional experience entry, retaining the official homepage link.
 - Linked DGIST and KAIST institution names in professional experience to their official English homepages, matching the existing NAVER LABS link in PDF and README.
 - Reordered Research Group to mission, directions, profile, and lab composition; standardized the four bold labels without changing research descriptions or roster counts.
 - Matched the Research Directions label to the bold body-text size and typeface used for Research mission; README uses the corresponding bold label.
