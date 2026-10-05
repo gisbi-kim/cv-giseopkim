@@ -2,6 +2,7 @@
 
 ## 2026-10-06
 
+- Linked six talk titles to the public materials listed on the personal website: IROS 2026 web slides, ICROS 2026 slides, three KRoC 2026 slide decks, and ICEIC 2026 slides. PDF and README retain the source URLs.
 - Shortened the IROS 2026 Best Paper Award date to Sep. 2026 in PDF and README.
 - Reordered the activity sections to Service, Awards, Publications, Advising, Talks, Funded Projects, and Teaching. Moved Research Group to the opening research mission/profile block, including its lab summary, and synchronized README navigation.
 - Removed the forced page break before Graduate Student Advising so the remaining sections flow into available space.
