@@ -2,6 +2,7 @@
 
 ## 2026-10-06
 
+- Indented funded-project tables by 8 mm beneath their subsection headings, narrowing the project-details column to keep the right edge aligned with the text margin.
 - Renamed Funded Research to Funded Projects in PDF, README, and the README table of contents.
 - Linked MECH307 (Introduction to Artificial Intelligence) and RT604 (Advanced Mobile System) course titles to the author-supplied public lecture repositories in PDF and README.
 - Added International/Domestic badges to all 23 talks within the existing host categories, shown below each date. IROS 2026, the ICRA 2026 URobotics meetup, and ICEIC 2026 use International; the other 20 use Domestic based on event/host context. Presentation language is not recorded in the source, so these badges do not verify English/Korean delivery.

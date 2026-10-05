@@ -80,7 +80,9 @@
 % Funding tables preserve every project field and repeat headings across pages.
 \newenvironment{fundedtable}{%
   \small
-  \begin{longtable}{@{}L{116mm}@{\hspace{4mm}}L{19mm}@{\hspace{4mm}}L{29mm}@{}}
+  \setlength{\LTleft}{8mm}
+  \setlength{\LTright}{0pt plus 1fill}
+  \begin{longtable}{@{}L{108mm}@{\hspace{4mm}}L{19mm}@{\hspace{4mm}}L{29mm}@{}}
   \toprule
   \textbf{Project / funding details} & \textbf{Role} & \textbf{Period} \\
   \midrule
