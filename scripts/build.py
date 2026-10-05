@@ -248,7 +248,7 @@ def make_readme(updated):
 
 **Assistant Professor**
 
-Department of Robotics and Mechatronics Engineering, DGIST
+Department of Robotics and Mechatronics Engineering, DGIST, South Korea
 
 Leader/Director, [Autonomy and Perceptual Robotics Lab (APRL)](https://aprl.dgist.ac.kr)
 
