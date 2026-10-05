@@ -42,7 +42,7 @@ Leader/Director, [Autonomy and Perceptual Robotics Lab (APRL)](https://aprl.dgis
 
 | Date / period | Details |
 | --- | --- |
-| 2022 | **Ph.D., [Civil and Environmental Engineering](https://civil.kaist.ac.kr/)**, [KAIST](https://www.kaist.ac.kr/en/). Advisors: [Prof. Ayoung Kim](https://rpm.snu.ac.kr/) and [Prof. Youngchul Kim](https://urbandesignlab.kaist.ac.kr/). |
+| 2022 | **Ph.D., [Civil and Environmental Engineering](https://civil.kaist.ac.kr/)**, [KAIST](https://www.kaist.ac.kr/en/).<br>&nbsp;&nbsp;Advisors: [Prof. Ayoung Kim](https://rpm.snu.ac.kr/) and [Prof. Youngchul Kim](https://urbandesignlab.kaist.ac.kr/). |
 | 2019 | **M.S., [Civil and Environmental Engineering](https://civil.kaist.ac.kr/)**, [KAIST](https://www.kaist.ac.kr/en/). |
 | 2017 | **B.S., [Civil and Environmental Engineering](https://civil.kaist.ac.kr/)**, [KAIST](https://www.kaist.ac.kr/en/). |
 

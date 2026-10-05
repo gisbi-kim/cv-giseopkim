@@ -2,6 +2,7 @@
 
 ## 2026-10-06
 
+- Moved Ph.D. advisors to a separate line indented by approximately two spaces (0.7 em), with matching line break/indent in README and both lab links preserved.
 - Replaced the Personal Website globe icon with a black user silhouette selected by the author.
 - Added South Korea after DGIST in the main affiliation line in PDF and README.
 - Removed the personal GitHub contact link from the first-page header and README at the author's request.
