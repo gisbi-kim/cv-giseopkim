@@ -81,7 +81,7 @@ PI: Principal Investigator; Co-PI: Co-Principal Investigator; Participant: Parti
 
 | Date / period | Details |
 | --- | --- |
-| 2027 | **Workshops & Tutorials Committee Co-Chair**, IEEE International Conference on Robotics and Automation (ICRA 2027). *Forthcoming*. |
+| 2027 | **[Workshops & Tutorials Committee](https://2027.ieee-icra.org/about/committee/#:~:text=Workshops%20%26%20Tutorials%20Committee) Co-Chair**, IEEE International Conference on Robotics and Automation (ICRA 2027). *Forthcoming*. |
 | 2026 | **Workshop Organizer**, Second Workshop on Human-aware Embodied AI, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026). |
 | 2026 | **Workshop Organizer**, Long-Term Perception for Human-Centric Autonomy: Towards Undo for the Physical World, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026). |
 | 2026 | **Organizing Committee Member**, 41st Annual Conference of the Institute of Control, Robotics and Systems (ICROS 2026). |

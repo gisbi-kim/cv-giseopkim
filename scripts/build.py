@@ -65,7 +65,8 @@ def inline(text):
         elif cmd == 'href':
             url, pos = group(text, pos)
             label, pos = group(text, pos)
-            out.append(f'[{inline(label)}]({url.replace(chr(92)+"&", "&").replace(chr(92)+"%", "%")})')
+            url = url.replace(chr(92)+"&", "&").replace(chr(92)+"%", "%").replace(chr(92)+"#", "#")
+            out.append(f'[{inline(label)}]({url})')
         elif cmd == 'input':
             filename, pos = group(text, pos)
             if filename != 'revision.tex':
@@ -81,7 +82,11 @@ def inline(text):
             pass
         else:
             raise ValueError(f'Unsupported content command: \\{cmd}')
-    return re.sub(r'\s+', ' ', ''.join(out).replace('~', ' ').replace('``', '“').replace("''", '”').replace('---', '—').replace('--', '–')).strip()
+    # Preserve URL characters when applying LaTeX typography to visible text.
+    parts = re.split(r'(\]\([^)]*\))', ''.join(out))
+    for i in range(0, len(parts), 2):
+        parts[i] = parts[i].replace('~', ' ').replace('``', '“').replace("''", '”').replace('---', '—').replace('--', '–')
+    return re.sub(r'\s+', ' ', ''.join(parts)).strip()
 
 
 def cells(row):
