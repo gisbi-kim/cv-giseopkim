@@ -2,6 +2,7 @@
 
 ## 2026-10-06
 
+- Top-aligned the contact block with the name block using explicit minipage top anchors, and tightened contact line spacing to 10 pt to remove its floating appearance.
 - Replaced the colored publication-notation panel with an indented plain LaTeX table using black text and horizontal rules. Removed background fills, rounded borders, colored symbols, and the unused tcolorbox dependency; notation meanings are unchanged.
 - Reduced the space before Funded Projects tables to 2 pt, bringing the Ongoing/Completed Projects headings closer to their tables.
 - Added a leftmost DGIST institution badge column to Graduate Student Advising in PDF and README, matching Teaching. Preserved student links, degrees, and periods; updated advising verification to check the institution column.
