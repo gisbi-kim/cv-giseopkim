@@ -22,6 +22,9 @@
 \IfFontExistsTF{Bitstream Charter}{\setmainfont{Bitstream Charter}}{\setmainfont{Charter}}
 \setsansfont{DejaVu Sans}
 \setmonofont{DejaVu Sans Mono}
+\newfontfamily\contactsolid{FontAwesome6Free-Solid.otf}[Path=assets/fonts/]
+\newfontfamily\contactbrands{FontAwesome6Brands-Regular.otf}[Path=assets/fonts/]
+\newcommand{\contacticon}[2]{{\color{black}#1\symbol{"#2}}\hspace{0.35em}}
 \defaultfontfeatures{Ligatures=TeX}
 
 \definecolor{black}{gray}{0}
@@ -139,9 +142,9 @@
   \raggedleft\fontsize{9}{10}\selectfont
   \href{mailto:gsk@dgist.ac.kr}{gsk@dgist.ac.kr}\\
   \href{https://gisbi-kim.github.io/}{gisbi-kim.github.io}\\
-  \href{https://aprl.dgist.ac.kr}{aprl.dgist.ac.kr}\\
-  \href{https://scholar.google.com/citations?user=9mKOLX8AAAAJ}{Google Scholar} \textbar{} \href{https://github.com/gisbi-kim}{GitHub}\\
-  \href{https://www.youtube.com/@APRL-DGIST}{Lab YouTube}
+  \href{https://aprl.dgist.ac.kr}{\contacticon{\contactsolid}{F015}aprl.dgist.ac.kr}\\
+  \href{https://scholar.google.com/citations?user=9mKOLX8AAAAJ}{\contacticon{\contactsolid}{F19D}Google Scholar} \textbar{} \href{https://github.com/gisbi-kim}{\contacticon{\contactbrands}{F09B}GitHub}\\
+  \href{https://www.youtube.com/@APRL-DGIST}{\contacticon{\contactbrands}{F167}Lab YouTube}
 \end{minipage}
 \par\vspace{3pt}
 Department of Robotics and Mechatronics Engineering, DGIST\\

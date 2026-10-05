@@ -275,7 +275,7 @@ Leader/Director, [Autonomy and Perceptual Robotics Lab (APRL)](https://aprl.dgis
 python3 scripts/build.py
 ```
 
-Requirements: Python 3.9+, XeLaTeX, latexmk, Bitstream Charter, and DejaVu Sans / Sans Mono. On Ubuntu / WSL:
+Requirements: Python 3.9+, XeLaTeX, latexmk, Bitstream Charter, and DejaVu Sans / Sans Mono. Contact icons use the bundled Font Awesome 6 fonts in [assets/fonts](assets/fonts), with their [license](assets/fonts/LICENSE.txt). On Ubuntu / WSL:
 
 ```sh
 sudo apt-get install texlive-xetex texlive-latex-extra texlive-fonts-recommended fonts-dejavu-core latexmk
