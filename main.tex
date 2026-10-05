@@ -106,6 +106,18 @@
   \midrule
 }
 
+\newenvironment{legendtable}{%
+  \small
+  \setlength{\LTleft}{8mm}
+  \setlength{\LTright}{0pt plus 1fill}
+  \setlength{\LTpre}{3pt}
+  \setlength{\LTpost}{3pt}
+  \begin{longtable}{@{}L{24mm}@{\hspace{4mm}}L{136mm}@{}}
+  \toprule
+  \textbf{Notation} & \textbf{Meaning} \\
+  \midrule
+}{\bottomrule\end{longtable}}
+
 \begin{document}
 
 \begin{minipage}[t]{0.63\textwidth}
@@ -192,13 +204,13 @@
 \section{Publications}
 \textbf{Legend}
 
-\begin{tabularx}{\textwidth}{@{}L{24mm}Y@{}}
+\begin{legendtable}
 \small \leadpub & \small First/co-first or corresponding-author paper by Giseop KIM. \\[1pt]
 \small \textsuperscript{*} & \small First/co-first author. \\[1pt]
 \small \textsuperscript{\dag} & \small Corresponding author. \\[1pt]
 \small \me & \small The CV author's name is shown in bold. \\[1pt]
 \small ``to appear'' & \small Accepted paper awaiting publication. \\
-\end{tabularx}
+\end{legendtable}
 
 \subsection{Peer-Reviewed Journal Articles}
 \begin{enumerate}

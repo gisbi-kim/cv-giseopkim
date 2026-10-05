@@ -146,9 +146,9 @@ def body_md(source):
                 output.append(f'| {details} | {role} | {period} |')
             i += 1
             output.append('')
-        elif line.startswith((r'\begin{tabularx}', r'\begin{longtable}', r'\begin{talktable}')):
+        elif line.startswith((r'\begin{tabularx}', r'\begin{longtable}', r'\begin{talktable}', r'\begin{legendtable}')):
             rows = []
-            while not lines[i].strip().startswith((r'\end{tabularx}', r'\end{longtable}', r'\end{talktable}')):
+            while not lines[i].strip().startswith((r'\end{tabularx}', r'\end{longtable}', r'\end{talktable}', r'\end{legendtable}')):
                 row = lines[i].strip()
                 i += 1
                 if not row:
