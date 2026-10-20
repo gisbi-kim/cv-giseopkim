@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Install TeX and fonts
-        run: sudo apt-get update && sudo apt-get install -y texlive-xetex texlive-latex-extra texlive-fonts-recommended fonts-dejavu-core latexmk poppler-utils
+        run: sudo apt-get update && sudo apt-get install -y texlive-xetex texlive-latex-extra texlive-fonts-recommended fonts-dejavu-core xfonts-scalable latexmk poppler-utils
       - name: Build and verify
         run: |
           python3 scripts/build.py
