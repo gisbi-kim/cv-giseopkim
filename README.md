@@ -9,7 +9,7 @@ Leader/Director, [Autonomy and Perceptual Robotics Lab (APRL)](https://aprl.dgis
 
 [**Download the PDF CV →**](main.pdf) · [Personal Website](https://gisbi-kim.github.io/) · [Lab Website](https://aprl.dgist.ac.kr) · [Lab YouTube](https://www.youtube.com/@APRL-DGIST) · [Google Scholar](https://scholar.google.com/citations?user=9mKOLX8AAAAJ) · [Email](mailto:gsk@dgist.ac.kr)
 
-> **Last updated: 2026-10-06 (Asia/Seoul)**
+> **Last updated: 2026-10-21 (Asia/Seoul)**
 >
 > PDF and Markdown share one source and revision date. Publications include journal articles, regular conference papers, book chapters, archival domestic papers, and dissertations and theses. Preprints and non-archival papers are excluded; workshop awards and organizing roles remain in their respective sections.
 
@@ -50,6 +50,8 @@ Leader/Director, [Autonomy and Perceptual Robotics Lab (APRL)](https://aprl.dgis
 
 | Date / period | Details |
 | --- | --- |
+| Oct. 2026–present | **Associate Editor**, IEEE Robotics and Automation Letters (RA-L). Area: Localization and Mapping. |
+| 2027 | **Area Chair**, Robotics: Science and Systems (RSS 2027). |
 | 2026–2027 | **[Workshops & Tutorials Committee](https://2027.ieee-icra.org/about/committee/#:~:text=Workshops%20%26%20Tutorials%20Committee) Co-Chair**, IEEE International Conference on Robotics and Automation (ICRA 2027). |
 | 2026 | **Workshop Organizer**, [Second Workshop on Human-aware Embodied AI](https://heai-iros26-workshop.github.io/), IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026). |
 | 2026 | **Workshop Organizer**, [Long-Term Perception for Human-Centric Autonomy: Towards Undo for the Physical World](https://mit-spark.github.io/Longterm-Perception-WS/), IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026). |
