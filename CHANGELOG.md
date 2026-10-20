@@ -1,5 +1,11 @@
 # CV revision history
 
+## 2026-10-21
+
+- Added Associate Editor, IEEE Robotics and Automation Letters (RA-L), October 2026--present, area Localization and Mapping, based on the appointment confirmation received October 21 (Asia/Seoul).
+- Added Area Chair, Robotics: Science and Systems (RSS 2027), based on the accepted invitation and October 18 follow-up confirmation. The website already listed RSS; added RA-L there without duplicating RSS.
+- Regenerated PDF and Markdown from TeX. This update verifies these two service appointments only; dated team evidence is unchanged.
+
 ## 2026-10-06
 
 - Refined the doctoral advisor line with 2 pt of separation below the degree and a slightly smaller font, retaining the two-space indent and links.
@@ -13,7 +19,7 @@
 - Added black home, graduation-cap, GitHub, and YouTube icons to the first-page lab/Scholar/GitHub/YouTube links. Bundled Font Awesome 6 icon fonts and their license so builds do not depend on a system icon-font installation.
 - Added Lab YouTube linking to https://www.youtube.com/@APRL-DGIST in the first-page contact block and README header.
 - Linked the IROS 2026 HEAI and Long-Term Perception workshop names to their verified official websites: https://heai-iros26-workshop.github.io/ and https://mit-spark.github.io/Longterm-Perception-WS/. Both sites list Giseop Kim among the organizers; wording and dates are unchanged.
-- Updated the ICRA 2027 Workshops & Tutorials Committee Co-Chair service period to 2026–2027 and removed “Forthcoming,” as specified by the author.
+- Updated the ICRA 2027 Workshops & Tutorials Committee Co-Chair service period to 2026?2027 and removed ��Forthcoming,�� as specified by the author.
 - Indented funded project detail paragraphs (Sponsor, Program, Title/Topic/Center), including wrapped lines, by 0.7 em beneath each project name in the PDF.
 - Reduced Teaching rows' extra vertical spacing from 4 pt to 1 pt while preserving columns, badges, course text, and links.
 - Matched funded project names to the table body font size while retaining the existing bold sans-serif typeface.
@@ -64,7 +70,7 @@
 - Simplified the title below the author's name to Assistant Professor in PDF and README.
 - Set clickable PDF links to dark blue (#1D4E89) so they are visually distinct from body text.
 - Updated teaching from the [APRL teaching page](https://team-aprl.github.io/teaching.html): added Fall 2026 RT616 (Vision/Image Processing, with its public material link) and TM563 (AI-based Autonomous Robot Systems). All seven course entries are shown in reverse chronological order.
-- Updated Hyoseok Ju to Integrated M.S./Ph.D., retaining Fall 2025–present. Adjusted the group summary to three doctoral researchers (including two integrated students) and four M.S. students.
+- Updated Hyoseok Ju to Integrated M.S./Ph.D., retaining Fall 2025?present. Adjusted the group summary to three doctoral researchers (including two integrated students) and four M.S. students.
 - Assigned publication identifiers by category: J (international journals), C (international conferences), B (book chapters), DJ (domestic journals), and DC (domestic conferences). Number 1 denotes the oldest entry in each category; latest-first display order is retained in both PDF and README.
 - Grouped all 23 invited talks and tutorials using the personal website's Conference, University, Research Institute, Industry, and Public Sector categories. Each category retains reverse chronological order; README category headings include icons.
 - Reformatted publication notation as a five-row legend in PDF and README, with each symbol or label beside its explanation.
@@ -77,11 +83,11 @@
 
 The active CV now uses the author's July 23, 2026 XeLaTeX design recovered from `giseop_kim_cv.tex`, rather than the repository's March `cv.cls` design. The recovered source's accompanying PDF was byte-identical to `giseop_kim_cv_archival_v3.pdf` in the author's [Drive CV folder](https://drive.google.com/drive/folders/1_0XFI8jedwYIr4QIIQ17cvAXhwOPRSrd). Historical sources are available in Git history; the original external files were not changed.
 
-- Added the two accepted iSpaRo 2026 papers, **MarsLab** and **Simulation for Planetary Robotic Perception and Autonomy**. Both retain “accepted, to appear” because the conference is November 3–6, 2026.
-- Removed “to appear” from the IROS 2026 and ECCV 2026 papers after the listed conference dates. Added LT-Mem's IROS 2026 **Best Paper Award**.
+- Added the two accepted iSpaRo 2026 papers, **MarsLab** and **Simulation for Planetary Robotic Perception and Autonomy**. Both retain ��accepted, to appear�� because the conference is November 3?6, 2026.
+- Removed ��to appear�� from the IROS 2026 and ECCV 2026 papers after the listed conference dates. Added LT-Mem's IROS 2026 **Best Paper Award**.
 - Excluded preprints, non-archival workshop papers, and non-archival domestic conference entries. Workshop papers without established archival proceedings were also left out of the publication list. Workshop organizing roles and awards remain in their own sections. The active publication list contains 31 entries.
-- Corrected HeLiPR's journal year to **2024**, matching volume 43(12), pages 1867–1883, and the original repository bibliography. The supplied website groups it under 2023; the formal journal volume/year is used here.
-- Added **Spatial-RFM**, July 2026–December 2029, with the published Co-PI role. Updated **Basic Research Laboratory** to July 2026–June 2029, Co-PI, with its program and full topic. Matched AIMS's name/program to the supplied project record. Kept 8 ongoing and 2 completed projects, using only publicly supplied industry-project information.
+- Corrected HeLiPR's journal year to **2024**, matching volume 43(12), pages 1867?1883, and the original repository bibliography. The supplied website groups it under 2023; the formal journal volume/year is used here.
+- Added **Spatial-RFM**, July 2026?December 2029, with the published Co-PI role. Updated **Basic Research Laboratory** to July 2026?June 2029, Co-PI, with its program and full topic. Matched AIMS's name/program to the supplied project record. Kept 8 ongoing and 2 completed projects, using only publicly supplied industry-project information.
 - Added the September 30, 2026 IROS Best Paper Award with all three recipients. Retained the ICROS and KRoC researcher awards and the IROS 2025 workshop poster award.
 - Added the September 4, 2026 KARI seminar. Filled the July 24 KAIST, July 30 ETRI, and August 19 KIRIA talk titles and removed their obsolete forthcoming labels. Retained all 23 public talks/tutorials from the personal-site records.
 - Kept all five academic service roles; ICRA 2027 remains forthcoming. Existing teaching, advising, appointments, research profile, and group sections retain the recovered template's records.
@@ -89,7 +95,7 @@ The active CV now uses the author's July 23, 2026 XeLaTeX design recovered from 
 
 Sources: the author-supplied APRL publications, projects, and personal-site text; [personal-site data](https://github.com/gisbi-kim/gisbi-kim.github.io/blob/master/static/data/profile-sections.json); [APRL publications](https://team-aprl.github.io/publications.html); [APRL projects](https://team-aprl.github.io/projects.html).
 
-The KIRIA title `지도에서 기억으로: 장기 자율주행을 위한 인지와 추론의 연결` is rendered in English as “From Maps to Memory: Bridging Perception and Reasoning for Long-Term Autonomous Navigation.” A missing space in the supplied KAIST title (“Gapfor”) is repaired. These are editorial presentation changes, not changes to the event or its date.
+The KIRIA title `�������� �������: ��� ���������� ���� ������ �߷��� ����` is rendered in English as ��From Maps to Memory: Bridging Perception and Reasoning for Long-Term Autonomous Navigation.�� A missing space in the supplied KAIST title (��Gapfor��) is repaired. These are editorial presentation changes, not changes to the event or its date.
 
 Validation: XeLaTeX compilation with resolved page counts; all PDF fonts embedded; PDF text and every rendered page inspected; generated Markdown checked for publication numbering, section coverage, and tables. Every original funded-project field is preserved in the table conversion.
 
@@ -97,3 +103,5 @@ Validation: XeLaTeX compilation with resolved page counts; all PDF fonts embedde
 
 - **2026-03-25:** original repository `main.tex`, `cv.cls`, and `ref.bib`, available at commit `8d8762413870dde628d96ff8b99b268a4a610c3c`.
 - **2026-07-23:** recovered `giseop_kim_cv.tex`, available in the migration commit `25abd06c2aa670b5dc46db1c6d97ea9737518651`. This is the design baseline for the current revision.
+
+
