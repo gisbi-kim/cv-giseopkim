@@ -9,7 +9,7 @@ Leader/Director, [Autonomy and Perceptual Robotics Lab (APRL)](https://aprl.dgis
 
 [**Download the PDF CV →**](main.pdf) · [Personal Website](https://gisbi-kim.github.io/) · [Lab Website](https://aprl.dgist.ac.kr) · [Lab YouTube](https://www.youtube.com/@APRL-DGIST) · [Google Scholar](https://scholar.google.com/citations?user=9mKOLX8AAAAJ) · [Email](mailto:gsk@dgist.ac.kr)
 
-> **Last updated: 2026-10-21 (Asia/Seoul)**
+> **Last updated: 2026-10-29 (Asia/Seoul)**
 >
 > PDF and Markdown share one source and revision date. Publications include journal articles, regular conference papers, book chapters, archival domestic papers, and dissertations and theses. Preprints and non-archival papers are excluded; workshop awards and organizing roles remain in their respective sections.
 
@@ -184,6 +184,7 @@ PI: Principal Investigator; Co-PI: Co-Principal Investigator; Participant: Parti
 
 | Date / period | Details |
 | --- | --- |
+| Dec. 4, 2026<br>🌐 **International** | “Toward Efficient, Scalable, and Human-Like Robot Navigation Intelligence,” invited talk, 14th International Conference on Robot Intelligence Technology and Applications (RiTA 2026), Daejeon, South Korea. |
 | Sep. 27, 2026<br>🌐 **International** | “[From Maps to Memory: Bridging the Perception–Reasoning Gap for Long-Term Robot Navigation](https://gisbi-kim.github.io/iros26-bridging-navigation-talk),” Workshop on Bridging Navigation, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026). |
 | Jul. 3, 2026<br>🇰🇷 **Domestic** | “[Visual Language Multi-robot SLAM](https://www.dropbox.com/scl/fi/zxwqqnc6hw6c74a0ww6cp/20260703-ICROS2026.pdf?rlkey=mcedth1cutmqcdnsyc1gtj5wy&dl=0),” Early-career Researcher Award Session, 41st Annual Conference of the Institute of Control, Robotics and Systems (ICROS 2026), Daegu. |
 | Feb. 6, 2026<br>🇰🇷 **Domestic** | “[IMU Basics and Inertial Aided Navigation](http://dropbox.com/scl/fi/1f8outhp6bywypygxbsn5/20260206-Kroc-2026-IMU-Basics-and-Inertial-Aided-Navigation.pptx?rlkey=qpyqft9cgxx5vzkccb6x4pp0x&dl=0),” [Spatial AI Tutorial](https://sites.google.com/view/kroc26-spatial-ai-tutorial/home) Organizer and Speaker, Korea Robotics Society Annual Conference (KRoC 2026), Pyeongchang. |
