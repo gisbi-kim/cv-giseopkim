@@ -1,5 +1,9 @@
 # CV revision history
 
+## 2026-10-29
+
+- Added the invited talk at the 14th International Conference on Robot Intelligence Technology and Applications (RiTA 2026), based on the invitation received October 29. December 4 is the tentative schedule.
+
 ## 2026-10-21
 
 - Added Associate Editor, IEEE Robotics and Automation Letters (RA-L), October 2026--present, area Localization and Mapping, based on the appointment confirmation received October 21 (Asia/Seoul).
