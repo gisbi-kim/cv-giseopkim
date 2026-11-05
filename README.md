@@ -9,7 +9,7 @@ Leader/Director, [Autonomy and Perceptual Robotics Lab (APRL)](https://aprl.dgis
 
 [**Download the PDF CV →**](main.pdf) · [Personal Website](https://gisbi-kim.github.io/) · [Lab Website](https://aprl.dgist.ac.kr) · [Lab YouTube](https://www.youtube.com/@APRL-DGIST) · [Google Scholar](https://scholar.google.com/citations?user=9mKOLX8AAAAJ) · [Email](mailto:gsk@dgist.ac.kr)
 
-> **Last updated: 2026-10-29 (Asia/Seoul)**
+> **Last updated: 2026-11-06 (Asia/Seoul)**
 >
 > PDF and Markdown share one source and revision date. Publications include journal articles, regular conference papers, book chapters, archival domestic papers, and dissertations and theses. Preprints and non-archival papers are excluded; workshop awards and organizing roles remain in their respective sections.
 
@@ -62,10 +62,11 @@ Leader/Director, [Autonomy and Perceptual Robotics Lab (APRL)](https://aprl.dgis
 
 | Date / period | Details |
 | --- | --- |
+| 2026 | **World's Top 2% Scientists**, single-year citation impact (2025), Stanford/Elsevier; Industrial Engineering & Automation, 1,341 of 131,085 (top 1.02%, excluding self-citations). |
 | Sep. 2026 | **[Best Paper Award](https://team-aprl.github.io/gallery.html#iros2026-best-paper-award)**, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026), for “LT-Mem: Volatility-Aware Spatio-Temporal Memory for Lifelong Scene Understanding.” Recipients: Yumin Lee, Hyoseok Ju, and Giseop KIM. |
 | Jul. 2026 | **Outstanding Young Researcher Award**, 41st Annual Conference of the Institute of Control, Robotics and Systems (ICROS 2026). |
 | Feb. 2026 | **Early-career Researcher Award**, Korea Robotics Society Annual Conference (KRoC 2026). |
-| Oct. 2025 | **Best Poster Award**, Human-aware Embodied AI Workshop at the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2025) (student advisee: Jiseon Kim). |
+| Oct. 2025 | **Best Poster Award**, Human-aware Embodied AI Workshop at the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2025). Recipients: Jiseon Kim, Daeun Song, Bokeon Suh, Hyoseok Ju, Yumin Lee, Xuesu Xiao, and Giseop KIM. |
 
 ## Publications
 

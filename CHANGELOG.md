@@ -109,3 +109,13 @@ Validation: XeLaTeX compilation with resolved page counts; all PDF fonts embedde
 - **2026-07-23:** recovered `giseop_kim_cv.tex`, available in the migration commit `25abd06c2aa670b5dc46db1c6d97ea9737518651`. This is the design baseline for the current revision.
 
 
+
+## 2026-11-05
+
+- Added 2026 single-year Top 2% Scientists recognition; evidence: user-provided 2026 single-year workbook, Data row 118151 and Key sheet.
+
+## 2026-11-06
+
+- Corrected the IROS 2025 HEAI Best Poster Award recipient list from the user-provided award certificate.
+
+- Added the freely licensed Charter font family as a local fallback for reproducible XeLaTeX builds; license included.
