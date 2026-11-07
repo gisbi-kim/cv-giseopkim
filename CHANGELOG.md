@@ -1,5 +1,10 @@
 # CV revision history
 
+## 2026-11-08
+
+- Added conference and journal reviewer service with years confirmed by Gmail review receipts or acknowledgments. Conference years follow the event year; journal years follow confirmation dates.
+
+
 ## 2026-10-29
 
 - Added the invited talk at the 14th International Conference on Robot Intelligence Technology and Applications (RiTA 2026), based on the invitation received October 29. December 4 is the tentative schedule.

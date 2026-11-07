@@ -9,7 +9,7 @@ Leader/Director, [Autonomy and Perceptual Robotics Lab (APRL)](https://aprl.dgis
 
 [**Download the PDF CV →**](main.pdf) · [Personal Website](https://gisbi-kim.github.io/) · [Lab Website](https://aprl.dgist.ac.kr) · [Lab YouTube](https://www.youtube.com/@APRL-DGIST) · [Google Scholar](https://scholar.google.com/citations?user=9mKOLX8AAAAJ) · [Email](mailto:gsk@dgist.ac.kr)
 
-> **Last updated: 2026-11-06 (Asia/Seoul)**
+> **Last updated: 2026-11-08 (Asia/Seoul)**
 >
 > PDF and Markdown share one source and revision date. Publications include journal articles, regular conference papers, book chapters, archival domestic papers, and dissertations and theses. Preprints and non-archival papers are excluded; workshop awards and organizing roles remain in their respective sections.
 
@@ -57,6 +57,33 @@ Leader/Director, [Autonomy and Perceptual Robotics Lab (APRL)](https://aprl.dgis
 | 2026 | **Workshop Organizer**, [Long-Term Perception for Human-Centric Autonomy: Towards Undo for the Physical World](https://mit-spark.github.io/Longterm-Perception-WS/), IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026). |
 | 2026 | **Organizing Committee Member**, 41st Annual Conference of the Institute of Control, Robotics and Systems (ICROS 2026). |
 | 2026 | **Tutorial Organizer and Speaker**, [Spatial AI Tutorial](https://sites.google.com/view/kroc26-spatial-ai-tutorial/home), Korea Robotics Society Annual Conference (KRoC 2026). |
+
+### Conference Reviewer
+
+| Date / period | Details |
+| --- | --- |
+| 2024, 2026, 2027 | IEEE International Conference on Robotics and Automation (ICRA). |
+| 2023, 2024, 2025, 2026 | IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). |
+| 2024, 2025, 2026 | Robotics: Science and Systems (RSS). |
+| 2025, 2026 | IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). |
+| 2026 | European Conference on Computer Vision (ECCV). |
+| 2026 | IEEE/CVF Winter Conference on Applications of Computer Vision (WACV). |
+| 2026 | Conference on Neural Information Processing Systems (NeurIPS), Evaluations and Datasets Track. |
+| 2027 | AAAI Conference on Artificial Intelligence (AAAI). |
+| 2026 | IEEE/SICE International Symposium on System Integration (SII). |
+| 2026 | International Conference on Control, Automation and Systems (ICCAS). |
+| 2023, 2025 | International Conference on Ubiquitous Robots (UR). |
+| 2026 | International Conference on Space Robotics (iSpaRo). |
+
+### Journal Reviewer
+
+| Date / period | Details |
+| --- | --- |
+| 2023, 2024, 2026 | IEEE Transactions on Robotics (T-RO). |
+| 2023, 2024, 2025, 2026 | IEEE Robotics and Automation Letters (RA-L). |
+| 2026 | The International Journal of Robotics Research (IJRR). |
+| 2025 | IEEE Transactions on Aerospace and Electronic Systems. |
+| 2024 | Advanced Robotics. |
 
 ## Honors and Awards
 
