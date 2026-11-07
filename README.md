@@ -55,7 +55,7 @@ Leader/Director, [Autonomy and Perceptual Robotics Lab (APRL)](https://aprl.dgis
 | 2027 | **Workshops & Tutorials Committee Co-Chair**, [IEEE International Conference on Robotics and Automation](https://2027.ieee-icra.org/about/committee/#:~:text=Workshops%20%26%20Tutorials%20Committee) (ICRA 2027). |
 | 2026 | **Workshop Organizer**, [Second Workshop on Human-aware Embodied AI](https://heai-iros26-workshop.github.io/) (IROS 2026). |
 | 2026 | **Workshop Organizer**, [Long-Term Perception for Human-Centric Autonomy (LTP): Towards Undo for the Physical World](https://mit-spark.github.io/Longterm-Perception-WS/) (IROS 2026). |
-| 2026 | **Organizing Committee**, [The 41st Annual Conference of the Institute of Control, Robotics, and Systems](https://gisbi-kim.github.io/icros2026-explorer/) (ICROS 2026). |
+| 2026 | **Organizing Committee Member**, [The 41st Annual Conference of the Institute of Control, Robotics, and Systems](https://gisbi-kim.github.io/icros2026-explorer/) (ICROS 2026). |
 | 2026 | **Tutorial Organizer and Speaker**, [KRoC 1st Spatial AI Tutorial](https://sites.google.com/view/kroc26-spatial-ai-tutorial/home) (KRoC 2026). |
 
 ### Conference Reviewer

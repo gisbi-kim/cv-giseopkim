@@ -2,6 +2,10 @@
 
 ## 2026-11-08 — website service synchronization
 
+- Synchronized academic service and reviewer records from website commit `7d6f693038b4`; rebuilt CV PDF and README.
+
+## 2026-11-08 — website service synchronization
+
 - Connected academic service and reviewer records to the website data, with hourly synchronization and CV rebuild on changes.
 
 
