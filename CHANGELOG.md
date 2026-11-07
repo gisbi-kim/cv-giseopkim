@@ -1,5 +1,10 @@
 # CV revision history
 
+## 2026-11-08 — website service synchronization
+
+- Connected academic service and reviewer records to the website data, with hourly synchronization and CV rebuild on changes.
+
+
 ## 2026-11-08
 
 - Added conference and journal reviewer service with years confirmed by Gmail review receipts or acknowledgments. Conference years follow the event year; journal years follow confirmation dates.

@@ -1,0 +1,73 @@
+name: Synchronize academic service from website
+on:
+  schedule:
+    - cron: '27 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: cv-build
+  cancel-in-progress: false
+jobs:
+  synchronize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out CV
+        uses: actions/checkout@v4
+        with:
+          path: cv
+          ref: main
+      - name: Check out website source
+        uses: actions/checkout@v4
+        with:
+          repository: gisbi-kim/gisbi-kim.github.io
+          ref: master
+          path: website
+          persist-credentials: false
+      - name: Synchronize and detect changes
+        id: sync
+        run: |
+          python3 website/scripts/sync_reviewers.py --cv cv
+          python3 website/scripts/sync_reviewers.py --cv cv --check
+          if git -C cv diff --quiet -- main.tex; then
+            echo 'changed=false' >> "$GITHUB_OUTPUT"
+          else
+            echo 'changed=true' >> "$GITHUB_OUTPUT"
+          fi
+      - name: Install TeX and fonts
+        if: steps.sync.outputs.changed == 'true'
+        run: sudo apt-get update && sudo apt-get install -y texlive-xetex texlive-latex-extra texlive-fonts-recommended fonts-dejavu-core xfonts-scalable latexmk poppler-utils
+      - name: Rebuild and validate
+        if: steps.sync.outputs.changed == 'true'
+        working-directory: cv
+        env:
+          TZ: Asia/Seoul
+        run: |
+          python3 scripts/build.py
+          python3 scripts/verify_cv.py
+          python3 ../website/scripts/sync_reviewers.py --cv . --check
+          pdftotext main.pdf /tmp/cv.txt
+          test -s /tmp/cv.txt
+          git diff --check
+          python3 - <<'PY'
+          from datetime import datetime
+          from pathlib import Path
+          from zoneinfo import ZoneInfo
+          import subprocess
+          p = Path('CHANGELOG.md')
+          text = p.read_text(encoding='utf-8')
+          sha = subprocess.check_output(['git', '-C', '../website', 'rev-parse', 'HEAD'], text=True).strip()
+          date = datetime.now(ZoneInfo('Asia/Seoul')).date().isoformat()
+          entry = f'\n## {date} — website service synchronization\n\n- Synchronized academic service and reviewer records from website commit `{sha[:12]}`; rebuilt CV PDF and README.\n'
+          p.write_text(text.replace('# CV revision history\n', '# CV revision history\n' + entry, 1), encoding='utf-8')
+          PY
+          git diff --check
+      - name: Publish synchronized CV
+        if: steps.sync.outputs.changed == 'true'
+        working-directory: cv
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add main.tex main.pdf README.md revision.tex CHANGELOG.md
+          git commit -m 'Synchronize academic service from website'
+          git push origin HEAD:main
