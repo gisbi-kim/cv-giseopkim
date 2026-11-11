@@ -1,5 +1,9 @@
 # CV revision history
 
+## 2026-11-12
+
+- Added DGIST AI/SW SCHOOL advanced class in 2026, based on teaching correspondence and the user’s confirmation.
+
 ## 2026-11-08 — website service synchronization
 
 - Synchronized academic service and reviewer records from website commit `aed3b780da78`; rebuilt CV PDF and README.

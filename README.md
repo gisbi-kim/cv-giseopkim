@@ -9,7 +9,7 @@ Leader/Director, [Autonomy and Perceptual Robotics Lab (APRL)](https://aprl.dgis
 
 [**Download the PDF CV →**](main.pdf) · [Personal Website](https://gisbi-kim.github.io/) · [Lab Website](https://aprl.dgist.ac.kr) · [Lab YouTube](https://www.youtube.com/@APRL-DGIST) · [Google Scholar](https://scholar.google.com/citations?user=9mKOLX8AAAAJ) · [Email](mailto:gsk@dgist.ac.kr)
 
-> **Last updated: 2026-11-08 (Asia/Seoul)**
+> **Last updated: 2026-11-12 (Asia/Seoul)**
 >
 > PDF and Markdown share one source and revision date. Publications include journal articles, regular conference papers, book chapters, archival domestic papers, and dissertations and theses. Preprints and non-archival papers are excluded; workshop awards and organizing roles remain in their respective sections.
 
@@ -181,6 +181,7 @@ Leader/Director, [Autonomy and Perceptual Robotics Lab (APRL)](https://aprl.dgis
 
 | Institution | Term | Code | Course |
 | --- | --- | --- | --- |
+| 🏫 **DGIST** | 2026 |  | AI/SW SCHOOL, Advanced Class |
 | 🏫 **DGIST** | 2026 Fall | RT616 | [Vision/Image Processing](https://github.com/team-aprl/lecture-RT616-public) |
 | 🏫 **DGIST** | 2026 Fall | TM563 | AI-based Autonomous Robot Systems |
 | 🏫 **DGIST** | 2026 Spring | RT604 | [Advanced Mobile System](https://github.com/team-aprl/lecture-RT604-public) |
