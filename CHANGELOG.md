@@ -1,5 +1,9 @@
 # CV revision history
 
+## 2026-11-27
+
+- Added the upcoming invited talk at the 2027 KSME Physical AI Workshop on February 2, with the title TBA, based on the invitation and acceptance correspondence dated November 27, 2026.
+
 ## 2026-11-12
 
 - Added DGIST AI/SW SCHOOL advanced class in 2026, based on teaching correspondence and the user’s confirmation.
